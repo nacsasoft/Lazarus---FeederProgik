@@ -1,0 +1,192 @@
+object frmFelhasznalok: TfrmFelhasznalok
+  Left = 360
+  Height = 558
+  Top = 186
+  Width = 715
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'FeederStatistic - Felhasználók adatai'
+  ClientHeight = 558
+  ClientWidth = 715
+  OnClose = FormClose
+  OnShow = FormShow
+  Position = poScreenCenter
+  ShowInTaskBar = stAlways
+  LCLVersion = '0.9.31'
+  object DBGrid1: TDBGrid
+    Left = 16
+    Height = 241
+    Top = 302
+    Width = 682
+    AutoFillColumns = True
+    Color = clWindow
+    Columns = <>
+    DataSource = Datasource1
+    Scrollbars = ssAutoBoth
+    TabOrder = 0
+  end
+  object DBNavigator1: TDBNavigator
+    Left = 129
+    Height = 26
+    Top = 254
+    Width = 456
+    BevelOuter = bvNone
+    ChildSizing.EnlargeHorizontal = crsScaleChilds
+    ChildSizing.EnlargeVertical = crsScaleChilds
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 100
+    ClientHeight = 26
+    ClientWidth = 456
+    DataSource = Datasource1
+    Hints.Strings = (
+      'Első'
+      'Előző'
+      'Következő'
+      'Utolsó'
+      'Új felhasználó felvitele'
+      'Delete'
+      'Felhasználó adatainak szerkesztése'
+      'Adatok küldése az adatbázisba'
+      'Mégsem'
+      'Frissítés'
+    )
+    Options = []
+    TabOrder = 1
+    VisibleButtons = [nbFirst, nbPrior, nbNext, nbLast, nbDelete, nbEdit, nbPost, nbCancel, nbRefresh]
+  end
+  object btnHelp: TButton
+    Left = 672
+    Height = 30
+    Top = 248
+    Width = 26
+    Caption = '?'
+    OnClick = btnHelpClick
+    TabOrder = 2
+  end
+  object GroupBox1: TGroupBox
+    Left = 61
+    Height = 198
+    Top = 18
+    Width = 587
+    Caption = 'Új felhasználó felvitele...'
+    ClientHeight = 180
+    ClientWidth = 583
+    TabOrder = 3
+    object Label5: TLabel
+      Left = 83
+      Height = 14
+      Top = 11
+      Width = 30
+      Caption = 'Név : '
+      ParentColor = False
+    end
+    object Label6: TLabel
+      Left = 65
+      Height = 14
+      Top = 40
+      Width = 48
+      Caption = 'Admin ? : '
+      ParentColor = False
+    end
+    object Label7: TLabel
+      Left = 73
+      Height = 14
+      Top = 69
+      Width = 40
+      Caption = 'Jelszó : '
+      ParentColor = False
+    end
+    object Label8: TLabel
+      Left = 12
+      Height = 14
+      Top = 98
+      Width = 101
+      Caption = 'Jelszó mégegyszer : '
+      ParentColor = False
+    end
+    object edtName: TEdit
+      Left = 120
+      Height = 21
+      Top = 11
+      Width = 232
+      TabOrder = 0
+    end
+    object cmbAdmin: TComboBox
+      Left = 121
+      Height = 21
+      Top = 40
+      Width = 231
+      AutoComplete = True
+      AutoCompleteText = [cbactEnabled, cbactEndOfLineComplete, cbactSearchAscending]
+      ItemHeight = 13
+      ItemIndex = 2
+      Items.Strings = (
+        'Adatfelvitel (alap)'
+        'Setupcenter'
+        'Adatfelvitel + Riport készítés'
+        'Adat + Riport + Extrák'
+        'TPM Setup'
+        'TPM Preventive'
+      )
+      TabOrder = 1
+      Text = 'Adatfelvitel + Riport készítés'
+    end
+    object edtPass1: TEdit
+      Left = 121
+      Height = 21
+      Top = 69
+      Width = 153
+      EchoMode = emPassword
+      PasswordChar = '*'
+      TabOrder = 2
+    end
+    object edtPass2: TEdit
+      Left = 121
+      Height = 21
+      Top = 98
+      Width = 153
+      EchoMode = emPassword
+      PasswordChar = '*'
+      TabOrder = 3
+    end
+    object btnNewUser: TButton
+      Left = 441
+      Height = 45
+      Top = 118
+      Width = 123
+      Caption = 'Adatok rögzítése'
+      OnClick = btnNewUserClick
+      TabOrder = 4
+    end
+    object Label9: TLabel
+      Left = 6
+      Height = 14
+      Top = 133
+      Width = 107
+      Caption = 'Work Day azonosító : '
+      ParentColor = False
+    end
+    object edtWDNum: TEdit
+      Left = 120
+      Height = 21
+      Top = 126
+      Width = 154
+      TabOrder = 5
+    end
+  end
+  object Sqlite3Dataset1: TSqlite3Dataset
+    AutoIncrementKey = True
+    SaveOnClose = True
+    SaveOnRefetch = True
+    left = 14
+    top = 55
+  end
+  object Datasource1: TDatasource
+    AutoEdit = False
+    DataSet = Sqlite3Dataset1
+    left = 14
+    top = 87
+  end
+end

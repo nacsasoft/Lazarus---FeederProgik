@@ -1,0 +1,61 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TfrmFelhasznalok','FORMDATA',[
+  'TPF0'#16'TfrmFelhasznalok'#15'frmFelhasznalok'#4'Left'#3'h'#1#6'Height'#3'.'
+  +#2#3'Top'#3#186#0#5'Width'#3#203#2#11'BorderIcons'#11#12'biSystemMenu'#0#11
+  +'BorderStyle'#7#8'bsDialog'#7'Caption'#6'''FeederStatistic - Felhaszn'#195
+  +#161'l'#195#179'k adatai'#12'ClientHeight'#3'.'#2#11'ClientWidth'#3#203#2#7
+  +'OnClose'#7#9'FormClose'#6'OnShow'#7#8'FormShow'#8'Position'#7#14'poScreenCe'
+  +'nter'#13'ShowInTaskBar'#7#8'stAlways'#10'LCLVersion'#6#6'0.9.31'#0#7'TDBGri'
+  +'d'#7'DBGrid1'#4'Left'#2#16#6'Height'#3#241#0#3'Top'#3'.'#1#5'Width'#3#170#2
+  +#15'AutoFillColumns'#9#5'Color'#7#8'clWindow'#7'Columns'#14#0#10'DataSource'
+  +#7#11'Datasource1'#10'Scrollbars'#7#10'ssAutoBoth'#8'TabOrder'#2#0#0#0#12'TD'
+  +'BNavigator'#12'DBNavigator1'#4'Left'#3#129#0#6'Height'#2#26#3'Top'#3#254#0#5
+  +'Width'#3#200#1#10'BevelOuter'#7#6'bvNone'#29'ChildSizing.EnlargeHorizontal'
+  +#7#14'crsScaleChilds'#27'ChildSizing.EnlargeVertical'#7#14'crsScaleChilds'#28
+  +'ChildSizing.ShrinkHorizontal'#7#14'crsScaleChilds'#26'ChildSizing.ShrinkVer'
+  +'tical'#7#14'crsScaleChilds'#18'ChildSizing.Layout'#7#29'cclLeftToRightThenT'
+  +'opToBottom'#27'ChildSizing.ControlsPerLine'#2'd'#12'ClientHeight'#2#26#11'C'
+  +'lientWidth'#3#200#1#10'DataSource'#7#11'Datasource1'#13'Hints.Strings'#1#6#5
+  +'Els'#197#145#6#7'El'#197#145'z'#197#145#6#11'K'#195#182'vetkez'#197#145#6#7
+  +'Utols'#195#179#6#27#195#154'j felhaszn'#195#161'l'#195#179' felvitele'#6#6
+  +'Delete'#6'%Felhaszn'#195#161'l'#195#179' adatainak szerkeszt'#195#169'se'#6
+  +' Adatok k'#195#188'ld'#195#169'se az adatb'#195#161'zisba'#6#7'M'#195#169'g'
+  +'sem'#6#11'Friss'#195#173't'#195#169's'#0#7'Options'#11#0#8'TabOrder'#2#1#14
+  +'VisibleButtons'#11#7'nbFirst'#7'nbPrior'#6'nbNext'#6'nbLast'#8'nbDelete'#6
+  +'nbEdit'#6'nbPost'#8'nbCancel'#9'nbRefresh'#0#0#0#7'TButton'#7'btnHelp'#4'Le'
+  +'ft'#3#160#2#6'Height'#2#30#3'Top'#3#248#0#5'Width'#2#26#7'Caption'#6#1'?'#7
+  +'OnClick'#7#12'btnHelpClick'#8'TabOrder'#2#2#0#0#9'TGroupBox'#9'GroupBox1'#4
+  +'Left'#2'='#6'Height'#3#198#0#3'Top'#2#18#5'Width'#3'K'#2#7'Caption'#6#30#195
+  +#154'j felhaszn'#195#161'l'#195#179' felvitele...'#12'ClientHeight'#3#180#0
+  +#11'ClientWidth'#3'G'#2#8'TabOrder'#2#3#0#6'TLabel'#6'Label5'#4'Left'#2'S'#6
+  +'Height'#2#14#3'Top'#2#11#5'Width'#2#30#7'Caption'#6#7'N'#195#169'v : '#11'P'
+  +'arentColor'#8#0#0#6'TLabel'#6'Label6'#4'Left'#2'A'#6'Height'#2#14#3'Top'#2
+  +'('#5'Width'#2'0'#7'Caption'#6#10'Admin ? : '#11'ParentColor'#8#0#0#6'TLabel'
+  +#6'Label7'#4'Left'#2'I'#6'Height'#2#14#3'Top'#2'E'#5'Width'#2'('#7'Caption'#6
+  +#10'Jelsz'#195#179' : '#11'ParentColor'#8#0#0#6'TLabel'#6'Label8'#4'Left'#2
+  +#12#6'Height'#2#14#3'Top'#2'b'#5'Width'#2'e'#7'Caption'#6#22'Jelsz'#195#179
+  +' m'#195#169'gegyszer : '#11'ParentColor'#8#0#0#5'TEdit'#7'edtName'#4'Left'#2
+  +'x'#6'Height'#2#21#3'Top'#2#11#5'Width'#3#232#0#8'TabOrder'#2#0#0#0#9'TCombo'
+  +'Box'#8'cmbAdmin'#4'Left'#2'y'#6'Height'#2#21#3'Top'#2'('#5'Width'#3#231#0#12
+  +'AutoComplete'#9#16'AutoCompleteText'#11#12'cbactEnabled'#22'cbactEndOfLineC'
+  +'omplete'#20'cbactSearchAscending'#0#10'ItemHeight'#2#13#9'ItemIndex'#2#2#13
+  +'Items.Strings'#1#6#19'Adatfelvitel (alap)'#6#11'Setupcenter'#6'!Adatfelvite'
+  +'l + Riport k'#195#169'sz'#195#173't'#195#169's'#6#23'Adat + Riport + Extr'
+  +#195#161'k'#6#9'TPM Setup'#6#14'TPM Preventive'#0#8'TabOrder'#2#1#4'Text'#6
+  +'!Adatfelvitel + Riport k'#195#169'sz'#195#173't'#195#169's'#0#0#5'TEdit'#8
+  +'edtPass1'#4'Left'#2'y'#6'Height'#2#21#3'Top'#2'E'#5'Width'#3#153#0#8'EchoMo'
+  +'de'#7#10'emPassword'#12'PasswordChar'#6#1'*'#8'TabOrder'#2#2#0#0#5'TEdit'#8
+  +'edtPass2'#4'Left'#2'y'#6'Height'#2#21#3'Top'#2'b'#5'Width'#3#153#0#8'EchoMo'
+  +'de'#7#10'emPassword'#12'PasswordChar'#6#1'*'#8'TabOrder'#2#3#0#0#7'TButton'
+  +#10'btnNewUser'#4'Left'#3#185#1#6'Height'#2'-'#3'Top'#2'v'#5'Width'#2'{'#7'C'
+  +'aption'#6#19'Adatok r'#195#182'gz'#195#173't'#195#169'se'#7'OnClick'#7#15'b'
+  +'tnNewUserClick'#8'TabOrder'#2#4#0#0#6'TLabel'#6'Label9'#4'Left'#2#6#6'Heigh'
+  +'t'#2#14#3'Top'#3#133#0#5'Width'#2'k'#7'Caption'#6#23'Work Day azonos'#195
+  +#173't'#195#179' : '#11'ParentColor'#8#0#0#5'TEdit'#8'edtWDNum'#4'Left'#2'x'
+  +#6'Height'#2#21#3'Top'#2'~'#5'Width'#3#154#0#8'TabOrder'#2#5#0#0#0#15'TSqlit'
+  +'e3Dataset'#15'Sqlite3Dataset1'#16'AutoIncrementKey'#9#11'SaveOnClose'#9#13
+  +'SaveOnRefetch'#9#4'left'#2#14#3'top'#2'7'#0#0#11'TDatasource'#11'Datasource'
+  +'1'#8'AutoEdit'#8#7'DataSet'#7#15'Sqlite3Dataset1'#4'left'#2#14#3'top'#2'W'#0
+  +#0#0
+]);

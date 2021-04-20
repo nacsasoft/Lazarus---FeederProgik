@@ -1,0 +1,39 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TfrmPreventiveFeederazonositas','FORMDATA',[
+  'TPF0'#30'TfrmPreventiveFeederazonositas'#29'frmPreventiveFeederazonositas'#4
+  +'Left'#3#158#2#6'Height'#3#253#0#3'Top'#3#205#0#5'Width'#3'A'#1#11'BorderIco'
+  +'ns'#11#12'biSystemMenu'#10'biMinimize'#0#11'BorderStyle'#7#8'bsDialog'#7'Ca'
+  +'ption'#6'$Prevent'#195#173'v - Feeder azonos'#195#173't'#195#161'sa...'#12
+  +'ClientHeight'#3#253#0#11'ClientWidth'#3'A'#1#12'OnCloseQuery'#7#14'FormClos'
+  +'eQuery'#6'OnShow'#7#8'FormShow'#8'Position'#7#14'poScreenCenter'#13'ShowInT'
+  +'askBar'#7#8'stAlways'#10'LCLVersion'#6#6'0.9.31'#0#6'TLabel'#6'Label1'#4'Le'
+  +'ft'#2#27#6'Height'#2#17#3'Top'#2#27#5'Width'#2'g'#7'Caption'#6#18'DS7i azon'
+  +'os'#195#173't'#195#179' :'#12'Font.CharSet'#7#18'EASTEUROPE_CHARSET'#10'Fon'
+  +'t.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font'
+  +'.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#10'Font.Style'#11#6
+  +'fsBold'#0#11'ParentColor'#8#10'ParentFont'#8#0#0#5'TEdit'#7'edtDS7i'#4'Left'
+  +#3#154#0#6'Height'#2#27#3'Top'#2#17#5'Width'#3#131#0#9'Alignment'#7#8'taCent'
+  +'er'#10'Font.Color'#7#5'clRed'#11'Font.Height'#2#240#10'Font.Style'#11#6'fsB'
+  +'old'#0#10'ParentFont'#8#8'ReadOnly'#9#8'TabOrder'#2#0#4'Text'#6#6'123456'#0
+  +#0#6'TLabel'#6'Label2'#4'Left'#2'S'#6'Height'#2#17#3'Top'#2'W'#5'Width'#2'/'
+  +#7'Caption'#6#9'T'#195#173'pus : '#12'Font.CharSet'#7#18'EASTEUROPE_CHARSET'
+  +#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10
+  +'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#10'Font.Style'#11
+  +#6'fsBold'#0#11'ParentColor'#8#10'ParentFont'#8#0#0#9'TComboBox'#8'cmbTipus'
+  +#4'Left'#3#154#0#6'Height'#2#21#3'Top'#2'P'#5'Width'#3#131#0#10'ItemHeight'#2
+  +#13#9'ItemIndex'#2#0#13'Items.Strings'#1#6#14'Siemens S,HS,F'#6#9'Siemens X'
+  +#6#11'Hover Davis'#0#8'OnChange'#7#14'cmbTipusChange'#10'ParentFont'#8#5'Sty'
+  +'le'#7#14'csDropDownList'#8'TabOrder'#2#1#4'Text'#6#14'Siemens S,HS,F'#0#0#6
+  +'TLabel'#6'Label3'#4'Left'#2'U'#6'Height'#2#17#3'Top'#3#130#0#5'Width'#2'-'#7
+  +'Caption'#6#8'M'#195#169'ret :'#12'Font.CharSet'#7#18'EASTEUROPE_CHARSET'#10
+  +'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'F'
+  +'ont.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#10'Font.Style'#11
+  +#6'fsBold'#0#11'ParentColor'#8#10'ParentFont'#8#0#0#9'TComboBox'#8'cmbMeret'
+  +#4'Left'#3#154#0#6'Height'#2#21#3'Top'#2'{'#5'Width'#3#131#0#10'ItemHeight'#2
+  +#13#13'Items.Strings'#1#6#0#0#10'ParentFont'#8#5'Style'#7#14'csDropDownList'
+  +#8'TabOrder'#2#2#0#0#7'TButton'#11'btnFelvitel'#4'Left'#2'H'#6'Height'#2'('#3
+  +'Top'#3#192#0#5'Width'#3#184#0#7'Caption'#6#23'Feeder azonos'#195#173't'#195
+  +#161'sa...'#10'Font.Style'#11#6'fsBold'#0#7'OnClick'#7#16'btnFelvitelClick'
+  +#10'ParentFont'#8#8'TabOrder'#2#3#0#0#0
+]);

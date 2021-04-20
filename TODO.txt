@@ -1,0 +1,13 @@
+********************************************************************************
+ablak felso részére statisztikát!
+1. adott usernél az aktuális napon mennyi lett lecsipogva
+2. mennyi vár preventívre
+3. mennyi vár javításra
+4. összesen mennyi volt már a setup-ban lecsipogva
+********************************************************************************
+K.B.-tól kapott nevekre a hozzáférést  -OK
+********************************************************************************
+WD- nem kell   -OK
+********************************************************************************
+space-re történjen a pipálgatás     -OK
+********************************************************************************

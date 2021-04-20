@@ -1,0 +1,67 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TfrmTPMSetupMain','FORMDATA',[
+  'TPF0'#16'TfrmTPMSetupMain'#15'frmTPMSetupMain'#4'Left'#3'1'#2#6'Height'#3'l'
+  +#2#3'Top'#3#170#0#5'Width'#3'='#2#11'BorderIcons'#11#12'biSystemMenu'#10'biM'
+  +'inimize'#0#11'BorderStyle'#7#8'bsDialog'#7'Caption'#6'#FeederStatistic - TP'
+  +'M Setup alap...'#12'ClientHeight'#3'l'#2#11'ClientWidth'#3'='#2#5'Color'#7
+  +#17'clInactiveCaption'#12'OnCloseQuery'#7#14'FormCloseQuery'#6'OnShow'#7#8'F'
+  +'ormShow'#8'Position'#7#14'poScreenCenter'#10'LCLVersion'#6#7'1.6.0.4'#0#9'T'
+  +'GroupBox'#9'GroupBox1'#4'Left'#2#16#6'Height'#3'E'#2#3'Top'#2#24#5'Width'#3
+  +#27#2#7'Caption'#6'!Aktu'#195#161'lis feeder ellen'#195#182'rz'#195#169'se..'
+  +'.'#12'ClientHeight'#3''''#2#11'ClientWidth'#3#23#2#5'Color'#7#8'clYellow'#11
+  +'Font.Height'#2#237#10'Font.Style'#11#6'fsBold'#0#11'ParentColor'#8#10'Paren'
+  +'tFont'#8#8'TabOrder'#2#0#0#6'TLabel'#6'Label1'#4'Left'#2'P'#6'Height'#2#25#3
+  +'Top'#2#8#5'Width'#2'4'#7'Caption'#6#7'DS7i : '#11'Font.Height'#2#237#11'Par'
+  +'entColor'#8#10'ParentFont'#8#0#0#7'TButton'#11'btnRogzites'#4'Left'#3#141#0
+  +#6'Height'#2'8'#3'Top'#3#227#1#5'Width'#3#226#0#7'Caption'#6#14'R'#195#182'g'
+  +'z'#195#173't'#195#169's...'#11'Font.Height'#2#237#7'OnClick'#7#16'btnRogzit'
+  +'esClick'#10'ParentFont'#8#8'TabOrder'#2#0#0#0#5'TEdit'#7'edtDs7i'#4'Left'#3
+  +#157#0#6'Height'#2'!'#3'Top'#2#16#5'Width'#3#139#0#10'Font.Color'#7#6'clLime'
+  +#11'Font.Height'#2#237#10'Font.Style'#11#6'fsBold'#0#10'ParentFont'#8#8'Read'
+  +'Only'#9#8'TabOrder'#2#1#0#0#9'TGroupBox'#9'GroupBox2'#4'Left'#2'0'#6'Height'
+  +#3'('#1#3'Top'#2';'#5'Width'#3#181#1#7'Caption'#6#30'Feladatok (TAB-ENG-3-37'
+  +'1-00) :'#12'ClientHeight'#3#20#1#11'ClientWidth'#3#177#1#10'Font.Style'#11#6
+  +'fsBold'#0#10'ParentFont'#8#8'TabOrder'#2#2#0#9'TCheckBox'#9'CheckBox1'#4'Le'
+  +'ft'#2'['#6'Height'#2#19#3'Top'#2'@'#5'Width'#3#29#1#7'Caption'#6'9F'#195#179
+  +'lia leszor'#195#173't'#195#179' '#195#169's tov'#195#161'bb'#195#173't'#195
+  +#179' kerekek ellen'#195#182'rz'#195#169'se'#7'OnKeyUp'#7#14'CheckBox1KeyUp'
+  +#8'TabOrder'#2#0#0#0#9'TCheckBox'#9'CheckBox2'#4'Left'#2'['#6'Height'#2#19#3
+  +'Top'#2'Z'#5'Width'#3#221#0#7'Caption'#6')Alkatr'#195#169'sz felv'#195#169't'
+  +'eli ablak ellen'#195#182'rz'#195#169'se'#7'OnKeyUp'#7#14'CheckBox2KeyUp'#8
+  +'TabOrder'#2#1#0#0#9'TCheckBox'#9'CheckBox3'#4'Left'#2'['#6'Height'#2#19#3'T'
+  +'op'#2'z'#5'Width'#3#15#1#7'Caption'#6'1Talp ellen'#195#182'rz'#195#169'se ('
+  +'"omega" profil ellen'#195#182'rz'#195#169'se)'#7'OnKeyUp'#7#14'CheckBox3Key'
+  +'Up'#8'TabOrder'#2#2#0#0#9'TCheckBox'#9'CheckBox4'#4'Left'#2'['#6'Height'#2
+  +#19#3'Top'#3#154#0#5'Width'#3#11#1#7'Caption'#6'.Vez'#195#169'rl'#197#145' e'
+  +'gys'#195#169'g (nyom'#195#179'gombok) ellen'#195#182'rz'#195#169'se'#7'OnKe'
+  +'yUp'#7#14'CheckBox4KeyUp'#8'TabOrder'#2#3#0#0#9'TCheckBox'#9'CheckBox5'#4'L'
+  +'eft'#2'['#6'Height'#2#19#3'Top'#3#186#0#5'Width'#3#190#0#7'Caption'#6'(F'
+  +#195#179'liat'#195#161'rol'#195#179' '#195#188'r'#195#173't'#195#169'se, ell'
+  +'en'#195#182'rz'#195#169'se'#7'OnKeyUp'#7#14'CheckBox5KeyUp'#8'TabOrder'#2#4
+  +#0#0#9'TCheckBox'#9'CheckBox6'#4'Left'#2'['#6'Height'#2#19#3'Top'#3#218#0#5
+  +'Width'#3#29#1#7'Caption'#6'9F'#195#179'lia leszor'#195#173't'#195#179' '#195
+  +#169's tov'#195#161'bb'#195#173't'#195#179' kerekek ellen'#195#182'rz'#195
+  +#169'se'#7'OnKeyUp'#7#14'CheckBox6KeyUp'#8'TabOrder'#2#5#0#0#9'TCheckBox'#9
+  +'CheckBox7'#4'Left'#2'['#6'Height'#2#19#3'Top'#3#250#0#5'Width'#3#211#0#7'Ca'
+  +'ption'#6'*Kihullott alkatr'#195#169'sz gy'#197#177'jt'#197#145' tiszt'#195
+  +#173't'#195#161'sa'#7'OnKeyUp'#7#14'CheckBox7KeyUp'#8'TabOrder'#2#6#0#0#6'TL'
+  +'abel'#6'Label2'#4'Left'#2#19#6'Height'#2')'#3'Top'#2#7#5'Width'#3#142#1#9'A'
+  +'lignment'#7#8'taCenter'#8'AutoSize'#8#7'Caption'#6';FIGYELEM!'#13#10'Hiba e'
+  +'set'#195#169'n nem kell a feladatokat bejel'#195#182'lni!!'#5'Color'#7#5'cl'
+  +'Red'#11'Font.Height'#2#240#10'Font.Style'#11#6'fsBold'#0#11'ParentColor'#8
+  +#10'ParentFont'#8#11'Transparent'#8#0#0#0#9'TGroupBox'#9'GroupBox3'#4'Left'#2
+  +'0'#6'Height'#2'K'#3'Top'#3'{'#1#5'Width'#3#179#1#7'Caption'#6'&Hiba eset'
+  +#195#169'n v'#195#161'lasszon a list'#195#161'b'#195#179'l :'#12'ClientHeigh'
+  +'t'#2'7'#11'ClientWidth'#3#175#1#10'Font.Style'#11#6'fsBold'#0#10'ParentFont'
+  +#8#8'TabOrder'#2#3#0#6'TLabel'#6'Label3'#4'Left'#3#25#1#6'Height'#2#25#3'Top'
+  +#2#18#5'Width'#2'T'#7'Caption'#6#11'Hibak'#195#179'd : '#11'Font.Height'#2
+  +#237#11'ParentColor'#8#10'ParentFont'#8#0#0#9'TComboBox'#12'cmbHibakodok'#4
+  +'Left'#2'a'#6'Height'#2#29#3'Top'#2#15#5'Width'#3'H'#1#11'Font.Height'#2#240
+  +#10'ItemHeight'#2#21#9'ItemIndex'#2#0#13'Items.Strings'#1#6'&Az adagol'#195
+  +#179' megfelel'#197#145' '#195#161'llapotban van'#0#10'ParentFont'#8#5'Style'
+  +#7#14'csDropDownList'#8'TabOrder'#2#0#4'Text'#6'&Az adagol'#195#179' megfele'
+  +'l'#197#145' '#195#161'llapotban van'#0#0#6'TLabel'#6'Label4'#4'Left'#2#9#6
+  +'Height'#2#25#3'Top'#2#18#5'Width'#2'T'#7'Caption'#6#11'Hibak'#195#179'd : '
+  +#11'Font.Height'#2#237#11'ParentColor'#8#10'ParentFont'#8#0#0#0#0#0
+]);

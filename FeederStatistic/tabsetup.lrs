@@ -1,0 +1,35 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TfrmSetupCenter','FORMDATA',[
+  'TPF0'#15'TfrmSetupCenter'#14'frmSetupCenter'#4'Left'#3#193#1#6'Height'#3'S'#1
+  +#3'Top'#3#4#1#5'Width'#3#144#1#11'BorderIcons'#11#12'biSystemMenu'#0#11'Bord'
+  +'erStyle'#7#8'bsDialog'#7'Caption'#6'*FeederStatistic - Setupcenter ellen'
+  +#195#182'rz'#195#169's'#12'ClientHeight'#3'S'#1#11'ClientWidth'#3#144#1#7'On'
+  +'Close'#7#9'FormClose'#6'OnShow'#7#8'FormShow'#8'Position'#7#14'poScreenCent'
+  +'er'#13'ShowInTaskBar'#7#8'stAlways'#10'LCLVersion'#6#8'0.9.28.2'#0#6'TLabel'
+  +#6'Label1'#4'Left'#2's'#6'Height'#2#17#3'Top'#2#11#5'Width'#2'i'#7'Caption'#6
+  +#18'DS7i azonos'#195#173't'#195#179' :'#11'Font.Height'#2#243#10'Font.Style'
+  +#11#6'fsBold'#0#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'lblDS7i'#4
+  +'Left'#3#234#0#6'Height'#2#17#3'Top'#2#11#5'Width'#2'1'#7'Caption'#6#6'12345'
+  +'6'#10'Font.Color'#7#7'clGreen'#11'Font.Height'#2#243#10'Font.Style'#11#6'fs'
+  +'Bold'#0#11'ParentColor'#8#10'ParentFont'#8#0#0#12'TDBNavigator'#12'DBNaviga'
+  +'tor1'#4'Left'#2'!'#6'Height'#2#20#3'Top'#2'0'#5'Width'#3'N'#1#10'BevelOuter'
+  +#7#6'bvNone'#12'ClientHeight'#2#20#11'ClientWidth'#3'N'#1#10'DataSource'#7#11
+  +'Datasource1'#8'TabOrder'#2#0#14'VisibleButtons'#11#7'nbFirst'#7'nbPrior'#6
+  +'nbNext'#6'nbLast'#9'nbRefresh'#0#0#0#7'TDBGrid'#15'dbgFeederAdatok'#4'Left'
+  +#2#15#6'Height'#3#202#0#3'Top'#2'Q'#5'Width'#3'q'#1#8'AutoEdit'#8#10'DataSou'
+  +'rce'#7#11'Datasource1'#7'Options'#11#9'dgEditing'#8'dgTitles'#11'dgIndicato'
+  +'r'#14'dgColumnResize'#12'dgColumnMove'#10'dgColLines'#10'dgRowLines'#6'dgTa'
+  +'bs'#21'dgAlwaysShowSelection'#15'dgConfirmDelete'#14'dgCancelOnExit'#17'dgA'
+  +'utoSizeColumns'#0#8'ReadOnly'#9#10'Scrollbars'#7#10'ssAutoBoth'#8'TabOrder'
+  +#2#1#0#0#7'TButton'#10'btnKilepes'#4'Left'#3#21#1#6'Height'#2' '#3'Top'#3','
+  +#1#5'Width'#2'k'#7'Caption'#6#9'Kil'#195#169'p'#195#169's'#11'Font.Height'#2
+  +#240#10'Font.Style'#11#6'fsBold'#0#7'OnClick'#7#15'btnKilepesClick'#10'Paren'
+  +'tFont'#8#8'TabOrder'#2#2#0#0#7'TButton'#11'btnUjFeeder'#4'Left'#2#15#6'Heig'
+  +'ht'#2' '#3'Top'#3','#1#5'Width'#2'k'#7'Caption'#6#10#195#154'j feeder'#11'F'
+  +'ont.Height'#2#240#10'Font.Style'#11#6'fsBold'#0#7'OnClick'#7#16'btnUjFeeder'
+  +'Click'#10'ParentFont'#8#8'TabOrder'#2#3#0#0#15'TSqlite3Dataset'#15'Sqlite3D'
+  +'ataset1'#16'AutoIncrementKey'#9#7'Options'#11#0#11'SaveOnClose'#8#13'SaveOn'
+  +'Refetch'#8#9'FieldDefs'#14#0#0#0#11'TDatasource'#11'Datasource1'#8'AutoEdit'
+  +#8#7'DataSet'#7#15'Sqlite3Dataset1'#3'top'#2' '#0#0#0
+]);

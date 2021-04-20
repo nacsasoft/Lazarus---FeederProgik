@@ -1,0 +1,181 @@
+object frmTPMSetupMain: TfrmTPMSetupMain
+  Left = 416
+  Height = 568
+  Top = 181
+  Width = 477
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsDialog
+  Caption = 'FeederStatistic - TPM Setup alap...'
+  ClientHeight = 568
+  ClientWidth = 477
+  OnCloseQuery = FormCloseQuery
+  OnShow = FormShow
+  Position = poScreenCenter
+  LCLVersion = '0.9.31'
+  object Label1: TLabel
+    Left = 19
+    Height = 24
+    Top = 24
+    Width = 58
+    Caption = 'DS7i : '
+    Font.Height = -19
+    ParentColor = False
+    ParentFont = False
+  end
+  object btnRogzites: TButton
+    Left = 112
+    Height = 56
+    Top = 488
+    Width = 226
+    Caption = 'Rögzítés...'
+    Font.Height = -19
+    OnClick = btnRogzitesClick
+    ParentFont = False
+    TabOrder = 1
+  end
+  object edtDs7i: TEdit
+    Left = 128
+    Height = 31
+    Top = 21
+    Width = 139
+    Font.Color = clLime
+    Font.Height = -19
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 0
+  end
+  object GroupBox1: TGroupBox
+    Left = 19
+    Height = 296
+    Top = 64
+    Width = 437
+    Caption = 'Feladatok (TAB-ENG-3-371-00) :'
+    ClientHeight = 278
+    ClientWidth = 433
+    TabOrder = 2
+    object CheckBox1: TCheckBox
+      Left = 91
+      Height = 17
+      Top = 64
+      Width = 245
+      Caption = 'Fólia leszorító és továbbító kerekek ellenörzése'
+      OnKeyUp = CheckBox1KeyUp
+      TabOrder = 0
+    end
+    object CheckBox2: TCheckBox
+      Left = 91
+      Height = 17
+      Top = 90
+      Width = 190
+      Caption = 'Alkatrész felvételi ablak ellenörzése'
+      OnKeyUp = CheckBox2KeyUp
+      TabOrder = 1
+    end
+    object CheckBox3: TCheckBox
+      Left = 91
+      Height = 17
+      Top = 122
+      Width = 232
+      Caption = 'Talp ellenörzése ("omega" profil ellenörzése)'
+      OnKeyUp = CheckBox3KeyUp
+      TabOrder = 2
+    end
+    object CheckBox4: TCheckBox
+      Left = 91
+      Height = 17
+      Top = 154
+      Width = 230
+      Caption = 'Vezérlő egység (nyomógombok) ellenörzése'
+      OnKeyUp = CheckBox4KeyUp
+      TabOrder = 3
+    end
+    object CheckBox5: TCheckBox
+      Left = 91
+      Height = 17
+      Top = 186
+      Width = 167
+      Caption = 'Fóliatároló ürítése, ellenörzése'
+      OnKeyUp = CheckBox5KeyUp
+      TabOrder = 4
+    end
+    object CheckBox6: TCheckBox
+      Left = 91
+      Height = 17
+      Top = 218
+      Width = 245
+      Caption = 'Fólia leszorító és továbbító kerekek ellenörzése'
+      OnKeyUp = CheckBox6KeyUp
+      TabOrder = 5
+    end
+    object CheckBox7: TCheckBox
+      Left = 91
+      Height = 17
+      Top = 250
+      Width = 184
+      Caption = 'Kihullott alkatrész gyűjtő tisztítása'
+      OnKeyUp = CheckBox7KeyUp
+      TabOrder = 6
+    end
+    object Label2: TLabel
+      Left = 19
+      Height = 41
+      Top = 7
+      Width = 398
+      Alignment = taCenter
+      AutoSize = False
+      Caption = 'FIGYELEM!'#13#10'Hiba esetén nem kell a feladatokat bejelölni!!'
+      Color = clRed
+      Font.Height = -16
+      ParentColor = False
+      ParentFont = False
+      Transparent = False
+    end
+  end
+  object GroupBox2: TGroupBox
+    Left = 19
+    Height = 75
+    Top = 384
+    Width = 435
+    Caption = 'Hiba esetén válasszon a listából :'
+    ClientHeight = 57
+    ClientWidth = 431
+    TabOrder = 3
+    object Label3: TLabel
+      Left = 281
+      Height = 24
+      Top = 18
+      Width = 88
+      Caption = 'Hibakód : '
+      Font.Height = -19
+      ParentColor = False
+      ParentFont = False
+    end
+    object cmbHibakodok: TComboBox
+      Left = 97
+      Height = 27
+      Top = 15
+      Width = 328
+      Font.Height = -16
+      ItemHeight = 19
+      ItemIndex = 0
+      Items.Strings = (
+        'Az adagoló megfelelő állapotban van'
+      )
+      ParentFont = False
+      Style = csDropDownList
+      TabOrder = 0
+      Text = 'Az adagoló megfelelő állapotban van'
+    end
+    object Label4: TLabel
+      Left = 9
+      Height = 24
+      Top = 18
+      Width = 88
+      Caption = 'Hibakód : '
+      Font.Height = -19
+      ParentColor = False
+      ParentFont = False
+    end
+  end
+end

@@ -1,0 +1,575 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <General>
+      <MainUnit Value="0"/>
+      <Title Value="FeederStatistic"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <VersionInfo>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="13">
+      <Item1>
+        <PackageName Value="multiloglaz"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="TAChartLazarusPkg"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="laz_fpspreadsheet"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="LazMouseAndKeyInput"/>
+      </Item4>
+      <Item5>
+        <PackageName Value="TurboPowerIPro"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item5>
+      <Item6>
+        <PackageName Value="SynEdit"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item6>
+      <Item7>
+        <PackageName Value="LCLBase"/>
+        <MinVersion Major="1" Release="1" Valid="True"/>
+      </Item7>
+      <Item8>
+        <PackageName Value="lazreport"/>
+        <MinVersion Minor="9" Release="5" Valid="True"/>
+      </Item8>
+      <Item9>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item9>
+      <Item10>
+        <PackageName Value="sqlite3laz"/>
+        <MinVersion Minor="3" Valid="True"/>
+      </Item10>
+      <Item11>
+        <PackageName Value="SQLDBLaz"/>
+        <MinVersion Major="1" Release="1" Valid="True"/>
+      </Item11>
+      <Item12>
+        <PackageName Value="lazparadox"/>
+        <MinVersion Valid="True"/>
+      </Item12>
+      <Item13>
+        <PackageName Value="LCL"/>
+      </Item13>
+    </RequiredPackages>
+    <Units Count="23">
+      <Unit0>
+        <Filename Value="FeederStatistic.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="FeederStatistic"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="38"/>
+        <UsageCount Value="200"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="fomenu.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmMainMenu"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="fomenu"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="134"/>
+        <CursorPos X="1" Y="134"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="login.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmLogin"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="login"/>
+        <EditorIndex Value="13"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="94"/>
+        <CursorPos X="1" Y="120"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="database.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="database"/>
+        <EditorIndex Value="19"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="35"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="global.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="global"/>
+        <EditorIndex Value="12"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="39"/>
+        <UsageCount Value="201"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="jelszomod.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmJelszomod"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="jelszomod"/>
+        <EditorIndex Value="21"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="53"/>
+        <CursorPos X="71" Y="70"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="felhasznalok.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmFelhasznalok"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="felhasznalok"/>
+        <EditorIndex Value="18"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="102"/>
+        <CursorPos X="24" Y="137"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="feederpartsedit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmFeederPartsEdit"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="feederpartsedit"/>
+        <EditorIndex Value="17"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="66"/>
+        <CursorPos X="1" Y="98"/>
+        <UsageCount Value="203"/>
+        <Loaded Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="ujmunkalap.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmUjMunkalap"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ujmunkalap"/>
+        <EditorIndex Value="11"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="252"/>
+        <CursorPos X="50" Y="272"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="reports.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmReports"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="reports"/>
+        <EditorIndex Value="14"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="864"/>
+        <CursorPos X="1" Y="900"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="reportsnoadmin.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmReportsNoAdmin"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="reportsnoadmin"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="131"/>
+        <CursorPos X="39" Y="133"/>
+        <UsageCount Value="201"/>
+        <Loaded Value="True"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="tabsetup.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmSetupCenter"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="tabsetup"/>
+        <EditorIndex Value="20"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="56"/>
+        <CursorPos X="1" Y="87"/>
+        <UsageCount Value="201"/>
+        <Loaded Value="True"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="feederazonositas.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmFeederAzonositas"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="feederazonositas"/>
+        <EditorIndex Value="6"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="153"/>
+        <CursorPos X="1" Y="153"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="sorbeallitasa.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmSorBeallitasa"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="sorbeallitasa"/>
+        <EditorIndex Value="5"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="251"/>
+        <CursorPos X="11" Y="288"/>
+        <UsageCount Value="420"/>
+        <Loaded Value="True"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="egyebmunkak.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmEgyebMunkak"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="egyebmunkak"/>
+        <EditorIndex Value="16"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="49"/>
+        <CursorPos X="1" Y="59"/>
+        <UsageCount Value="234"/>
+        <Loaded Value="True"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="chart1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmChart1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="chart1"/>
+        <EditorIndex Value="15"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="49"/>
+        <CursorPos X="19" Y="63"/>
+        <UsageCount Value="224"/>
+        <Loaded Value="True"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="trolijavitas.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmTroliJavitas"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="trolijavitas"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="96"/>
+        <CursorPos X="15" Y="109"/>
+        <UsageCount Value="213"/>
+        <Loaded Value="True"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="trolimunkalap.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmTroliMunkalap"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="trolimunkalap"/>
+        <EditorIndex Value="4"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="96"/>
+        <CursorPos X="66" Y="105"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="magazinjavitas.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmMagazinJavitas"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="magazinjavitas"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="191"/>
+        <CursorPos X="1" Y="227"/>
+        <UsageCount Value="238"/>
+        <Loaded Value="True"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="prevfeederazon.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmPreventiveFeederazonositas"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="prevfeederazon"/>
+        <EditorIndex Value="7"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="37"/>
+        <CursorPos X="15" Y="51"/>
+        <UsageCount Value="132"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="feederpreventiv.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmFeederPreventiv"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="feederpreventiv"/>
+        <EditorIndex Value="10"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="76"/>
+        <CursorPos X="1" Y="114"/>
+        <UsageCount Value="131"/>
+        <Loaded Value="True"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="tpmsetupmain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmTPMSetupMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="tpmsetupmain"/>
+        <EditorIndex Value="8"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="149"/>
+        <CursorPos X="1" Y="149"/>
+        <UsageCount Value="124"/>
+        <Loaded Value="True"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="tpmds7iazonositas.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmTPMDS7i_Azonositas"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="tpmds7iazonositas"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="9"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="47"/>
+        <CursorPos X="21" Y="58"/>
+        <UsageCount Value="116"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit22>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="tpmsetupmain.pas"/>
+        <Caret Line="205" Column="30" TopLine="175"/>
+      </Position1>
+      <Position2>
+        <Filename Value="tpmsetupmain.pas"/>
+        <Caret Line="209" Column="15" TopLine="182"/>
+      </Position2>
+      <Position3>
+        <Filename Value="tpmsetupmain.pas"/>
+        <Caret Line="201" Column="5" TopLine="195"/>
+      </Position3>
+      <Position4>
+        <Filename Value="tpmsetupmain.pas"/>
+        <Caret Line="193" Column="23" TopLine="183"/>
+      </Position4>
+      <Position5>
+        <Filename Value="tpmsetupmain.pas"/>
+        <Caret Line="192" Column="4" TopLine="178"/>
+      </Position5>
+      <Position6>
+        <Filename Value="tpmsetupmain.pas"/>
+        <Caret Line="210" Column="18" TopLine="184"/>
+      </Position6>
+      <Position7>
+        <Filename Value="tpmsetupmain.pas"/>
+        <Caret Line="218" Column="15" TopLine="180"/>
+      </Position7>
+      <Position8>
+        <Filename Value="tpmsetupmain.pas"/>
+        <Caret Line="205" Column="1" TopLine="188"/>
+      </Position8>
+      <Position9>
+        <Filename Value="tpmsetupmain.pas"/>
+        <Caret Line="212" Column="5" TopLine="190"/>
+      </Position9>
+      <Position10>
+        <Filename Value="tpmsetupmain.pas"/>
+        <Caret Line="220" Column="5" TopLine="195"/>
+      </Position10>
+      <Position11>
+        <Filename Value="tpmsetupmain.pas"/>
+        <Caret Line="228" Column="5" TopLine="209"/>
+      </Position11>
+      <Position12>
+        <Filename Value="tpmsetupmain.pas"/>
+        <Caret Line="238" Column="1" TopLine="208"/>
+      </Position12>
+      <Position13>
+        <Filename Value="tpmsetupmain.pas"/>
+        <Caret Line="237" Column="31" TopLine="216"/>
+      </Position13>
+      <Position14>
+        <Filename Value="felhasznalok.pas"/>
+        <Caret Line="64" Column="1" TopLine="26"/>
+      </Position14>
+      <Position15>
+        <Filename Value="felhasznalok.pas"/>
+        <Caret Line="65" Column="1" TopLine="27"/>
+      </Position15>
+      <Position16>
+        <Filename Value="felhasznalok.pas"/>
+        <Caret Line="66" Column="1" TopLine="28"/>
+      </Position16>
+      <Position17>
+        <Filename Value="tpmds7iazonositas.pas"/>
+        <Caret Line="145" Column="30" TopLine="126"/>
+      </Position17>
+      <Position18>
+        <Filename Value="ujmunkalap.pas"/>
+        <Caret Line="299" Column="1" TopLine="272"/>
+      </Position18>
+      <Position19>
+        <Filename Value="fomenu.pas"/>
+        <Caret Line="207" Column="1" TopLine="204"/>
+      </Position19>
+      <Position20>
+        <Filename Value="prevfeederazon.pas"/>
+        <Caret Line="55" Column="1" TopLine="36"/>
+      </Position20>
+      <Position21>
+        <Filename Value="tpmsetupmain.pas"/>
+        <Caret Line="236" Column="5" TopLine="213"/>
+      </Position21>
+      <Position22>
+        <Filename Value="ujmunkalap.pas"/>
+        <Caret Line="600" Column="15" TopLine="576"/>
+      </Position22>
+      <Position23>
+        <Filename Value="fomenu.pas"/>
+        <Caret Line="285" Column="1" TopLine="249"/>
+      </Position23>
+      <Position24>
+        <Filename Value="tpmds7iazonositas.pas"/>
+        <Caret Line="145" Column="73" TopLine="126"/>
+      </Position24>
+      <Position25>
+        <Filename Value="login.pas"/>
+        <Caret Line="72" Column="1" TopLine="50"/>
+      </Position25>
+      <Position26>
+        <Filename Value="tpmds7iazonositas.pas"/>
+        <Caret Line="42" Column="32" TopLine="22"/>
+      </Position26>
+      <Position27>
+        <Filename Value="fomenu.pas"/>
+        <Caret Line="299" Column="28" TopLine="284"/>
+      </Position27>
+      <Position28>
+        <Filename Value="fomenu.pas"/>
+        <Caret Line="211" Column="89" TopLine="197"/>
+      </Position28>
+      <Position29>
+        <Filename Value="fomenu.pas"/>
+        <Caret Line="212" Column="58" TopLine="192"/>
+      </Position29>
+      <Position30>
+        <Filename Value="tpmds7iazonositas.pas"/>
+        <Caret Line="58" Column="1" TopLine="44"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <CStyleOperator Value="False"/>
+      </SyntaxOptions>
+    </Parsing>
+    <CodeGeneration>
+      <SmartLinkUnit Value="True"/>
+      <SmallerCode Value="True"/>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <GenerateDebugInfo Value="False"/>
+        <UseLineInfoUnit Value="False"/>
+        <StripSymbols Value="True"/>
+        <UseExternalDbgSyms Value="True"/>
+      </Debugging>
+      <LinkSmart Value="True"/>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <Verbosity>
+        <ShowWarn Value="False"/>
+        <ShowNotes Value="False"/>
+        <ShowHints Value="False"/>
+        <ShowGenInfo Value="False"/>
+      </Verbosity>
+      <CompilerMessages>
+        <UseMsgFile Value="True"/>
+      </CompilerMessages>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="4">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+      <Item4>
+        <Name Value="Unknown"/>
+      </Item4>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

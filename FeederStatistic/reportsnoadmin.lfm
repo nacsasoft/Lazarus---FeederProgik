@@ -1,0 +1,247 @@
+object frmReportsNoAdmin: TfrmReportsNoAdmin
+  Left = 412
+  Height = 268
+  Top = 233
+  Width = 424
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'Riportok - jelentések...'
+  ClientHeight = 268
+  ClientWidth = 424
+  OnClose = FormClose
+  OnShow = FormShow
+  Position = poDesktopCenter
+  ShowInTaskBar = stAlways
+  LCLVersion = '0.9.28.2'
+  object GroupBox4: TGroupBox
+    Left = 18
+    Height = 50
+    Top = 9
+    Width = 371
+    Caption = 'Feeder típusának beállítása :'
+    ClientHeight = 32
+    ClientWidth = 367
+    TabOrder = 0
+    object Shape1: TShape
+      Left = 1
+      Height = 31
+      Top = -3
+      Width = 364
+      Brush.Color = clLime
+      Pen.Color = clLime
+    end
+    object Label7: TLabel
+      Left = 46
+      Height = 20
+      Top = 2
+      Width = 132
+      Caption = 'Feeder típus : '
+      Font.Height = -16
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object cmbFeederType: TComboBox
+      Left = 175
+      Height = 21
+      Top = 2
+      Width = 121
+      AutoComplete = True
+      AutoCompleteText = [cbactEnabled, cbactEndOfLineComplete, cbactSearchAscending]
+      AutoSelect = True
+      ItemHeight = 13
+      ItemIndex = 0
+      Items.Strings = (
+        'Siemens'
+        'Fuji'
+      )
+      OnChange = cmbFeederTypeChange
+      Style = csDropDownList
+      TabOrder = 0
+      Text = 'Siemens'
+    end
+  end
+  object GroupBox1: TGroupBox
+    Left = 19
+    Height = 126
+    Top = 80
+    Width = 177
+    Caption = 'Javított adagolók'
+    ClientHeight = 108
+    ClientWidth = 173
+    TabOrder = 1
+    object Label1: TLabel
+      Left = 26
+      Height = 14
+      Top = 14
+      Width = 25
+      Caption = 'tól...'
+      ParentColor = False
+    end
+    object Label2: TLabel
+      Left = 26
+      Height = 14
+      Top = 43
+      Width = 21
+      Caption = 'ig...'
+      ParentColor = False
+    end
+    object edtJavFeedersTol: TEdit
+      Left = 62
+      Height = 21
+      Top = 7
+      Width = 70
+      AutoSize = False
+      TabOrder = 0
+    end
+    object edtJavFeedersIg: TEdit
+      Left = 62
+      Height = 21
+      Top = 36
+      Width = 70
+      AutoSize = False
+      TabOrder = 1
+    end
+    object btnJavFeedersTol: TButton
+      Left = 39
+      Height = 21
+      Top = 74
+      Width = 87
+      Caption = 'Eredmény'
+      OnClick = btnJavFeedersTolClick
+      TabOrder = 2
+    end
+  end
+  object GroupBox2: TGroupBox
+    Left = 221
+    Height = 158
+    Top = 80
+    Width = 177
+    Caption = 'Kiválasztott feeder javításai'
+    ClientHeight = 140
+    ClientWidth = 173
+    TabOrder = 2
+    object Label3: TLabel
+      Left = 26
+      Height = 14
+      Top = 14
+      Width = 25
+      Caption = 'tól...'
+      ParentColor = False
+    end
+    object Label4: TLabel
+      Left = 26
+      Height = 14
+      Top = 43
+      Width = 21
+      Caption = 'ig...'
+      ParentColor = False
+    end
+    object Label5: TLabel
+      Left = 26
+      Height = 14
+      Top = 75
+      Width = 29
+      Caption = 'DS7i :'
+      ParentColor = False
+    end
+    object edtKivFeederJavTol: TEdit
+      Left = 62
+      Height = 21
+      Top = 7
+      Width = 70
+      AutoSize = False
+      TabOrder = 0
+    end
+    object edtKivFeederJavIg: TEdit
+      Left = 62
+      Height = 21
+      Top = 36
+      Width = 70
+      AutoSize = False
+      TabOrder = 1
+    end
+    object btnKivFeederJavitasai: TButton
+      Left = 45
+      Height = 21
+      Top = 106
+      Width = 87
+      Caption = 'Eredmény'
+      OnClick = btnKivFeederJavitasaiClick
+      TabOrder = 2
+    end
+    object edtKivFeederJavDS7i: TEdit
+      Left = 62
+      Height = 21
+      Top = 68
+      Width = 70
+      AutoSize = False
+      TabOrder = 3
+    end
+  end
+  object frReport1: TfrReport
+    InitialZoom = pzDefault
+    PreviewButtons = [pbZoom, pbLoad, pbSave, pbPrint, pbFind, pbHelp, pbExit]
+    DataType = dtDataSet
+    OnGetValue = frReport1GetValue
+    left = 258
+    top = 50
+    ReportForm = {
+      18000000
+    }
+  end
+  object Sqlite3Dataset1: TSqlite3Dataset
+    AutoIncrementKey = True
+    Options = []
+    SaveOnClose = False
+    SaveOnRefetch = False
+    FieldDefs = <    
+      item
+        Name = 'id'
+        DataType = ftInteger
+        Precision = -1
+        Size = 0
+      end    
+      item
+        Name = 'u_name'
+        DataType = ftString
+        Precision = -1
+        Size = 8192
+      end    
+      item
+        Name = 'u_card'
+        DataType = ftString
+        Precision = -1
+        Size = 8192
+      end    
+      item
+        Name = 'u_perm'
+        DataType = ftInteger
+        Precision = -1
+        Size = 0
+      end    
+      item
+        Name = 'u_pass'
+        DataType = ftString
+        Precision = -1
+        Size = 8192
+      end    
+      item
+        Name = 'u_del'
+        DataType = ftInteger
+        Precision = -1
+        Size = 0
+      end>
+    left = 177
+    top = 50
+  end
+  object Datasource1: TDatasource
+    left = 144
+    top = 50
+  end
+  object frDBDataSet1: TfrDBDataSet
+    DataSet = Sqlite3Dataset1
+    left = 227
+    top = 50
+  end
+end

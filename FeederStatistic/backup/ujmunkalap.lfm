@@ -1,0 +1,539 @@
+object frmUjMunkalap: TfrmUjMunkalap
+  Left = 376
+  Height = 700
+  Top = 169
+  Width = 891
+  HorzScrollBar.Page = 814
+  HorzScrollBar.Range = 809
+  VertScrollBar.Page = 635
+  VertScrollBar.Range = 624
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'FeederStatistic - Új munkalap létrehozása'
+  ClientHeight = 700
+  ClientWidth = 891
+  Font.Height = -12
+  Font.Name = 'Times New Roman'
+  OnCloseQuery = FormCloseQuery
+  OnShow = FormShow
+  Position = poScreenCenter
+  ShowInTaskBar = stAlways
+  LCLVersion = '1.6.0.4'
+  object Shape2: TShape
+    Left = 8
+    Height = 32
+    Top = 8
+    Width = 870
+    Brush.Color = clMoneyGreen
+  end
+  object Label1: TLabel
+    Left = 288
+    Height = 15
+    Top = 16
+    Width = 73
+    Caption = 'Adagoló DS7i :'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 23
+    Height = 15
+    Top = 16
+    Width = 64
+    Caption = 'Karbantartó :'
+    ParentColor = False
+  end
+  object Shape1: TShape
+    Left = 8
+    Height = 6
+    Top = 384
+    Width = 870
+    Brush.Color = clBlue
+  end
+  object Label3: TLabel
+    Left = 496
+    Height = 15
+    Top = 16
+    Width = 35
+    Caption = 'Típus :'
+    ParentColor = False
+  end
+  object Shape3: TShape
+    Left = 520
+    Height = 51
+    Top = 317
+    Width = 266
+    Pen.Color = clLime
+    Pen.Width = 3
+    Shape = stRoundRect
+  end
+  object Shape4: TShape
+    Left = 81
+    Height = 51
+    Top = 317
+    Width = 315
+    Pen.Color = clRed
+    Pen.Width = 3
+    Shape = stRoundRect
+  end
+  object edtDS7i: TEdit
+    Left = 366
+    Height = 23
+    Top = 13
+    Width = 104
+    Alignment = taCenter
+    Enabled = False
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 0
+  end
+  object edtKarbantarto: TEdit
+    Left = 93
+    Height = 23
+    Top = 13
+    Width = 172
+    Alignment = taCenter
+    Enabled = False
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 1
+  end
+  object GroupBox1: TGroupBox
+    Left = 8
+    Height = 296
+    Top = 400
+    Width = 874
+    Caption = 'Feeder történet...'
+    TabOrder = 2
+  end
+  object btnMunkalapLezarasa: TButton
+    Left = 526
+    Height = 40
+    Top = 322
+    Width = 252
+    Caption = 'Munkalap lezárása'
+    Font.Color = clRed
+    Font.Height = -16
+    Font.Style = [fsBold]
+    OnClick = btnMunkalapLezarasaClick
+    ParentFont = False
+    TabOrder = 3
+  end
+  object edtFeederType: TEdit
+    Left = 536
+    Height = 23
+    Top = 13
+    Width = 122
+    Alignment = taCenter
+    Enabled = False
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 4
+  end
+  object tabMainSheet: TPageControl
+    Left = 128
+    Height = 244
+    Hint = 'Az operátor ezzel a hibával rakta ki a feedert !'
+    Top = 56
+    Width = 613
+    ActivePage = tabWorks
+    ParentShowHint = False
+    TabIndex = 0
+    TabOrder = 5
+    object tabWorks: TTabSheet
+      Caption = 'Elvégzett munkák'
+      ClientHeight = 216
+      ClientWidth = 605
+      TabVisible = False
+      object btnWorksFelvetel: TButton
+        Left = 28
+        Height = 25
+        Top = 24
+        Width = 180
+        Caption = 'Elvégzett munka hozzáadása'
+        OnClick = btnWorksFelvetelClick
+        TabOrder = 0
+      end
+      object lstWorks: TListBox
+        Left = 273
+        Height = 130
+        Top = 24
+        Width = 318
+        Font.Height = -11
+        Items.Strings = (
+          'munkák...'
+        )
+        ItemHeight = 13
+        ItemIndex = 0
+        ParentFont = False
+        TabOrder = 1
+      end
+      object btnWorksTorlesAListabol: TButton
+        Left = 350
+        Height = 33
+        Top = 166
+        Width = 178
+        Caption = 'Kiválasztott törlése a listából'
+        OnClick = btnWorksTorlesAListabolClick
+        TabOrder = 2
+      end
+      object cmbWorks: TComboBox
+        Left = 7
+        Height = 23
+        Top = 64
+        Width = 232
+        AutoComplete = True
+        AutoCompleteText = [cbactEnabled, cbactEndOfLineComplete, cbactSearchAscending]
+        ItemHeight = 15
+        OnKeyPress = cmbWorksKeyPress
+        TabOrder = 3
+        Text = 'cmbWorks'
+      end
+    end
+    object tabLepesSzam: TTabSheet
+      Caption = 'Lépés száma'
+      ClientHeight = 216
+      ClientWidth = 605
+      object GroupBox2: TGroupBox
+        Left = 44
+        Height = 171
+        Top = 17
+        Width = 211
+        Caption = 'Számláló(k) jelenlegi állása :'
+        ClientHeight = 151
+        ClientWidth = 207
+        TabOrder = 0
+        object lblLepes1: TLabel
+          Left = 10
+          Height = 15
+          Top = 38
+          Width = 44
+          Caption = '1. oldal : '
+          ParentColor = False
+        end
+        object edtLepeszam1: TEdit
+          Left = 66
+          Height = 23
+          Top = 31
+          Width = 128
+          TabOrder = 0
+          Text = 'edtLepeszam1'
+        end
+        object edtLepeszam2: TEdit
+          Left = 66
+          Height = 23
+          Top = 62
+          Width = 128
+          TabOrder = 1
+          Text = 'edtLepeszam1'
+        end
+        object lblLepes2: TLabel
+          Left = 10
+          Height = 15
+          Top = 69
+          Width = 44
+          Caption = '2. oldal : '
+          ParentColor = False
+        end
+        object lblLepes3: TLabel
+          Left = 10
+          Height = 15
+          Top = 96
+          Width = 44
+          Caption = '3. oldal : '
+          ParentColor = False
+        end
+        object edtLepeszam3: TEdit
+          Left = 66
+          Height = 23
+          Top = 89
+          Width = 128
+          TabOrder = 2
+          Text = 'edtLepeszam1'
+        end
+      end
+      object GroupBox3: TGroupBox
+        Left = 340
+        Height = 171
+        Top = 17
+        Width = 211
+        Caption = 'Számláló(k) előző állása :'
+        ClientHeight = 151
+        ClientWidth = 207
+        Font.Color = clMaroon
+        Font.Height = -12
+        Font.Name = 'Times New Roman'
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+        TabOrder = 1
+        object lblLepes4: TLabel
+          Left = 10
+          Height = 15
+          Top = 38
+          Width = 48
+          Caption = '1. oldal : '
+          ParentColor = False
+        end
+        object edtLepeszam4: TEdit
+          Left = 66
+          Height = 23
+          Top = 31
+          Width = 128
+          ReadOnly = True
+          TabOrder = 0
+          Text = 'edtLepeszam1'
+        end
+        object edtLepeszam5: TEdit
+          Left = 66
+          Height = 23
+          Top = 62
+          Width = 128
+          ReadOnly = True
+          TabOrder = 1
+          Text = 'edtLepeszam1'
+        end
+        object lblLepes5: TLabel
+          Left = 10
+          Height = 15
+          Top = 69
+          Width = 48
+          Caption = '2. oldal : '
+          ParentColor = False
+        end
+        object lblLepes6: TLabel
+          Left = 10
+          Height = 15
+          Top = 96
+          Width = 48
+          Caption = '3. oldal : '
+          ParentColor = False
+        end
+        object edtLepeszam6: TEdit
+          Left = 66
+          Height = 23
+          Top = 89
+          Width = 128
+          ReadOnly = True
+          TabOrder = 2
+          Text = 'edtLepeszam1'
+        end
+      end
+    end
+    object tabErrors: TTabSheet
+      Caption = 'Adagolóhibák'
+      ClientHeight = 216
+      ClientWidth = 605
+      TabVisible = False
+      object lstAdagolohibak: TListBox
+        Left = 273
+        Height = 130
+        Top = 24
+        Width = 318
+        Font.Height = -11
+        Items.Strings = (
+          'hibák'
+        )
+        ItemHeight = 13
+        ItemIndex = 0
+        ParentFont = False
+        TabOrder = 0
+      end
+      object btnAdagolohibaTorlesAListabol: TButton
+        Left = 350
+        Height = 33
+        Top = 166
+        Width = 178
+        Caption = 'Kiválasztott törlése a listából'
+        OnClick = btnAdagolohibaTorlesAListabolClick
+        TabOrder = 1
+      end
+      object btnAdagolohibaFelvetel: TButton
+        Left = 45
+        Height = 25
+        Top = 24
+        Width = 163
+        Caption = 'Adagolóhibák hozzáadása'
+        OnClick = btnAdagolohibaFelvetelClick
+        TabOrder = 2
+      end
+      object cmbAdagoloHibak: TComboBox
+        Left = 7
+        Height = 23
+        Top = 64
+        Width = 232
+        AutoComplete = True
+        AutoCompleteText = [cbactEnabled, cbactEndOfLineComplete, cbactSearchAscending]
+        ItemHeight = 15
+        OnKeyPress = cmbAdagoloHibakKeyPress
+        TabOrder = 3
+        Text = 'cmbWorks'
+      end
+    end
+    object tabRepairCodes: TTabSheet
+      Caption = 'Javítási kódok'
+      ClientHeight = 216
+      ClientWidth = 605
+      object btnJavitasiKodHozzaadasa: TButton
+        Left = 45
+        Height = 25
+        Top = 24
+        Width = 163
+        Caption = 'Javítási kódok hozzáadása'
+        OnClick = btnJavitasiKodHozzaadasaClick
+        TabOrder = 0
+      end
+      object cmbJavitasiKodok: TComboBox
+        Left = 7
+        Height = 23
+        Top = 64
+        Width = 253
+        AutoComplete = True
+        AutoCompleteText = [cbactEnabled, cbactEndOfLineComplete, cbactSearchAscending]
+        ItemHeight = 15
+        OnKeyPress = cmbAdagoloHibakKeyPress
+        TabOrder = 1
+      end
+      object lstJavitasiKodok: TListBox
+        Left = 273
+        Height = 130
+        Top = 24
+        Width = 318
+        Font.Height = -11
+        Items.Strings = (
+          'javkódok'
+        )
+        ItemHeight = 13
+        ItemIndex = 0
+        ParentFont = False
+        TabOrder = 2
+      end
+      object btnJavitasiKodTorlesAListabol1: TButton
+        Left = 350
+        Height = 33
+        Top = 166
+        Width = 178
+        Caption = 'Kiválasztott törlése a listából'
+        OnClick = btnJavitasiKodTorlesAListabol1Click
+        TabOrder = 3
+      end
+    end
+    object tabUsedParts: TTabSheet
+      Caption = 'Felhasznált alkatrészek'
+      ClientHeight = 216
+      ClientWidth = 605
+      object btnAlkatreszFelvetel: TButton
+        Left = 23
+        Height = 25
+        Top = 24
+        Width = 206
+        Caption = 'Felhasznált alkatrészek hozzáadása'
+        OnClick = btnAlkatreszFelvetelClick
+        TabOrder = 0
+      end
+      object lstFelvettAlkatreszek: TListBox
+        Left = 273
+        Height = 130
+        Top = 24
+        Width = 318
+        Font.Height = -11
+        Items.Strings = (
+          'alk'
+        )
+        ItemHeight = 13
+        ItemIndex = 0
+        ParentFont = False
+        TabOrder = 1
+      end
+      object btnAlkatreszTorlesAListabol: TButton
+        Left = 350
+        Height = 33
+        Top = 166
+        Width = 178
+        Caption = 'Kiválasztott törlése a listából'
+        OnClick = btnAlkatreszTorlesAListabolClick
+        TabOrder = 2
+      end
+      object cmbAlkatreszek: TComboBox
+        Left = 7
+        Height = 23
+        Top = 64
+        Width = 232
+        AutoComplete = True
+        AutoCompleteText = [cbactEnabled, cbactEndOfLineComplete, cbactSearchAscending]
+        ItemHeight = 15
+        OnKeyPress = cmbAlkatreszekKeyPress
+        TabOrder = 3
+        Text = 'cmbWorks'
+      end
+    end
+    object tabComment: TTabSheet
+      Caption = 'Megjegyzések...'
+      ClientHeight = 216
+      ClientWidth = 605
+      object memMegjegyzesek: TMemo
+        Left = 19
+        Height = 193
+        Top = 16
+        Width = 572
+        Lines.Strings = (
+          'Memo1'
+        )
+        ScrollBars = ssAutoBoth
+        TabOrder = 0
+      end
+    end
+  end
+  object btnKilepLezarasNelkul: TButton
+    Left = 87
+    Height = 40
+    Top = 322
+    Width = 303
+    Caption = 'Kilépés a munkalap lezárása nélkül'
+    Font.Color = clRed
+    Font.Height = -16
+    Font.Style = [fsBold]
+    OnClick = btnKilepLezarasNelkulClick
+    ParentFont = False
+    TabOrder = 6
+  end
+  object Label4: TLabel
+    Left = 691
+    Height = 15
+    Top = 16
+    Width = 36
+    Caption = 'Méret :'
+    ParentColor = False
+  end
+  object edtFeederSize: TEdit
+    Left = 732
+    Height = 23
+    Top = 13
+    Width = 130
+    Alignment = taCenter
+    Enabled = False
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 7
+  end
+  object IpHtmlPanel1: TIpHtmlPanel
+    Left = 16
+    Height = 265
+    Top = 423
+    Width = 856
+    BorderStyle = bsSingle
+    FixedTypeface = 'Courier New'
+    DefaultTypeFace = 'default'
+    DefaultFontSize = 9
+    FlagErrors = False
+    PrintSettings.MarginLeft = 0.5
+    PrintSettings.MarginTop = 0.5
+    PrintSettings.MarginRight = 0.5
+    PrintSettings.MarginBottom = 0.5
+    ShowHints = False
+    TabOrder = 8
+  end
+end

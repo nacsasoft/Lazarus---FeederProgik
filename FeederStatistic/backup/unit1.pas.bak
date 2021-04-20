@@ -1,0 +1,39 @@
+unit Unit1; 
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils, FileUtil, LResources, Forms, Controls, Graphics, Dialogs,
+  sqlite3conn;
+
+type
+
+  { TfrmMainMenu }
+
+  TfrmMainMenu = class(TForm)
+    procedure FormCreate(Sender: TObject);
+  private
+    { private declarations }
+  public
+    { public declarations }
+  end; 
+
+var
+  frmMainMenu: TfrmMainMenu;
+
+implementation
+
+{ TfrmMainMenu }
+
+procedure TfrmMainMenu.FormCreate(Sender: TObject);
+begin
+
+end;
+
+initialization
+  {$I unit1.lrs}
+
+end.
+

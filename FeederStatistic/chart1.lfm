@@ -1,0 +1,35 @@
+object frmChart1: TfrmChart1
+  Left = 345
+  Height = 467
+  Top = 215
+  Width = 783
+  Caption = 'frmChart1'
+  ClientHeight = 467
+  ClientWidth = 783
+  OnClose = FormClose
+  OnShow = FormShow
+  LCLVersion = '0.9.31'
+  object Chart1: TChart
+    Left = 8
+    Height = 456
+    Top = 8
+    Width = 768
+    AxisList = <    
+      item
+        Minors = <>
+        Title.LabelFont.Orientation = 900
+      end    
+      item
+        Alignment = calBottom
+        Minors = <>
+      end>
+    Foot.Brush.Color = clBtnFace
+    Foot.Font.Color = clBlue
+    Title.Brush.Color = clBtnFace
+    Title.Font.Color = clBlue
+    Title.Text.Strings = (
+      'TAChart'
+    )
+    ParentColor = False
+  end
+end

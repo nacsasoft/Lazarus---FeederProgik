@@ -1,0 +1,331 @@
+object frmTroliJavitas: TfrmTroliJavitas
+  Left = 566
+  Height = 482
+  Top = 216
+  Width = 324
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'FeederStatistic - Troli javítás...'
+  ClientHeight = 482
+  ClientWidth = 324
+  OnClose = FormClose
+  OnShow = FormShow
+  Position = poScreenCenter
+  ShowInTaskBar = stAlways
+  LCLVersion = '1.6.0.4'
+  object Label1: TLabel
+    Left = 37
+    Height = 16
+    Top = 24
+    Width = 69
+    Caption = 'Troli DS7i :'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    WordWrap = True
+  end
+  object edtDS7i: TEdit
+    Left = 149
+    Height = 29
+    Top = 17
+    Width = 131
+    Alignment = taCenter
+    Enabled = False
+    Font.Color = clBlack
+    Font.Height = -16
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 12
+  end
+  object Label2: TLabel
+    Left = 37
+    Height = 16
+    Top = 108
+    Width = 42
+    Caption = 'Típus :'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object btnMegsem: TButton
+    Left = 37
+    Height = 37
+    Top = 432
+    Width = 100
+    Caption = 'Mégsem'
+    Font.Style = [fsBold]
+    OnClick = btnMegsemClick
+    ParentFont = False
+    TabOrder = 9
+  end
+  object btnOK: TButton
+    Left = 185
+    Height = 37
+    Top = 432
+    Width = 100
+    Caption = 'OK'
+    Font.Style = [fsBold]
+    OnClick = btnOKClick
+    ParentFont = False
+    TabOrder = 10
+  end
+  object Label4: TLabel
+    Left = 37
+    Height = 16
+    Top = 240
+    Width = 30
+    Caption = 'Sor :'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object cmbLines: TComboBox
+    Left = 149
+    Height = 23
+    Top = 236
+    Width = 73
+    ItemHeight = 15
+    OnChange = cmbLinesChange
+    Style = csDropDownList
+    TabOrder = 3
+  end
+  object Label5: TLabel
+    Left = 37
+    Height = 32
+    Top = 136
+    Width = 69
+    Caption = 'Operátor '#13#10'azonosító :'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edtOperatorWD: TEdit
+    Left = 149
+    Height = 23
+    Top = 148
+    Width = 101
+    TabOrder = 1
+  end
+  object Label6: TLabel
+    Left = 37
+    Height = 32
+    Top = 184
+    Width = 60
+    Caption = 'Operátor '#13#10'neve :'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edtOperatorName: TEdit
+    Left = 149
+    Height = 23
+    Top = 196
+    Width = 141
+    TabOrder = 2
+  end
+  object Label8: TLabel
+    Left = 37
+    Height = 16
+    Top = 280
+    Width = 34
+    Caption = 'Gép :'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object cmbMachines: TComboBox
+    Left = 149
+    Height = 23
+    Top = 276
+    Width = 73
+    ItemHeight = 15
+    Style = csDropDownList
+    TabOrder = 4
+  end
+  object Label7: TLabel
+    Left = 37
+    Height = 16
+    Top = 328
+    Width = 42
+    Caption = 'Oldal :'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object cmbPosition: TComboBox
+    Left = 149
+    Height = 23
+    Top = 324
+    Width = 73
+    ItemHeight = 15
+    ItemIndex = 0
+    Items.Strings = (
+      '1'
+      '2'
+      '3'
+      '4'
+    )
+    Style = csDropDownList
+    TabOrder = 5
+    Text = '1'
+  end
+  object Label3: TLabel
+    Left = 37
+    Height = 16
+    Top = 63
+    Width = 100
+    Caption = 'Troli sorszáma :'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    WordWrap = True
+  end
+  object Label12: TLabel
+    Left = 16
+    Height = 40
+    Top = 360
+    Width = 112
+    AutoSize = False
+    Caption = 'Kirakás dátuma :'#13#10'(pl.: 2013-02-09)'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edtKirakas_EV: TEdit
+    Left = 149
+    Height = 23
+    Top = 368
+    Width = 46
+    MaxLength = 4
+    TabOrder = 6
+  end
+  object edtKirakas_HO: TEdit
+    Left = 211
+    Height = 23
+    Top = 368
+    Width = 30
+    MaxLength = 2
+    TabOrder = 7
+  end
+  object edtKirakas_NAP: TEdit
+    Left = 258
+    Height = 23
+    Top = 368
+    Width = 30
+    MaxLength = 2
+    TabOrder = 8
+  end
+  object Label13: TLabel
+    Left = 195
+    Height = 20
+    Top = 368
+    Width = 16
+    Alignment = taCenter
+    AutoSize = False
+    Caption = '-'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Color = clBlack
+    Font.Height = -16
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label14: TLabel
+    Left = 243
+    Height = 20
+    Top = 369
+    Width = 16
+    Alignment = taCenter
+    AutoSize = False
+    Caption = '-'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Color = clBlack
+    Font.Height = -16
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object cmbTroliSorszam: TComboBox
+    Left = 149
+    Height = 23
+    Top = 63
+    Width = 75
+    ItemHeight = 15
+    Items.Strings = (
+      ''
+    )
+    OnChange = cmbTroliSorszamChange
+    ParentFont = False
+    Style = csDropDownList
+    TabOrder = 0
+  end
+  object edtTroliTipus: TEdit
+    Left = 149
+    Height = 23
+    Top = 104
+    Width = 75
+    ReadOnly = True
+    TabOrder = 11
+  end
+end

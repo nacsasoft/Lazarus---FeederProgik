@@ -1,0 +1,64 @@
+object frmEgyebMunkak: TfrmEgyebMunkak
+  Left = 533
+  Height = 273
+  Top = 370
+  Width = 332
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'FeederStatistic - Egyéb feladatok...'
+  ClientHeight = 273
+  ClientWidth = 332
+  OnClose = FormClose
+  OnShow = FormShow
+  LCLVersion = '0.9.31'
+  object Label1: TLabel
+    Left = 32
+    Height = 14
+    Top = 32
+    Width = 86
+    Caption = 'Időtartam (óra) : '
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 32
+    Height = 14
+    Top = 80
+    Width = 115
+    Caption = 'Munka - megjegyzés....'
+    ParentColor = False
+  end
+  object edtIdotartam: TEdit
+    Left = 123
+    Height = 21
+    Top = 29
+    Width = 79
+    AutoSize = False
+    TabOrder = 0
+  end
+  object memMunka: TMemo
+    Left = 32
+    Height = 118
+    Top = 96
+    Width = 273
+    ScrollBars = ssAutoBoth
+    TabOrder = 1
+  end
+  object btnBezar: TButton
+    Left = 39
+    Height = 26
+    Top = 230
+    Width = 98
+    Caption = 'Bezár'
+    OnClick = btnBezarClick
+    TabOrder = 2
+  end
+  object Button2: TButton
+    Left = 207
+    Height = 26
+    Top = 230
+    Width = 98
+    Caption = 'OK'
+    OnClick = Button2Click
+    TabOrder = 3
+  end
+end

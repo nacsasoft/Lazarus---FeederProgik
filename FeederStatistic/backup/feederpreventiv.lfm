@@ -1,0 +1,447 @@
+object frmFeederPreventiv: TfrmFeederPreventiv
+  Left = 367
+  Height = 520
+  Top = 190
+  Width = 800
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsDialog
+  Caption = 'Feeder preventív munkalap...'
+  ClientHeight = 520
+  ClientWidth = 800
+  OnCloseQuery = FormCloseQuery
+  OnShow = FormShow
+  Position = poScreenCenter
+  ShowInTaskBar = stAlways
+  LCLVersion = '1.6.0.4'
+  object Shape2: TShape
+    Left = 8
+    Height = 32
+    Top = 8
+    Width = 782
+    Brush.Color = clMoneyGreen
+  end
+  object Label1: TLabel
+    Left = 288
+    Height = 15
+    Top = 16
+    Width = 77
+    Caption = 'Adagoló DS7i :'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 23
+    Height = 15
+    Top = 16
+    Width = 68
+    Caption = 'Karbantartó :'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 472
+    Height = 15
+    Top = 16
+    Width = 35
+    Caption = 'Típus :'
+    ParentColor = False
+  end
+  object edtDS7i: TEdit
+    Left = 366
+    Height = 23
+    Top = 13
+    Width = 80
+    Alignment = taCenter
+    Enabled = False
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 0
+    Text = '123456'
+  end
+  object edtKarbantarto: TEdit
+    Left = 93
+    Height = 23
+    Top = 13
+    Width = 172
+    Alignment = taCenter
+    Enabled = False
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 1
+    Text = 'Teszt Elemér'
+  end
+  object edtFeederType: TEdit
+    Left = 512
+    Height = 23
+    Top = 13
+    Width = 104
+    Alignment = taCenter
+    Enabled = False
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 2
+    Text = 'Siemens S,F,HS'
+  end
+  object Label4: TLabel
+    Left = 632
+    Height = 15
+    Top = 16
+    Width = 37
+    Caption = 'Méret :'
+    ParentColor = False
+  end
+  object edtFeederSize: TEdit
+    Left = 673
+    Height = 23
+    Top = 13
+    Width = 87
+    Alignment = taCenter
+    Enabled = False
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 3
+    Text = '2x8mm'
+  end
+  object Shape3: TShape
+    Left = 464
+    Height = 51
+    Top = 448
+    Width = 266
+    Pen.Color = clLime
+    Pen.Width = 3
+    Shape = stRoundRect
+  end
+  object Shape4: TShape
+    Left = 72
+    Height = 51
+    Top = 448
+    Width = 266
+    Pen.Color = clRed
+    Pen.Width = 3
+    Shape = stRoundRect
+  end
+  object btnMunkalapLezarasa: TButton
+    Left = 470
+    Height = 40
+    Top = 453
+    Width = 252
+    Caption = 'Munkalap lezárása'
+    Font.Color = clRed
+    Font.Height = -13
+    Font.Style = [fsBold]
+    OnClick = btnMunkalapLezarasaClick
+    ParentFont = False
+    TabOrder = 4
+  end
+  object btnKilepLezarasNelkul: TButton
+    Left = 78
+    Height = 40
+    Top = 453
+    Width = 252
+    Caption = 'Kilépés a munkalap lezárása nélkül'
+    Font.Color = clRed
+    Font.Height = -13
+    Font.Style = [fsBold]
+    OnClick = btnKilepLezarasNelkulClick
+    ParentFont = False
+    TabOrder = 5
+  end
+  object grbS_F_HS_Feladatok: TGroupBox
+    Left = 113
+    Height = 360
+    Top = 56
+    Width = 555
+    Caption = 'Elvégzendő feladatok - S / F / HS'
+    ClientHeight = 338
+    ClientWidth = 551
+    Color = clYellow
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 6
+    Visible = False
+    object CheckBox1: TCheckBox
+      Left = 27
+      Height = 21
+      Top = 17
+      Width = 298
+      Caption = 'Fólia leszorító és továbbító kerekek tisztítása'
+      TabOrder = 0
+    end
+    object CheckBox2: TCheckBox
+      Left = 27
+      Height = 21
+      Top = 43
+      Width = 308
+      Caption = 'Fóliatároló(k) tisztitása, rögzítésük ellenörzése'
+      TabOrder = 1
+    end
+    object CheckBox3: TCheckBox
+      Left = 27
+      Height = 21
+      Top = 67
+      Width = 251
+      Caption = 'Alkatrész felvételi ablak(ok) tisztítása'
+      TabOrder = 2
+    end
+    object CheckBox4: TCheckBox
+      Left = 27
+      Height = 21
+      Top = 91
+      Width = 427
+      Caption = 'Heveder vezető tisztítása, heveder szabad mozgásának biztosítása'
+      TabOrder = 3
+    end
+    object CheckBox5: TCheckBox
+      Left = 27
+      Height = 21
+      Top = 115
+      Width = 235
+      Caption = 'Kihullott alkatrész gyüjtő tisztítása'
+      TabOrder = 4
+    end
+    object CheckBox6: TCheckBox
+      Left = 27
+      Height = 21
+      Top = 139
+      Width = 179
+      Caption = 'Talp ellenőrzése,tisztítása'
+      TabOrder = 5
+    end
+    object CheckBox7: TCheckBox
+      Left = 27
+      Height = 21
+      Top = 163
+      Width = 404
+      Caption = 'Vezérlő egység (nyomógombok) funkció + állapot ellenörzése'
+      TabOrder = 6
+    end
+    object CheckBox8: TCheckBox
+      Left = 27
+      Height = 21
+      Top = 187
+      Width = 412
+      Caption = 'Heveder léptető fogaskerekek tisztítása állapotának ellenörzése'
+      TabOrder = 7
+    end
+    object CheckBox9: TCheckBox
+      Left = 27
+      Height = 21
+      Top = 211
+      Width = 341
+      Caption = 'Kommunikációs kábel ellenőrzés, szakadás vizsgálat'
+      TabOrder = 8
+    end
+    object CheckBox10: TCheckBox
+      Left = 27
+      Height = 21
+      Top = 235
+      Width = 319
+      Caption = 'Csigahajtás állapot ellenőrzés, tisztítás, beállítás'
+      TabOrder = 9
+    end
+    object CheckBox11: TCheckBox
+      Left = 27
+      Height = 21
+      Top = 259
+      Width = 279
+      Caption = 'Felvételi ablak rögzítő ellenőrzés, tisztítás'
+      TabOrder = 10
+    end
+    object CheckBox12: TCheckBox
+      Left = 27
+      Height = 21
+      Top = 288
+      Width = 142
+      Caption = 'Adagoló kalibrálása'
+      TabOrder = 11
+    end
+  end
+  object grbHD_Feladatok: TGroupBox
+    Left = 113
+    Height = 296
+    Top = 88
+    Width = 555
+    Caption = 'Elvégzendő feladatok - Hover Davis'
+    ClientHeight = 274
+    ClientWidth = 551
+    Color = clYellow
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 8
+    Visible = False
+    object CheckBox25: TCheckBox
+      Left = 27
+      Height = 21
+      Top = 17
+      Width = 298
+      Caption = 'Fólia leszorító és továbbító kerekek tisztítása'
+      TabOrder = 0
+    end
+    object CheckBox26: TCheckBox
+      Left = 27
+      Height = 21
+      Top = 43
+      Width = 308
+      Caption = 'Fóliatároló(k) tisztitása, rögzítésük ellenörzése'
+      TabOrder = 1
+    end
+    object CheckBox27: TCheckBox
+      Left = 27
+      Height = 21
+      Top = 67
+      Width = 251
+      Caption = 'Alkatrész felvételi ablak(ok) tisztítása'
+      TabOrder = 2
+    end
+    object CheckBox28: TCheckBox
+      Left = 27
+      Height = 21
+      Top = 91
+      Width = 427
+      Caption = 'Heveder vezető tisztítása, heveder szabad mozgásának biztosítása'
+      TabOrder = 3
+    end
+    object CheckBox29: TCheckBox
+      Left = 27
+      Height = 21
+      Top = 115
+      Width = 235
+      Caption = 'Kihullott alkatrész gyüjtő tisztítása'
+      TabOrder = 4
+    end
+    object CheckBox30: TCheckBox
+      Left = 27
+      Height = 21
+      Top = 139
+      Width = 179
+      Caption = 'Talp ellenőrzése,tisztítása'
+      TabOrder = 5
+    end
+    object CheckBox31: TCheckBox
+      Left = 27
+      Height = 21
+      Top = 163
+      Width = 404
+      Caption = 'Vezérlő egység (nyomógombok) funkció + állapot ellenörzése'
+      TabOrder = 6
+    end
+    object CheckBox32: TCheckBox
+      Left = 27
+      Height = 21
+      Top = 187
+      Width = 412
+      Caption = 'Heveder léptető fogaskerekek tisztítása állapotának ellenörzése'
+      TabOrder = 7
+    end
+    object CheckBox33: TCheckBox
+      Left = 27
+      Height = 21
+      Top = 211
+      Width = 341
+      Caption = 'Kommunikációs kábel ellenőrzés, szakadás vizsgálat'
+      TabOrder = 8
+    end
+    object CheckBox36: TCheckBox
+      Left = 27
+      Height = 21
+      Top = 240
+      Width = 142
+      Caption = 'Adagoló kalibrálása'
+      TabOrder = 9
+    end
+  end
+  object grbX_Feladatok: TGroupBox
+    Left = 113
+    Height = 264
+    Top = 112
+    Width = 555
+    Caption = 'Elvégzendő feladatok - X'
+    ClientHeight = 242
+    ClientWidth = 551
+    Color = clYellow
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 7
+    Visible = False
+    object CheckBox13: TCheckBox
+      Left = 27
+      Height = 21
+      Top = 17
+      Width = 298
+      Caption = 'Fólia leszorító és továbbító kerekek tisztítása'
+      TabOrder = 0
+    end
+    object CheckBox14: TCheckBox
+      Left = 27
+      Height = 21
+      Top = 43
+      Width = 308
+      Caption = 'Fóliatároló(k) tisztitása, rögzítésük ellenörzése'
+      TabOrder = 1
+    end
+    object CheckBox15: TCheckBox
+      Left = 27
+      Height = 21
+      Top = 67
+      Width = 251
+      Caption = 'Alkatrész felvételi ablak(ok) tisztítása'
+      TabOrder = 2
+    end
+    object CheckBox16: TCheckBox
+      Left = 27
+      Height = 21
+      Top = 91
+      Width = 427
+      Caption = 'Heveder vezető tisztítása, heveder szabad mozgásának biztosítása'
+      TabOrder = 3
+    end
+    object CheckBox17: TCheckBox
+      Left = 27
+      Height = 21
+      Top = 115
+      Width = 235
+      Caption = 'Kihullott alkatrész gyüjtő tisztítása'
+      TabOrder = 4
+    end
+    object CheckBox18: TCheckBox
+      Left = 27
+      Height = 21
+      Top = 139
+      Width = 278
+      Caption = 'Talp ellenőrzése,tisztítása (OMEGA profil)'
+      TabOrder = 5
+    end
+    object CheckBox19: TCheckBox
+      Left = 27
+      Height = 21
+      Top = 163
+      Width = 404
+      Caption = 'Vezérlő egység (nyomógombok) funkció + állapot ellenörzése'
+      TabOrder = 6
+    end
+    object CheckBox20: TCheckBox
+      Left = 27
+      Height = 21
+      Top = 187
+      Width = 412
+      Caption = 'Heveder léptető fogaskerekek tisztítása állapotának ellenörzése'
+      TabOrder = 7
+    end
+    object CheckBox21: TCheckBox
+      Left = 27
+      Height = 21
+      Top = 211
+      Width = 224
+      Caption = 'Kommunikációs egység tisztítása'
+      TabOrder = 8
+    end
+  end
+end

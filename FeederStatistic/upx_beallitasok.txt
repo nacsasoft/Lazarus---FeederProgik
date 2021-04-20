@@ -1,0 +1,1 @@
+upx --best --overlay=strip -o FeederStatistic2.exe FeederStatistic.exe

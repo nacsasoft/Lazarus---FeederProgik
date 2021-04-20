@@ -1,0 +1,120 @@
+object frmPreventiveFeederazonositas: TfrmPreventiveFeederazonositas
+  Left = 670
+  Height = 253
+  Top = 205
+  Width = 321
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsDialog
+  Caption = 'Preventív - Feeder azonosítása...'
+  ClientHeight = 253
+  ClientWidth = 321
+  OnCloseQuery = FormCloseQuery
+  OnShow = FormShow
+  Position = poScreenCenter
+  ShowInTaskBar = stAlways
+  LCLVersion = '0.9.31'
+  object Label1: TLabel
+    Left = 27
+    Height = 17
+    Top = 27
+    Width = 103
+    Caption = 'DS7i azonosító :'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edtDS7i: TEdit
+    Left = 154
+    Height = 27
+    Top = 17
+    Width = 131
+    Alignment = taCenter
+    Font.Color = clRed
+    Font.Height = -16
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 0
+    Text = '123456'
+  end
+  object Label2: TLabel
+    Left = 83
+    Height = 17
+    Top = 87
+    Width = 47
+    Caption = 'Típus : '
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object cmbTipus: TComboBox
+    Left = 154
+    Height = 21
+    Top = 80
+    Width = 131
+    ItemHeight = 13
+    ItemIndex = 0
+    Items.Strings = (
+      'Siemens S,HS,F'
+      'Siemens X'
+      'Hover Davis'
+    )
+    OnChange = cmbTipusChange
+    ParentFont = False
+    Style = csDropDownList
+    TabOrder = 1
+    Text = 'Siemens S,HS,F'
+  end
+  object Label3: TLabel
+    Left = 85
+    Height = 17
+    Top = 130
+    Width = 45
+    Caption = 'Méret :'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object cmbMeret: TComboBox
+    Left = 154
+    Height = 21
+    Top = 123
+    Width = 131
+    ItemHeight = 13
+    Items.Strings = (
+      ''
+    )
+    ParentFont = False
+    Style = csDropDownList
+    TabOrder = 2
+  end
+  object btnFelvitel: TButton
+    Left = 72
+    Height = 40
+    Top = 192
+    Width = 184
+    Caption = 'Feeder azonosítása...'
+    Font.Style = [fsBold]
+    OnClick = btnFelvitelClick
+    ParentFont = False
+    TabOrder = 3
+  end
+end

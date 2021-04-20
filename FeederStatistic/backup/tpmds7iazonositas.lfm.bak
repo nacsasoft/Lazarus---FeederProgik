@@ -1,0 +1,62 @@
+object frmTPMDS7i_Azonositas: TfrmTPMDS7i_Azonositas
+  Left = 503
+  Height = 210
+  Top = 273
+  Width = 312
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsDialog
+  Caption = 'FeederStatistic - TPM DS7i azonosítás...'
+  ClientHeight = 210
+  ClientWidth = 312
+  OnCloseQuery = FormCloseQuery
+  OnShow = FormShow
+  Position = poScreenCenter
+  ShowInTaskBar = stAlways
+  UseDockManager = True
+  LCLVersion = '0.9.31'
+  object btnAzonositas: TButton
+    Left = 41
+    Height = 56
+    Top = 139
+    Width = 226
+    Caption = 'Feeder azonosítás...'
+    Font.Height = -19
+    OnClick = btnAzonositasClick
+    ParentFont = False
+    TabOrder = 1
+  end
+  object edtDs7i: TEdit
+    Left = 112
+    Height = 27
+    Top = 72
+    Width = 163
+    Font.Height = -16
+    OnKeyPress = edtDs7iKeyPress
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 32
+    Height = 24
+    Top = 75
+    Width = 58
+    Caption = 'DS7i : '
+    Font.Height = -19
+    ParentColor = False
+    ParentFont = False
+  end
+  object edtUserName: TEdit
+    Left = 72
+    Height = 27
+    Top = 8
+    Width = 163
+    Alignment = taCenter
+    Font.Color = clRed
+    Font.Height = -16
+    Font.Style = [fsBold]
+    OnKeyPress = edtDs7iKeyPress
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 2
+  end
+end

@@ -1,0 +1,64 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TfrmMagazinJavitas','FORMDATA',[
+  'TPF0'#18'TfrmMagazinJavitas'#17'frmMagazinJavitas'#4'Left'#3#135#1#6'Height'
+  +#3#203#1#3'Top'#3#215#0#5'Width'#3#152#2#11'BorderIcons'#11#12'biSystemMenu'
+  +#10'biMinimize'#0#11'BorderStyle'#7#8'bsDialog'#7'Caption'#6'&FeederStatisti'
+  +'c - Magazin jav'#195#173't'#195#161's...'#12'ClientHeight'#3#203#1#11'Clien'
+  +'tWidth'#3#152#2#9'FormStyle'#7#9'fsMDIForm'#12'OnCloseQuery'#7#14'FormClose'
+  +'Query'#6'OnShow'#7#8'FormShow'#8'Position'#7#14'poScreenCenter'#13'ShowInTa'
+  +'skBar'#7#8'stAlways'#10'LCLVersion'#6#6'0.9.31'#0#12'TPageControl'#12'tabMa'
+  +'inSheet'#4'Left'#2#24#6'Height'#3#244#0#4'Hint'#6'2Az oper'#195#161'tor ezz'
+  +'el a hib'#195#161'val rakta ki a feedert !'#3'Top'#2'X'#5'Width'#3'e'#2#10
+  +'ActivePage'#7#8'tabWorks'#14'ParentShowHint'#8#8'TabIndex'#2#0#8'TabOrder'#2
+  +#1#0#9'TTabSheet'#8'tabWorks'#7'Caption'#6#18'Elv'#195#169'gzett munk'#195
+  +#161'k'#12'ClientHeight'#3#216#0#11'ClientWidth'#3']'#2#0#7'TButton'#16'btnW'
+  +'orksFelvetel'#4'Left'#2#28#6'Height'#2#25#3'Top'#2'B'#5'Width'#3#180#0#7'Ca'
+  +'ption'#6#29'Elv'#195#169'gzett munka hozz'#195#161'ad'#195#161'sa'#7'OnClic'
+  +'k'#7#21'btnWorksFelvetelClick'#8'TabOrder'#2#0#0#0#8'TListBox'#8'lstWorks'#4
+  +'Left'#3#17#1#6'Height'#3#130#0#3'Top'#2#24#5'Width'#3'>'#1#11'Font.Height'#2
+  +#245#10'ItemHeight'#2#0#10'ParentFont'#8#8'TabOrder'#2#3#0#0#7'TButton'#23'b'
+  +'tnWorksTorlesAListabol'#4'Left'#3'^'#1#6'Height'#2'!'#3'Top'#3#166#0#5'Widt'
+  +'h'#3#178#0#7'Caption'#6'$Kiv'#195#161'lasztott t'#195#182'rl'#195#169'se a '
+  +'list'#195#161'b'#195#179'l'#7'OnClick'#7#28'btnWorksTorlesAListabolClick'#8
+  +'TabOrder'#2#2#0#0#9'TComboBox'#8'cmbWorks'#4'Left'#2#7#6'Height'#2#23#3'Top'
+  +#2'j'#5'Width'#3#232#0#12'AutoComplete'#9#16'AutoCompleteText'#11#12'cbactEn'
+  +'abled'#22'cbactEndOfLineComplete'#20'cbactSearchAscending'#0#10'ItemHeight'
+  +#2#15#8'TabOrder'#2#1#4'Text'#6#8'cmbWorks'#0#0#0#9'TTabSheet'#12'tabUsedPar'
+  +'ts'#7'Caption'#6#25'Felhaszn'#195#161'lt alkatr'#195#169'szek'#12'ClientHei'
+  +'ght'#3#218#0#11'ClientWidth'#3']'#2#0#7'TButton'#20'btnAlkatreszFelvetel'#4
+  +'Left'#2#23#6'Height'#2#25#3'Top'#2#24#5'Width'#3#206#0#7'Caption'#6'&Felhas'
+  +'zn'#195#161'lt alkatr'#195#169'szek hozz'#195#161'ad'#195#161'sa'#7'OnClick'
+  +#7#25'btnAlkatreszFelvetelClick'#8'TabOrder'#2#0#0#0#8'TListBox'#21'lstFelve'
+  +'ttAlkatreszek'#4'Left'#3#17#1#6'Height'#3#130#0#3'Top'#2#24#5'Width'#3'>'#1
+  +#11'Font.Height'#2#245#10'ItemHeight'#2#0#10'ParentFont'#8#8'TabOrder'#2#1#0
+  +#0#7'TButton'#27'btnAlkatreszTorlesAListabol'#4'Left'#3'^'#1#6'Height'#2'!'#3
+  +'Top'#3#166#0#5'Width'#3#178#0#7'Caption'#6'$Kiv'#195#161'lasztott t'#195#182
+  +'rl'#195#169'se a list'#195#161'b'#195#179'l'#7'OnClick'#7' btnAlkatreszTorl'
+  +'esAListabolClick'#8'TabOrder'#2#3#0#0#9'TComboBox'#14'cmbAlkatreszek'#4'Lef'
+  +'t'#2#7#6'Height'#2#23#3'Top'#2'@'#5'Width'#3#232#0#12'AutoComplete'#9#16'Au'
+  +'toCompleteText'#11#12'cbactEnabled'#22'cbactEndOfLineComplete'#20'cbactSear'
+  +'chAscending'#0#10'ItemHeight'#2#15#8'TabOrder'#2#2#4'Text'#6#14'cmbAlkatres'
+  +'zek'#0#0#0#9'TTabSheet'#10'tabComment'#7'Caption'#6#16'Megjegyz'#195#169'se'
+  +'k...'#12'ClientHeight'#3#218#0#11'ClientWidth'#3']'#2#0#5'TMemo'#15'memMegj'
+  +'egyzesek'#4'Left'#2#12#6'Height'#3#194#0#3'Top'#2#10#5'Width'#3'D'#2#13'Lin'
+  +'es.Strings'#1#6#5'Memo1'#0#10'ScrollBars'#7#10'ssAutoBoth'#8'TabOrder'#2#0#0
+  +#0#0#0#6'TShape'#6'Shape3'#4'Left'#3's'#1#6'Height'#2'3'#3'Top'#3'x'#1#5'Wid'
+  +'th'#3#10#1#9'Pen.Color'#7#6'clLime'#9'Pen.Width'#2#3#5'Shape'#7#11'stRoundR'
+  +'ect'#0#0#6'TShape'#6'Shape4'#4'Left'#2#24#6'Height'#2'3'#3'Top'#3'x'#1#5'Wi'
+  +'dth'#3';'#1#9'Pen.Color'#7#5'clRed'#9'Pen.Width'#2#3#5'Shape'#7#11'stRoundR'
+  +'ect'#0#0#7'TButton'#19'btnMunkalapLezarasa'#4'Left'#3'x'#1#6'Height'#2'('#3
+  +'Top'#3'}'#1#5'Width'#3#252#0#7'Caption'#6#19'Munkalap lez'#195#161'r'#195
+  +#161'sa'#10'Font.Color'#7#5'clRed'#11'Font.Height'#2#240#10'Font.Style'#11#6
+  +'fsBold'#0#7'OnClick'#7#24'btnMunkalapLezarasaClick'#10'ParentFont'#8#8'TabO'
+  +'rder'#2#2#0#0#7'TButton'#21'btnKilepLezarasNelkul'#4'Left'#2#30#6'Height'#2
+  +'('#3'Top'#3'}'#1#5'Width'#3'/'#1#7'Caption'#6'(Kil'#195#169'p'#195#169's a '
+  +'munkalap lez'#195#161'r'#195#161'sa n'#195#169'lk'#195#188'l'#10'Font.Color'
+  +#7#5'clRed'#11'Font.Height'#2#240#10'Font.Style'#11#6'fsBold'#0#7'OnClick'#7
+  +#26'btnKilepLezarasNelkulClick'#10'ParentFont'#8#8'TabOrder'#2#3#0#0#6'TShap'
+  +'e'#6'Shape1'#4'Left'#2#24#6'Height'#2'%'#3'Top'#2#26#5'Width'#3#241#0#11'Br'
+  +'ush.Color'#7#5'clRed'#0#0#6'TLabel'#6'Label1'#4'Left'#2#30#6'Height'#2#16#3
+  +'Top'#2'('#5'Width'#2'm'#7'Caption'#6#22'Magazin azonos'#195#173't'#195#179
+  +' : '#11'ParentColor'#8#0#0#5'TEdit'#19'edtMagazinAzonosito'#4'Left'#3#136#0
+  +#6'Height'#2#21#3'Top'#2'!'#5'Width'#2'x'#8'AutoSize'#8#8'TabOrder'#2#0#0#0#0
+]);

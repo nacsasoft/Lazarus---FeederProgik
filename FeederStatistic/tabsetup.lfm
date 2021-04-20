@@ -1,0 +1,99 @@
+object frmSetupCenter: TfrmSetupCenter
+  Left = 449
+  Height = 339
+  Top = 260
+  Width = 400
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'FeederStatistic - Setupcenter ellenörzés'
+  ClientHeight = 339
+  ClientWidth = 400
+  OnClose = FormClose
+  OnShow = FormShow
+  Position = poScreenCenter
+  ShowInTaskBar = stAlways
+  LCLVersion = '0.9.28.2'
+  object Label1: TLabel
+    Left = 115
+    Height = 17
+    Top = 11
+    Width = 105
+    Caption = 'DS7i azonosító :'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object lblDS7i: TLabel
+    Left = 234
+    Height = 17
+    Top = 11
+    Width = 49
+    Caption = '123456'
+    Font.Color = clGreen
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object DBNavigator1: TDBNavigator
+    Left = 33
+    Height = 20
+    Top = 48
+    Width = 334
+    BevelOuter = bvNone
+    ClientHeight = 20
+    ClientWidth = 334
+    DataSource = Datasource1
+    TabOrder = 0
+    VisibleButtons = [nbFirst, nbPrior, nbNext, nbLast, nbRefresh]
+  end
+  object dbgFeederAdatok: TDBGrid
+    Left = 15
+    Height = 202
+    Top = 81
+    Width = 369
+    AutoEdit = False
+    DataSource = Datasource1
+    Options = [dgEditing, dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgTabs, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit, dgAutoSizeColumns]
+    ReadOnly = True
+    Scrollbars = ssAutoBoth
+    TabOrder = 1
+  end
+  object btnKilepes: TButton
+    Left = 277
+    Height = 32
+    Top = 300
+    Width = 107
+    Caption = 'Kilépés'
+    Font.Height = -16
+    Font.Style = [fsBold]
+    OnClick = btnKilepesClick
+    ParentFont = False
+    TabOrder = 2
+  end
+  object btnUjFeeder: TButton
+    Left = 15
+    Height = 32
+    Top = 300
+    Width = 107
+    Caption = 'Új feeder'
+    Font.Height = -16
+    Font.Style = [fsBold]
+    OnClick = btnUjFeederClick
+    ParentFont = False
+    TabOrder = 3
+  end
+  object Sqlite3Dataset1: TSqlite3Dataset
+    AutoIncrementKey = True
+    Options = []
+    SaveOnClose = False
+    SaveOnRefetch = False
+    FieldDefs = <>
+  end
+  object Datasource1: TDatasource
+    AutoEdit = False
+    DataSet = Sqlite3Dataset1
+    top = 32
+  end
+end

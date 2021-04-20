@@ -1,0 +1,159 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TfrmUjMunkalap','FORMDATA',[
+  'TPF0'#14'TfrmUjMunkalap'#13'frmUjMunkalap'#4'Left'#3'x'#1#6'Height'#3#188#2#3
+  +'Top'#3#169#0#5'Width'#3'{'#3#18'HorzScrollBar.Page'#3'.'#3#19'HorzScrollBar'
+  +'.Range'#3')'#3#18'VertScrollBar.Page'#3'{'#2#19'VertScrollBar.Range'#3'p'#2
+  +#11'BorderIcons'#11#12'biSystemMenu'#0#11'BorderStyle'#7#8'bsDialog'#7'Capti'
+  +'on'#6',FeederStatistic - '#195#154'j munkalap l'#195#169'trehoz'#195#161'sa'
+  +#12'ClientHeight'#3#188#2#11'ClientWidth'#3'{'#3#13'DesignTimePPI'#2'x'#11'F'
+  +'ont.Height'#2#244#9'Font.Name'#6#15'Times New Roman'#12'OnCloseQuery'#7#14
+  +'FormCloseQuery'#6'OnShow'#7#8'FormShow'#8'Position'#7#14'poScreenCenter'#13
+  +'ShowInTaskBar'#7#8'stAlways'#10'LCLVersion'#6#7'1.8.4.0'#0#6'TShape'#6'Shap'
+  +'e2'#4'Left'#2#8#6'Height'#2' '#3'Top'#2#8#5'Width'#3'f'#3#11'Brush.Color'#7
+  +#12'clMoneyGreen'#0#0#6'TLabel'#6'Label1'#4'Left'#3' '#1#6'Height'#2#15#3'To'
+  +'p'#2#16#5'Width'#2'I'#7'Caption'#6#15'Adagol'#195#179' DS7i :'#11'ParentCol'
+  +'or'#8#0#0#6'TLabel'#6'Label2'#4'Left'#2#23#6'Height'#2#15#3'Top'#2#16#5'Wid'
+  +'th'#2'@'#7'Caption'#6#14'Karbantart'#195#179' :'#11'ParentColor'#8#0#0#6'TS'
+  +'hape'#6'Shape1'#4'Left'#2#8#6'Height'#2#6#3'Top'#3#128#1#5'Width'#3'f'#3#11
+  +'Brush.Color'#7#6'clBlue'#0#0#6'TLabel'#6'Label3'#4'Left'#3#240#1#6'Height'#2
+  +#15#3'Top'#2#16#5'Width'#2'#'#7'Caption'#6#8'T'#195#173'pus :'#11'ParentColo'
+  +'r'#8#0#0#6'TShape'#6'Shape3'#4'Left'#3#8#2#6'Height'#2'3'#3'Top'#3'='#1#5'W'
+  +'idth'#3#10#1#9'Pen.Color'#7#6'clLime'#9'Pen.Width'#2#3#5'Shape'#7#11'stRoun'
+  +'dRect'#0#0#6'TShape'#6'Shape4'#4'Left'#2'Q'#6'Height'#2'3'#3'Top'#3'='#1#5
+  +'Width'#3';'#1#9'Pen.Color'#7#5'clRed'#9'Pen.Width'#2#3#5'Shape'#7#11'stRoun'
+  +'dRect'#0#0#5'TEdit'#7'edtDS7i'#4'Left'#3'n'#1#6'Height'#2#28#3'Top'#2#13#5
+  +'Width'#2'h'#9'Alignment'#7#8'taCenter'#7'Enabled'#8#10'Font.Style'#11#6'fsB'
+  +'old'#0#10'ParentFont'#8#8'ReadOnly'#9#8'TabOrder'#2#0#0#0#5'TEdit'#14'edtKa'
+  +'rbantarto'#4'Left'#2']'#6'Height'#2#28#3'Top'#2#13#5'Width'#3#172#0#9'Align'
+  +'ment'#7#8'taCenter'#7'Enabled'#8#10'Font.Style'#11#6'fsBold'#0#10'ParentFon'
+  +'t'#8#8'ReadOnly'#9#8'TabOrder'#2#1#0#0#9'TGroupBox'#9'GroupBox1'#4'Left'#2#8
+  +#6'Height'#3'('#1#3'Top'#3#144#1#5'Width'#3'j'#3#7'Caption'#6#20'Feeder t'
+  +#195#182'rt'#195#169'net...'#8'TabOrder'#2#2#0#0#7'TButton'#19'btnMunkalapLe'
+  +'zarasa'#4'Left'#3#14#2#6'Height'#2'('#3'Top'#3'B'#1#5'Width'#3#252#0#7'Capt'
+  +'ion'#6#19'Munkalap lez'#195#161'r'#195#161'sa'#10'Font.Color'#7#5'clRed'#11
+  +'Font.Height'#2#240#10'Font.Style'#11#6'fsBold'#0#7'OnClick'#7#24'btnMunkala'
+  +'pLezarasaClick'#10'ParentFont'#8#8'TabOrder'#2#3#0#0#5'TEdit'#13'edtFeederT'
+  +'ype'#4'Left'#3#24#2#6'Height'#2#28#3'Top'#2#13#5'Width'#2'z'#9'Alignment'#7
+  +#8'taCenter'#7'Enabled'#8#10'Font.Style'#11#6'fsBold'#0#10'ParentFont'#8#8'R'
+  +'eadOnly'#9#8'TabOrder'#2#4#0#0#12'TPageControl'#12'tabMainSheet'#4'Left'#3
+  +#128#0#6'Height'#3#244#0#4'Hint'#6'2Az oper'#195#161'tor ezzel a hib'#195#161
+  +'val rakta ki a feedert !'#3'Top'#2'8'#5'Width'#3'e'#2#10'ActivePage'#7#8'ta'
+  +'bWorks'#14'ParentShowHint'#8#8'TabIndex'#2#0#8'TabOrder'#2#5#0#9'TTabSheet'
+  +#8'tabWorks'#7'Caption'#6#18'Elv'#195#169'gzett munk'#195#161'k'#12'ClientHe'
+  +'ight'#3#216#0#11'ClientWidth'#3']'#2#10'TabVisible'#8#0#7'TButton'#16'btnWo'
+  +'rksFelvetel'#4'Left'#2#28#6'Height'#2#25#3'Top'#2#24#5'Width'#3#180#0#7'Cap'
+  +'tion'#6#29'Elv'#195#169'gzett munka hozz'#195#161'ad'#195#161'sa'#7'OnClick'
+  +#7#21'btnWorksFelvetelClick'#8'TabOrder'#2#0#0#0#8'TListBox'#8'lstWorks'#4'L'
+  +'eft'#3#17#1#6'Height'#3#130#0#3'Top'#2#24#5'Width'#3'>'#1#11'Font.Height'#2
+  +#245#13'Items.Strings'#1#6#10'munk'#195#161'k...'#0#10'ItemHeight'#2#13#9'It'
+  +'emIndex'#2#0#10'ParentFont'#8#8'TabOrder'#2#1#0#0#7'TButton'#23'btnWorksTor'
+  +'lesAListabol'#4'Left'#3'^'#1#6'Height'#2'!'#3'Top'#3#166#0#5'Width'#3#178#0
+  +#7'Caption'#6'$Kiv'#195#161'lasztott t'#195#182'rl'#195#169'se a list'#195
+  +#161'b'#195#179'l'#7'OnClick'#7#28'btnWorksTorlesAListabolClick'#8'TabOrder'
+  +#2#2#0#0#9'TComboBox'#8'cmbWorks'#4'Left'#2#7#6'Height'#2#23#3'Top'#2'@'#5'W'
+  +'idth'#3#232#0#12'AutoComplete'#9#16'AutoCompleteText'#11#12'cbactEnabled'#22
+  +'cbactEndOfLineComplete'#20'cbactSearchAscending'#0#10'ItemHeight'#2#15#10'O'
+  +'nKeyPress'#7#16'cmbWorksKeyPress'#8'TabOrder'#2#3#4'Text'#6#8'cmbWorks'#0#0
+  +#0#9'TTabSheet'#12'tabLepesSzam'#7'Caption'#6#14'L'#195#169'p'#195#169's sz'
+  +#195#161'ma'#12'ClientHeight'#3#216#0#11'ClientWidth'#3']'#2#0#9'TGroupBox'#9
+  +'GroupBox2'#4'Left'#2','#6'Height'#3#171#0#3'Top'#2#17#5'Width'#3#211#0#7'Ca'
+  +'ption'#6'#Sz'#195#161'ml'#195#161'l'#195#179'(k) jelenlegi '#195#161'll'#195
+  +#161'sa :'#12'ClientHeight'#3#151#0#11'ClientWidth'#3#207#0#8'TabOrder'#2#0#0
+  +#6'TLabel'#9'lblLepes1'#4'Left'#2#10#6'Height'#2#15#3'Top'#2'&'#5'Width'#2','
+  +#7'Caption'#6#11'1. oldal : '#11'ParentColor'#8#0#0#5'TEdit'#12'edtLepeszam1'
+  +#4'Left'#2'B'#6'Height'#2#23#3'Top'#2#31#5'Width'#3#128#0#8'TabOrder'#2#0#4
+  +'Text'#6#12'edtLepeszam1'#0#0#5'TEdit'#12'edtLepeszam2'#4'Left'#2'B'#6'Heigh'
+  +'t'#2#23#3'Top'#2'>'#5'Width'#3#128#0#8'TabOrder'#2#1#4'Text'#6#12'edtLepesz'
+  ,'am1'#0#0#6'TLabel'#9'lblLepes2'#4'Left'#2#10#6'Height'#2#15#3'Top'#2'E'#5'W'
+  +'idth'#2','#7'Caption'#6#11'2. oldal : '#11'ParentColor'#8#0#0#6'TLabel'#9'l'
+  +'blLepes3'#4'Left'#2#10#6'Height'#2#15#3'Top'#2'`'#5'Width'#2','#7'Caption'#6
+  +#11'3. oldal : '#11'ParentColor'#8#0#0#5'TEdit'#12'edtLepeszam3'#4'Left'#2'B'
+  +#6'Height'#2#23#3'Top'#2'Y'#5'Width'#3#128#0#8'TabOrder'#2#2#4'Text'#6#12'ed'
+  +'tLepeszam1'#0#0#0#9'TGroupBox'#9'GroupBox3'#4'Left'#3'T'#1#6'Height'#3#171#0
+  +#3'Top'#2#17#5'Width'#3#211#0#7'Caption'#6'!Sz'#195#161'ml'#195#161'l'#195
+  +#179'(k) el'#197#145'z'#197#145' '#195#161'll'#195#161'sa :'#12'ClientHeight'
+  +#3#151#0#11'ClientWidth'#3#207#0#10'Font.Color'#7#8'clMaroon'#11'Font.Height'
+  +#2#244#9'Font.Name'#6#15'Times New Roman'#10'Font.Style'#11#6'fsBold'#0#11'P'
+  +'arentColor'#8#10'ParentFont'#8#8'TabOrder'#2#1#0#6'TLabel'#9'lblLepes4'#4'L'
+  +'eft'#2#10#6'Height'#2#15#3'Top'#2'&'#5'Width'#2'0'#7'Caption'#6#11'1. oldal'
+  +' : '#11'ParentColor'#8#0#0#5'TEdit'#12'edtLepeszam4'#4'Left'#2'B'#6'Height'
+  +#2#23#3'Top'#2#31#5'Width'#3#128#0#8'ReadOnly'#9#8'TabOrder'#2#0#4'Text'#6#12
+  +'edtLepeszam1'#0#0#5'TEdit'#12'edtLepeszam5'#4'Left'#2'B'#6'Height'#2#23#3'T'
+  +'op'#2'>'#5'Width'#3#128#0#8'ReadOnly'#9#8'TabOrder'#2#1#4'Text'#6#12'edtLep'
+  +'eszam1'#0#0#6'TLabel'#9'lblLepes5'#4'Left'#2#10#6'Height'#2#15#3'Top'#2'E'#5
+  +'Width'#2'0'#7'Caption'#6#11'2. oldal : '#11'ParentColor'#8#0#0#6'TLabel'#9
+  +'lblLepes6'#4'Left'#2#10#6'Height'#2#15#3'Top'#2'`'#5'Width'#2'0'#7'Caption'
+  +#6#11'3. oldal : '#11'ParentColor'#8#0#0#5'TEdit'#12'edtLepeszam6'#4'Left'#2
+  +'B'#6'Height'#2#23#3'Top'#2'Y'#5'Width'#3#128#0#8'ReadOnly'#9#8'TabOrder'#2#2
+  +#4'Text'#6#12'edtLepeszam1'#0#0#0#0#9'TTabSheet'#9'tabErrors'#7'Caption'#6#14
+  +'Adagol'#195#179'hib'#195#161'k'#12'ClientHeight'#3#216#0#11'ClientWidth'#3
+  +']'#2#10'TabVisible'#8#0#8'TListBox'#15'lstAdagolohibak'#4'Left'#3#17#1#6'He'
+  +'ight'#3#130#0#3'Top'#2#24#5'Width'#3'>'#1#11'Font.Height'#2#245#13'Items.St'
+  +'rings'#1#6#6'hib'#195#161'k'#0#10'ItemHeight'#2#13#9'ItemIndex'#2#0#10'Pare'
+  +'ntFont'#8#8'TabOrder'#2#0#0#0#7'TButton'#29'btnAdagolohibaTorlesAListabol'#4
+  +'Left'#3'^'#1#6'Height'#2'!'#3'Top'#3#166#0#5'Width'#3#178#0#7'Caption'#6'$K'
+  +'iv'#195#161'lasztott t'#195#182'rl'#195#169'se a list'#195#161'b'#195#179'l'
+  +#7'OnClick'#7'"btnAdagolohibaTorlesAListabolClick'#8'TabOrder'#2#1#0#0#7'TBu'
+  +'tton'#22'btnAdagolohibaFelvetel'#4'Left'#2'-'#6'Height'#2#25#3'Top'#2#24#5
+  +'Width'#3#163#0#7'Caption'#6#27'Adagol'#195#179'hib'#195#161'k hozz'#195#161
+  +'ad'#195#161'sa'#7'OnClick'#7#27'btnAdagolohibaFelvetelClick'#8'TabOrder'#2#2
+  +#0#0#9'TComboBox'#15'cmbAdagoloHibak'#4'Left'#2#7#6'Height'#2#23#3'Top'#2'@'
+  +#5'Width'#3#232#0#12'AutoComplete'#9#16'AutoCompleteText'#11#12'cbactEnabled'
+  +#22'cbactEndOfLineComplete'#20'cbactSearchAscending'#0#10'ItemHeight'#2#15#10
+  +'OnKeyPress'#7#23'cmbAdagoloHibakKeyPress'#8'TabOrder'#2#3#4'Text'#6#8'cmbWo'
+  +'rks'#0#0#0#9'TTabSheet'#14'tabRepairCodes'#7'Caption'#6#17'Jav'#195#173't'
+  +#195#161'si k'#195#179'dok'#12'ClientHeight'#3#216#0#11'ClientWidth'#3']'#2#0
+  +#7'TButton'#24'btnJavitasiKodHozzaadasa'#4'Left'#2'-'#6'Height'#2#25#3'Top'#2
+  +#24#5'Width'#3#163#0#7'Caption'#6#30'Jav'#195#173't'#195#161'si k'#195#179'd'
+  +'ok hozz'#195#161'ad'#195#161'sa'#7'OnClick'#7#29'btnJavitasiKodHozzaadasaCl'
+  +'ick'#8'TabOrder'#2#0#0#0#9'TComboBox'#16'cmbJavitasiKodok'#4'Left'#2#7#6'He'
+  +'ight'#2#23#3'Top'#2'@'#5'Width'#3#253#0#12'AutoComplete'#9#16'AutoCompleteT'
+  +'ext'#11#12'cbactEnabled'#22'cbactEndOfLineComplete'#20'cbactSearchAscending'
+  +#0#10'ItemHeight'#2#15#10'OnKeyPress'#7#23'cmbAdagoloHibakKeyPress'#8'TabOrd'
+  +'er'#2#1#0#0#8'TListBox'#16'lstJavitasiKodok'#4'Left'#3#17#1#6'Height'#3#130
+  +#0#3'Top'#2#24#5'Width'#3'>'#1#11'Font.Height'#2#245#13'Items.Strings'#1#6#9
+  +'javk'#195#179'dok'#0#10'ItemHeight'#2#13#9'ItemIndex'#2#0#10'ParentFont'#8#8
+  +'TabOrder'#2#2#0#0#7'TButton'#30'btnJavitasiKodTorlesAListabol1'#4'Left'#3'^'
+  +#1#6'Height'#2'!'#3'Top'#3#166#0#5'Width'#3#178#0#7'Caption'#6'$Kiv'#195#161
+  +'lasztott t'#195#182'rl'#195#169'se a list'#195#161'b'#195#179'l'#7'OnClick'
+  +#7'#btnJavitasiKodTorlesAListabol1Click'#8'TabOrder'#2#3#0#0#0#9'TTabSheet'
+  +#12'tabUsedParts'#7'Caption'#6#25'Felhaszn'#195#161'lt alkatr'#195#169'szek'
+  +#12'ClientHeight'#3#216#0#11'ClientWidth'#3']'#2#0#7'TButton'#20'btnAlkatres'
+  +'zFelvetel'#4'Left'#2#23#6'Height'#2#25#3'Top'#2#24#5'Width'#3#206#0#7'Capti'
+  +'on'#6'&Felhaszn'#195#161'lt alkatr'#195#169'szek hozz'#195#161'ad'#195#161
+  +'sa'#7'OnClick'#7#25'btnAlkatreszFelvetelClick'#8'TabOrder'#2#0#0#0#8'TListB'
+  +'ox'#21'lstFelvettAlkatreszek'#4'Left'#3#17#1#6'Height'#3#130#0#3'Top'#2#24#5
+  +'Width'#3'>'#1#11'Font.Height'#2#245#13'Items.Strings'#1#6#3'alk'#0#10'ItemH'
+  +'eight'#2#13#9'ItemIndex'#2#0#10'ParentFont'#8#8'TabOrder'#2#1#0#0#7'TButton'
+  +#27'btnAlkatreszTorlesAListabol'#4'Left'#3'^'#1#6'Height'#2'!'#3'Top'#3#166#0
+  +#5'Width'#3#178#0#7'Caption'#6'$Kiv'#195#161'lasztott t'#195#182'rl'#195#169
+  +'se a list'#195#161'b'#195#179'l'#7'OnClick'#7' btnAlkatreszTorlesAListabolC'
+  ,'lick'#8'TabOrder'#2#2#0#0#9'TComboBox'#14'cmbAlkatreszek'#4'Left'#2#7#6'Hei'
+  +'ght'#2#23#3'Top'#2'@'#5'Width'#3#232#0#12'AutoComplete'#9#16'AutoCompleteTe'
+  +'xt'#11#12'cbactEnabled'#22'cbactEndOfLineComplete'#20'cbactSearchAscending'
+  +#0#10'ItemHeight'#2#15#10'OnKeyPress'#7#22'cmbAlkatreszekKeyPress'#8'TabOrde'
+  +'r'#2#3#4'Text'#6#8'cmbWorks'#0#0#0#9'TTabSheet'#10'tabComment'#7'Caption'#6
+  +#16'Megjegyz'#195#169'sek...'#12'ClientHeight'#3#216#0#11'ClientWidth'#3']'#2
+  +#0#5'TMemo'#15'memMegjegyzesek'#4'Left'#2#19#6'Height'#3#193#0#3'Top'#2#16#5
+  +'Width'#3'<'#2#13'Lines.Strings'#1#6#5'Memo1'#0#10'ScrollBars'#7#10'ssAutoBo'
+  +'th'#8'TabOrder'#2#0#0#0#0#0#7'TButton'#21'btnKilepLezarasNelkul'#4'Left'#2
+  +'W'#6'Height'#2'('#3'Top'#3'B'#1#5'Width'#3'/'#1#7'Caption'#6'(Kil'#195#169
+  +'p'#195#169's a munkalap lez'#195#161'r'#195#161'sa n'#195#169'lk'#195#188'l'
+  +#10'Font.Color'#7#5'clRed'#11'Font.Height'#2#240#10'Font.Style'#11#6'fsBold'
+  +#0#7'OnClick'#7#26'btnKilepLezarasNelkulClick'#10'ParentFont'#8#8'TabOrder'#2
+  +#6#0#0#6'TLabel'#6'Label4'#4'Left'#3#179#2#6'Height'#2#15#3'Top'#2#16#5'Widt'
+  +'h'#2'$'#7'Caption'#6#8'M'#195#169'ret :'#11'ParentColor'#8#0#0#5'TEdit'#13
+  +'edtFeederSize'#4'Left'#3#220#2#6'Height'#2#28#3'Top'#2#13#5'Width'#3#130#0#9
+  +'Alignment'#7#8'taCenter'#7'Enabled'#8#10'Font.Style'#11#6'fsBold'#0#10'Pare'
+  +'ntFont'#8#8'ReadOnly'#9#8'TabOrder'#2#7#0#0#12'TIpHtmlPanel'#12'IpHtmlPanel'
+  +'1'#4'Left'#2#16#6'Height'#3#9#1#3'Top'#3#167#1#5'Width'#3'X'#3#11'BorderSty'
+  +'le'#7#8'bsSingle'#13'FixedTypeface'#6#11'Courier New'#15'DefaultTypeFace'#6
+  +#7'default'#15'DefaultFontSize'#2#9#10'FlagErrors'#8#24'PrintSettings.Margin'
+  +'Left'#5#0#0#0#0#0#0#0#128#254'?'#23'PrintSettings.MarginTop'#5#0#0#0#0#0#0#0
+  +#128#254'?'#25'PrintSettings.MarginRight'#5#0#0#0#0#0#0#0#128#254'?'#26'Prin'
+  +'tSettings.MarginBottom'#5#0#0#0#0#0#0#0#128#254'?'#26'PrintSettings.Preview'
+  +'.Left'#3#224#1#25'PrintSettings.Preview.Top'#3#14#1#27'PrintSettings.Previe'
+  +'w.Width'#3#160#5#28'PrintSettings.Preview.Height'#3'*'#3#9'ShowHints'#8#8'T'
+  +'abOrder'#2#8#0#0#0
+]);

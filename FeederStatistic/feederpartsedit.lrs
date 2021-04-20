@@ -1,0 +1,41 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TfrmFeederPartsEdit','FORMDATA',[
+  'TPF0'#19'TfrmFeederPartsEdit'#18'frmFeederPartsEdit'#4'Left'#3'f'#1#6'Height'
+  +#3#173#1#3'Top'#3#252#0#5'Width'#3#223#2#13'ActiveControl'#7#9'edtP_name'#11
+  +'BorderIcons'#11#12'biSystemMenu'#0#11'BorderStyle'#7#8'bsDialog'#7'Caption'
+  +#6'-FeederStatistic - Feeder alkatr'#195#169'sz adatok...'#12'ClientHeight'#3
+  +#173#1#11'ClientWidth'#3#223#2#7'OnClose'#7#9'FormClose'#6'OnShow'#7#8'FormS'
+  +'how'#8'Position'#7#14'poScreenCenter'#13'ShowInTaskBar'#7#8'stAlways'#10'LC'
+  +'LVersion'#6#6'0.9.31'#0#7'TDBGrid'#7'DBGrid1'#4'Left'#2#25#6'Height'#3#160#0
+  +#3'Top'#3#0#1#5'Width'#3#174#2#15'AutoFillColumns'#9#5'Color'#7#8'clWindow'#7
+  +'Columns'#14#0#10'DataSource'#7#11'Datasource1'#8'TabOrder'#2#1#0#0#9'TGroup'
+  +'Box'#9'GroupBox1'#4'Left'#2#25#6'Height'#3#176#0#3'Top'#2#16#5'Width'#3#143
+  +#2#7'Caption'#6#24#195#154'j alkatr'#195#169'sz felvitele'#12'ClientHeight'#3
+  +#158#0#11'ClientWidth'#3#139#2#8'TabOrder'#2#0#0#6'TLabel'#6'Label6'#4'Left'
+  +#2'_'#6'Height'#2#14#3'Top'#2'p'#5'Width'#2''''#7'Caption'#6#9'T'#195#173'pu'
+  +'sa :'#11'ParentColor'#8#0#0#6'TLabel'#6'Label7'#4'Left'#2'D'#6'Height'#2#29
+  +#3'Top'#2'H'#5'Width'#2'B'#8'AutoSize'#8#7'Caption'#6#23#195#129'r (EURO) pl'
+  +'.: 5.25 : '#11'ParentColor'#8#8'WordWrap'#9#0#0#6'TLabel'#6'Label8'#4'Left'
+  +#2'2'#6'Height'#2#14#3'Top'#2'0'#5'Width'#2'T'#7'Caption'#6#19'Rendel'#195
+  +#169'si sz'#195#161'm : '#11'ParentColor'#8#0#0#6'TLabel'#6'Label9'#4'Left'#2
+  +#22#6'Height'#2#14#3'Top'#2#14#5'Width'#2'p'#7'Caption'#6#25'Alkatr'#195#169
+  +'sz elnevez'#195#169'se : '#11'ParentColor'#8#0#0#9'TComboBox'#13'cmbFeederT'
+  +'ype'#4'Left'#3#137#0#6'Height'#2#21#3'Top'#2'p'#5'Width'#2'm'#12'AutoComple'
+  +'te'#9#16'AutoCompleteText'#11#12'cbactEnabled'#22'cbactEndOfLineComplete'#20
+  +'cbactSearchAscending'#0#10'ItemHeight'#2#13#9'ItemIndex'#2#0#13'Items.Strin'
+  +'gs'#1#6#14'Siemens S,F,HS'#6#9'Siemens X'#6#4'Fuji'#6#3'RLI'#6#9'VCD & SEQ'
+  +#6#19'Siemens S,F Trolley'#6#18'Siemens HS Trolley'#6#17'Siemens X Trolley'#6
+  +#18'Magazin alkatr'#195#169'sz'#0#5'Style'#7#14'csDropDownList'#8'TabOrder'#2
+  +#3#4'Text'#6#14'Siemens S,F,HS'#0#0#7'TButton'#10'btnAddPart'#4'Left'#3#221#1
+  +#6'Height'#2'%'#3'Top'#2'8'#5'Width'#3#133#0#7'Caption'#6#20'Alkatr'#195#169
+  +'sz felvitele'#7'OnClick'#7#15'btnAddPartClick'#8'TabOrder'#2#4#0#0#5'TEdit'
+  +#9'edtP_name'#4'Left'#3#137#0#6'Height'#2#21#3'Top'#2#14#5'Width'#3#246#0#8
+  +'TabOrder'#2#0#0#0#5'TEdit'#13'edtP_ordernum'#4'Left'#3#137#0#6'Height'#2#21
+  +#3'Top'#2'0'#5'Width'#3#246#0#8'TabOrder'#2#1#0#0#5'TEdit'#9'edtP_cost'#4'Le'
+  +'ft'#3#137#0#6'Height'#2#21#3'Top'#2'P'#5'Width'#2'>'#8'TabOrder'#2#2#0#0#0
+  +#15'TSqlite3Dataset'#15'Sqlite3Dataset1'#16'AutoIncrementKey'#9#11'SaveOnClo'
+  +'se'#9#13'SaveOnRefetch'#9#9'TableName'#6#5'parts'#4'left'#3#240#1#3'top'#3
+  +#216#0#0#0#11'TDatasource'#11'Datasource1'#8'AutoEdit'#8#7'DataSet'#7#15'Sql'
+  +'ite3Dataset1'#4'left'#3#16#2#3'top'#3#216#0#0#0#0
+]);

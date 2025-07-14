@@ -97,6 +97,7 @@ begin
             end;
 
   DS7i := edtDS7i.Text;
+  iTroliNumber := integer(cmbTroliSorszam.Items.Objects[cmbTroliSorszam.ItemIndex]);
   sKirakasDatuma := edtKirakas_EV.Text + '-' + edtKirakas_HO.Text + '-' + edtKirakas_NAP.Text;
 
 

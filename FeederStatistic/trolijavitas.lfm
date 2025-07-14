@@ -8,11 +8,12 @@ object frmTroliJavitas: TfrmTroliJavitas
   Caption = 'FeederStatistic - Troli javítás...'
   ClientHeight = 482
   ClientWidth = 324
+  DesignTimePPI = 120
   OnClose = FormClose
   OnShow = FormShow
   Position = poScreenCenter
   ShowInTaskBar = stAlways
-  LCLVersion = '1.6.0.4'
+  LCLVersion = '1.8.4.0'
   object Label1: TLabel
     Left = 37
     Height = 16
@@ -100,10 +101,10 @@ object frmTroliJavitas: TfrmTroliJavitas
   end
   object cmbLines: TComboBox
     Left = 149
-    Height = 23
+    Height = 28
     Top = 236
     Width = 73
-    ItemHeight = 15
+    ItemHeight = 20
     OnChange = cmbLinesChange
     Style = csDropDownList
     TabOrder = 3
@@ -126,7 +127,7 @@ object frmTroliJavitas: TfrmTroliJavitas
   end
   object edtOperatorWD: TEdit
     Left = 149
-    Height = 23
+    Height = 28
     Top = 148
     Width = 101
     TabOrder = 1
@@ -149,7 +150,7 @@ object frmTroliJavitas: TfrmTroliJavitas
   end
   object edtOperatorName: TEdit
     Left = 149
-    Height = 23
+    Height = 28
     Top = 196
     Width = 141
     TabOrder = 2
@@ -172,10 +173,10 @@ object frmTroliJavitas: TfrmTroliJavitas
   end
   object cmbMachines: TComboBox
     Left = 149
-    Height = 23
+    Height = 28
     Top = 276
     Width = 73
-    ItemHeight = 15
+    ItemHeight = 20
     Style = csDropDownList
     TabOrder = 4
   end
@@ -197,10 +198,10 @@ object frmTroliJavitas: TfrmTroliJavitas
   end
   object cmbPosition: TComboBox
     Left = 149
-    Height = 23
+    Height = 28
     Top = 324
     Width = 73
-    ItemHeight = 15
+    ItemHeight = 20
     ItemIndex = 0
     Items.Strings = (
       '1'
@@ -248,7 +249,7 @@ object frmTroliJavitas: TfrmTroliJavitas
   end
   object edtKirakas_EV: TEdit
     Left = 149
-    Height = 23
+    Height = 28
     Top = 368
     Width = 46
     MaxLength = 4
@@ -256,7 +257,7 @@ object frmTroliJavitas: TfrmTroliJavitas
   end
   object edtKirakas_HO: TEdit
     Left = 211
-    Height = 23
+    Height = 28
     Top = 368
     Width = 30
     MaxLength = 2
@@ -264,7 +265,7 @@ object frmTroliJavitas: TfrmTroliJavitas
   end
   object edtKirakas_NAP: TEdit
     Left = 258
-    Height = 23
+    Height = 28
     Top = 368
     Width = 30
     MaxLength = 2
@@ -308,10 +309,10 @@ object frmTroliJavitas: TfrmTroliJavitas
   end
   object cmbTroliSorszam: TComboBox
     Left = 149
-    Height = 23
+    Height = 28
     Top = 63
     Width = 75
-    ItemHeight = 15
+    ItemHeight = 20
     Items.Strings = (
       ''
     )
@@ -322,7 +323,7 @@ object frmTroliJavitas: TfrmTroliJavitas
   end
   object edtTroliTipus: TEdit
     Left = 149
-    Height = 23
+    Height = 28
     Top = 104
     Width = 75
     ReadOnly = True

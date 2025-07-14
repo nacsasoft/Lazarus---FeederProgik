@@ -1,8 +1,8 @@
 { This is an automatically generated lazarus resource file }
 
 LazarusResources.Add('TfrmReports','FORMDATA',[
-  'TPF0'#11'TfrmReports'#10'frmReports'#4'Left'#3#216#1#6'Height'#3#140#2#3'Top'
-  +#3#170#0#5'Width'#3#255#2#18'HorzScrollBar.Page'#3#143#1#18'VertScrollBar.Pa'
+  'TPF0'#11'TfrmReports'#10'frmReports'#4'Left'#3'2'#3#6'Height'#3#140#2#3'Top'
+  +#3#223#0#5'Width'#3#255#2#18'HorzScrollBar.Page'#3#143#1#18'VertScrollBar.Pa'
   +'ge'#3'+'#1#11'BorderIcons'#11#12'biSystemMenu'#10'biMinimize'#0#11'BorderSt'
   +'yle'#7#8'bsSingle'#7'Caption'#6'8FeederStatistic - Jav'#195#173't'#195#161
   +'shoz felhaszn'#195#161'lt alkatr'#195#169'szek'#12'ClientHeight'#3#140#2#11
@@ -174,7 +174,7 @@ LazarusResources.Add('TfrmReports','FORMDATA',[
   +'IgKeyPress'#8'TabOrder'#2#1#0#0#7'TButton'#17'btnDS7iOsszesites'#4'Left'#2
   +''''#6'Height'#2#21#3'Top'#2'J'#5'Width'#2'W'#7'Caption'#6#9'Eredm'#195#169
   +'ny'#7'OnClick'#7#22'btnDS7iOsszesitesClick'#8'TabOrder'#2#2#0#0#0#0#9'TTabS'
-  +'heet'#14'tshDS7iSzerint'#7'Caption'#6#12'DS7i szerint'#12'ClientHeight'#3#12
+  +'heet'#14'tshDS7iSzerint'#7'Caption'#6#12'DS7i szerint'#12'ClientHeight'#3#7
   +#2#11'ClientWidth'#3#200#2#6'OnShow'#7#18'tshDS7iSzerintShow'#0#9'TGroupBox'
   +#10'GroupBox10'#4'Left'#2#19#6'Height'#3'5'#1#3'Top'#2'"'#5'Width'#3#173#1#7
   +'Caption'#6#28'Riport DS7i sz'#195#161'm szerint...'#12'ClientHeight'#3#28#1
@@ -184,20 +184,20 @@ LazarusResources.Add('TfrmReports','FORMDATA',[
   +#0#0#0#9'TGroupBox'#10'GroupBox11'#4'Left'#2#16#6'Height'#2'1'#3'Top'#2#9#5
   +'Width'#3'a'#1#7'Caption'#6#11'Id'#197#145'szak...'#12'ClientHeight'#2#24#11
   +'ClientWidth'#3']'#1#8'TabOrder'#2#1#0#6'TLabel'#7'Label25'#4'Left'#2'+'#6'H'
-  +'eight'#2#15#3'Top'#2#7#5'Width'#2#23#7'Caption'#6#7't'#195#179'l...'#11'Par'
+  +'eight'#2#20#3'Top'#2#7#5'Width'#2#27#7'Caption'#6#7't'#195#179'l...'#11'Par'
   +'entColor'#8#0#0#5'TEdit'#10'edtDS7iTol'#4'Left'#2'O'#6'Height'#2#21#3'Top'#2
   +#0#5'Width'#2'F'#8'AutoSize'#8#8'TabOrder'#2#0#0#0#6'TLabel'#7'Label26'#4'Le'
-  +'ft'#3#194#0#6'Height'#2#15#3'Top'#2#7#5'Width'#2#19#7'Caption'#6#5'ig...'#11
+  +'ft'#3#194#0#6'Height'#2#20#3'Top'#2#7#5'Width'#2#22#7'Caption'#6#5'ig...'#11
   +'ParentColor'#8#0#0#5'TEdit'#9'edtDS7iIg'#4'Left'#3#230#0#6'Height'#2#21#3'T'
   +'op'#2#0#5'Width'#2'F'#8'AutoSize'#8#8'TabOrder'#2#1#0#0#0#9'TGroupBox'#10'G'
   +'roupBox12'#4'Left'#2#16#6'Height'#3#173#0#3'Top'#2'Q'#5'Width'#3#139#1#7'Ca'
   +'ption'#6'4Lek'#195#169'rdez'#195#169'sben szerepl'#197#145' adagol'#195#179
   +'k szerkeszt'#195#169'se...'#12'ClientHeight'#3#148#0#11'ClientWidth'#3#135#1
-  ,#8'TabOrder'#2#2#0#6'TLabel'#7'Label27'#4'Left'#2#31#6'Height'#2#15#3'Top'#2
-  +#15#5'Width'#2#29#7'Caption'#6#6'DS7i :'#11'ParentColor'#8#0#0#5'TEdit'#7'ed'
+  ,#8'TabOrder'#2#2#0#6'TLabel'#7'Label27'#4'Left'#2#31#6'Height'#2#20#3'Top'#2
+  +#15#5'Width'#2'&'#7'Caption'#6#6'DS7i :'#11'ParentColor'#8#0#0#5'TEdit'#7'ed'
   +'tDS7i'#4'Left'#2'>'#6'Height'#2#21#3'Top'#2#8#5'Width'#2'Y'#8'AutoSize'#8#10
   +'OnKeyPress'#7#15'edtDS7iKeyPress'#8'TabOrder'#2#0#0#0#6'TLabel'#7'Label28'#4
-  +'Left'#3#200#0#6'Height'#2#15#3'Top'#2#8#5'Width'#3#181#0#7'Caption'#6'%Lek'
+  +'Left'#3#200#0#6'Height'#2#20#3'Top'#2#8#5'Width'#3#232#0#7'Caption'#6'%Lek'
   +#195#169'rdez'#195#169'sben szerepl'#197#145' adagol'#195#179'k :'#11'Parent'
   +'Color'#8#0#0#8'TListBox'#15'lstDs7iAdagolok'#4'Left'#3#187#0#6'Height'#2'q'
   +#3'Top'#2#29#5'Width'#3#192#0#10'ItemHeight'#2#0#6'Sorted'#9#8'TabOrder'#2#1
@@ -214,105 +214,106 @@ LazarusResources.Add('TfrmReports','FORMDATA',[
   +'zes'#4'Hint'#6'qA riportban szerepl'#197#145' feedereket alaposan '#195#161
   +'t kell vizsg'#195#161'lni, ugyanis egy h'#195#169'ten bel'#195#188'l m'#195
   +#161'r 3x jav'#195#173'tva lettek!'#7'Caption'#6#20'Feeder ellen'#195#182'rz'
-  +#195#169's!'#12'ClientHeight'#3#12#2#11'ClientWidth'#3#200#2#6'OnShow'#7#23
-  +'tshFeederEllenorzesShow'#14'ParentShowHint'#8#8'ShowHint'#9#0#9'TGroupBox'
-  +#10'GroupBox13'#4'Left'#2'*'#6'Height'#3#137#0#3'Top'#2'+'#5'Width'#3#216#0#7
-  +'Caption'#6#22'Riport k'#195#169'sz'#195#173't'#195#169'se...'#12'ClientHeig'
-  +'ht'#2'p'#11'ClientWidth'#3#212#0#8'TabOrder'#2#0#0#7'TButton'#23'btnRiport_'
-  +'min_3_javitas'#4'Left'#2'8'#6'Height'#2#29#3'Top'#2'*'#5'Width'#2'f'#7'Capt'
-  +'ion'#6#9'Riport...'#7'OnClick'#7#28'btnRiport_min_3_javitasClick'#8'TabOrde'
-  +'r'#2#0#0#0#0#9'TGroupBox'#10'GroupBox14'#4'Left'#3'<'#1#6'Height'#3#137#0#3
-  +'Top'#2'+'#5'Width'#3#216#0#7'Caption'#6#25'Feederek ellen'#195#182'rz'#195
-  +#169'se...'#12'ClientHeight'#2'p'#11'ClientWidth'#3#212#0#8'TabOrder'#2#1#0#7
-  +'TButton'#16'btnEllenorzes_OK'#4'Left'#2'.'#6'Height'#2#29#3'Top'#2'*'#5'Wid'
-  +'th'#3#134#0#7'Caption'#6#26'Ellen'#195#182'rz'#195#169's megt'#195#182'rt'
-  +#195#169'nt!'#7'OnClick'#7#21'btnEllenorzes_OKClick'#8'TabOrder'#2#0#0#0#0#0
-  +#9'TTabSheet'#9'TabSheet4'#7'Caption'#6#19'Riportok excelbe...'#12'ClientHei'
-  +'ght'#3#12#2#11'ClientWidth'#3#200#2#10'TabVisible'#8#0#9'TGroupBox'#10'Grou'
-  +'pBox15'#4'Left'#2#28#6'Height'#2'1'#3'Top'#2'"'#5'Width'#3'a'#1#7'Caption'#6
-  +#11'Id'#197#145'szak...'#12'ClientHeight'#2#24#11'ClientWidth'#3']'#1#8'TabO'
-  +'rder'#2#0#0#6'TLabel'#7'Label29'#4'Left'#2'+'#6'Height'#2#15#3'Top'#2#7#5'W'
-  +'idth'#2#23#7'Caption'#6#7't'#195#179'l...'#11'ParentColor'#8#0#0#5'TEdit'#11
-  +'edtChartTol'#4'Left'#2'O'#6'Height'#2#21#3'Top'#2#0#5'Width'#2'F'#8'AutoSiz'
-  +'e'#8#8'TabOrder'#2#0#0#0#6'TLabel'#7'Label30'#4'Left'#3#194#0#6'Height'#2#15
-  +#3'Top'#2#7#5'Width'#2#19#7'Caption'#6#5'ig...'#11'ParentColor'#8#0#0#5'TEdi'
-  +'t'#10'edtChartIg'#4'Left'#3#230#0#6'Height'#2#21#3'Top'#2#0#5'Width'#2'F'#8
-  +'AutoSize'#8#8'TabOrder'#2#1#0#0#0#7'TButton'#24'btnFeedercserekSoronkent'#4
-  +'Left'#2#28#6'Height'#2'('#3'Top'#2'r'#5'Width'#3#224#0#7'Caption'#6'.Feeder'
-  +'cser'#195#169'k soronk'#195#169'nt grafikon k'#195#169'sz'#195#173't'#195
-  +#169'se'#7'OnClick'#7#29'btnFeedercserekSoronkentClick'#8'TabOrder'#2#1#0#0#0
-  +#9'TTabSheet'#16'tshTroliRiportok'#7'Caption'#6#23'Feederkocsi jav'#195#173
-  +'t'#195#161'sok'#12'ClientHeight'#3#12#2#11'ClientWidth'#3#200#2#6'OnShow'#7
-  +#20'tshTroliRiportokShow'#0#9'TGroupBox'#10'GroupBox16'#4'Left'#2#12#6'Heigh'
-  +'t'#2'~'#3'Top'#2#26#5'Width'#3#177#0#7'Caption'#6#31'Troli jav'#195#173't'
-  +#195#161'sok - full riport'#12'ClientHeight'#2'e'#11'ClientWidth'#3#173#0#8
-  +'TabOrder'#2#0#0#6'TLabel'#7'Label21'#4'Left'#2#26#6'Height'#2#15#3'Top'#2#14
-  +#5'Width'#2#23#7'Caption'#6#7't'#195#179'l...'#11'ParentColor'#8#0#0#6'TLabe'
-  +'l'#7'Label22'#4'Left'#2#26#6'Height'#2#15#3'Top'#2'+'#5'Width'#2#19#7'Capti'
-  +'on'#6#5'ig...'#11'ParentColor'#8#0#0#5'TEdit'#11'edtTroliTol'#4'Left'#2'>'#6
-  +'Height'#2#21#3'Top'#2#7#5'Width'#2'F'#8'AutoSize'#8#10'OnKeyPress'#7#19'edt'
-  +'TroliTolKeyPress'#8'TabOrder'#2#0#0#0#5'TEdit'#10'edtTroliIg'#4'Left'#2'>'#6
-  +'Height'#2#21#3'Top'#2'$'#5'Width'#2'F'#8'AutoSize'#8#10'OnKeyPress'#7#18'ed'
-  +'tTroliIgKeyPress'#8'TabOrder'#2#1#0#0#7'TButton'#18'btnTroliFullRiport'#4'L'
-  +'eft'#2'('#6'Height'#2#21#3'Top'#2'H'#5'Width'#2'W'#7'Caption'#6#9'Eredm'#195
-  +#169'ny'#7'OnClick'#7#23'btnTroliFullRiportClick'#8'TabOrder'#2#2#0#0#0#0#9
-  +'TTabSheet'#14'tshEgyebMunkak'#7'Caption'#6#14'Egy'#195#169'b munk'#195#161
-  ,'k'#12'ClientHeight'#3#12#2#11'ClientWidth'#3#200#2#0#9'TGroupBox'#10'GroupB'
-  +'ox17'#4'Left'#2#12#6'Height'#2'~'#3'Top'#2#26#5'Width'#3#177#0#7'Caption'#6
-  +#17'Egy'#195#169'b munk'#195#161'k...'#12'ClientHeight'#2'e'#11'ClientWidth'
-  +#3#173#0#8'TabOrder'#2#0#0#6'TLabel'#7'Label23'#4'Left'#2#26#6'Height'#2#15#3
-  +'Top'#2#14#5'Width'#2#23#7'Caption'#6#7't'#195#179'l...'#11'ParentColor'#8#0
-  +#0#6'TLabel'#7'Label24'#4'Left'#2#26#6'Height'#2#15#3'Top'#2'+'#5'Width'#2#19
-  +#7'Caption'#6#5'ig...'#11'ParentColor'#8#0#0#5'TEdit'#17'edtEgyebMunkakTol'#4
-  +'Left'#2'>'#6'Height'#2#21#3'Top'#2#7#5'Width'#2'F'#8'AutoSize'#8#10'OnKeyPr'
-  +'ess'#7#25'edtEgyebMunkakTolKeyPress'#8'TabOrder'#2#0#0#0#5'TEdit'#16'edtEgy'
-  +'ebMunkakIg'#4'Left'#2'>'#6'Height'#2#21#3'Top'#2'$'#5'Width'#2'F'#8'AutoSiz'
-  +'e'#8#10'OnKeyPress'#7#24'edtEgyebMunkakIgKeyPress'#8'TabOrder'#2#1#0#0#7'TB'
-  +'utton'#20'btnEgyebMunkakRiport'#4'Left'#2''''#6'Height'#2#21#3'Top'#2'J'#5
-  +'Width'#2'W'#7'Caption'#6#9'Eredm'#195#169'ny'#7'OnClick'#7#25'btnEgyebMunka'
-  +'kRiportClick'#8'TabOrder'#2#2#0#0#0#0#9'TTabSheet'#9'TabSheet1'#7'Caption'#6
-  +#17'Magazin jav'#195#173't'#195#161's'#12'ClientHeight'#3#12#2#11'ClientWidt'
-  +'h'#3#200#2#0#9'TGroupBox'#10'GroupBox18'#4'Left'#2'<'#6'Height'#2'~'#3'Top'
-  +#2' '#5'Width'#3#177#0#7'Caption'#6'!Magazin jav'#195#173't'#195#161'sok - f'
-  +'ull riport'#12'ClientHeight'#2'e'#11'ClientWidth'#3#173#0#8'TabOrder'#2#0#0
-  +#6'TLabel'#7'Label31'#4'Left'#2#26#6'Height'#2#15#3'Top'#2#14#5'Width'#2#23#7
-  +'Caption'#6#7't'#195#179'l...'#11'ParentColor'#8#0#0#6'TLabel'#7'Label32'#4
-  +'Left'#2#26#6'Height'#2#15#3'Top'#2'+'#5'Width'#2#19#7'Caption'#6#5'ig...'#11
-  +'ParentColor'#8#0#0#5'TEdit'#13'edtMagazinTol'#4'Left'#2'>'#6'Height'#2#21#3
-  +'Top'#2#7#5'Width'#2'F'#8'AutoSize'#8#10'OnKeyPress'#7#21'edtMagazinTolKeyPr'
-  +'ess'#8'TabOrder'#2#0#0#0#5'TEdit'#12'edtMagazinIg'#4'Left'#2'>'#6'Height'#2
-  +#21#3'Top'#2'$'#5'Width'#2'F'#8'AutoSize'#8#10'OnKeyPress'#7#20'edtMagazinIg'
-  +'KeyPress'#8'TabOrder'#2#1#0#0#7'TButton'#20'btnMagazinFullRiport'#4'Left'#2
-  +''''#6'Height'#2#21#3'Top'#2'J'#5'Width'#2'W'#7'Caption'#6#9'Eredm'#195#169
-  +'ny'#7'OnClick'#7#25'btnMagazinFullRiportClick'#8'TabOrder'#2#2#0#0#0#0#9'TT'
-  +'abSheet'#9'tpmFeeder'#7'Caption'#6#10'TPM Feeder'#12'ClientHeight'#3#12#2#11
-  +'ClientWidth'#3#200#2#0#9'TGroupBox'#9'GroupBox4'#4'Left'#2#30#6'Height'#3
-  +#155#0#3'Top'#2'*'#5'Width'#3#154#0#7'Caption'#6#23'TPM Oper'#195#161'torok '
-  +'munk'#195#161'i'#12'ClientHeight'#3#130#0#11'ClientWidth'#3#150#0#8'TabOrde'
-  +'r'#2#0#0#6'TLabel'#7'Label33'#4'Left'#2#24#6'Height'#2#15#3'Top'#2#31#5'Wid'
-  +'th'#2#23#7'Caption'#6#7't'#195#179'l...'#11'ParentColor'#8#0#0#6'TLabel'#7
-  +'Label34'#4'Left'#2#24#6'Height'#2#15#3'Top'#2'<'#5'Width'#2#19#7'Caption'#6
-  +#5'ig...'#11'ParentColor'#8#0#0#5'TEdit'#19'edtTPMOperatorokTol'#4'Left'#2'<'
-  +#6'Height'#2#21#3'Top'#2#24#5'Width'#2'F'#8'AutoSize'#8#10'OnKeyPress'#7#27
-  +'edtTPMOperatorokTolKeyPress'#8'TabOrder'#2#0#0#0#5'TEdit'#18'edtTPMOperator'
-  +'okIg'#4'Left'#2'<'#6'Height'#2#21#3'Top'#2'5'#5'Width'#2'F'#8'AutoSize'#8#10
-  +'OnKeyPress'#7#26'edtTPMOperatorokIgKeyPress'#8'TabOrder'#2#1#0#0#7'TButton'
-  +#25'btnOperatorokMunkaiRiport'#4'Left'#2'%'#6'Height'#2#21#3'Top'#2'['#5'Wid'
-  +'th'#2'W'#7'Caption'#6#9'Eredm'#195#169'ny'#7'OnClick'#7#30'btnOperatorokMun'
-  +'kaiRiportClick'#8'TabOrder'#2#2#0#0#0#9'TGroupBox'#10'GroupBox19'#4'Left'#3
-  +#224#0#6'Height'#3#155#0#3'Top'#2'*'#5'Width'#3#154#0#7'Caption'#6#22'Preven'
-  +'t'#195#173'vesek munk'#195#161'i'#12'ClientHeight'#3#130#0#11'ClientWidth'#3
-  +#150#0#8'TabOrder'#2#1#0#6'TLabel'#7'Label35'#4'Left'#2#24#6'Height'#2#15#3
-  +'Top'#2#31#5'Width'#2#23#7'Caption'#6#7't'#195#179'l...'#11'ParentColor'#8#0
-  +#0#6'TLabel'#7'Label36'#4'Left'#2#24#6'Height'#2#15#3'Top'#2'<'#5'Width'#2#19
-  +#7'Caption'#6#5'ig...'#11'ParentColor'#8#0#0#5'TEdit'#19'edtPreventivesekTol'
-  +#4'Left'#2'<'#6'Height'#2#21#3'Top'#2#24#5'Width'#2'F'#8'AutoSize'#8#10'OnKe'
-  +'yPress'#7#27'edtPreventivesekTolKeyPress'#8'TabOrder'#2#0#0#0#5'TEdit'#18'e'
-  +'dtPreventivesekIg'#4'Left'#2'<'#6'Height'#2#21#3'Top'#2'5'#5'Width'#2'F'#8
-  +'AutoSize'#8#10'OnKeyPress'#7#26'edtPreventivesekIgKeyPress'#8'TabOrder'#2#1
-  +#0#0#7'TButton'#28'btnPreventivesekMunkaiRiport'#4'Left'#2'%'#6'Height'#2#21
-  +#3'Top'#2'['#5'Width'#2'W'#7'Caption'#6#9'Eredm'#195#169'ny'#7'OnClick'#7'!b'
-  +'tnPreventivesekMunkaiRiportClick'#8'TabOrder'#2#2#0#0#0#0#0#15'TSqlite3Data'
-  +'set'#15'Sqlite3Dataset1'#16'AutoIncrementKey'#9#4'left'#2'B'#3'top'#3'q'#2#0
-  +#0#11'TDataSource'#11'Datasource1'#4'left'#2'!'#3'top'#3'q'#2#0#0#0
+  +#195#169's!'#12'ClientHeight'#3#7#2#11'ClientWidth'#3#200#2#6'OnShow'#7#23't'
+  +'shFeederEllenorzesShow'#14'ParentShowHint'#8#8'ShowHint'#9#0#9'TGroupBox'#10
+  +'GroupBox13'#4'Left'#2'*'#6'Height'#3#137#0#3'Top'#2'+'#5'Width'#3#216#0#7'C'
+  +'aption'#6#22'Riport k'#195#169'sz'#195#173't'#195#169'se...'#12'ClientHeigh'
+  +'t'#2'p'#11'ClientWidth'#3#212#0#8'TabOrder'#2#0#0#7'TButton'#23'btnRiport_m'
+  +'in_3_javitas'#4'Left'#2'8'#6'Height'#2#29#3'Top'#2'*'#5'Width'#2'f'#7'Capti'
+  +'on'#6#9'Riport...'#7'OnClick'#7#28'btnRiport_min_3_javitasClick'#8'TabOrder'
+  +#2#0#0#0#0#9'TGroupBox'#10'GroupBox14'#4'Left'#3'<'#1#6'Height'#3#137#0#3'To'
+  +'p'#2'+'#5'Width'#3#216#0#7'Caption'#6#25'Feederek ellen'#195#182'rz'#195#169
+  +'se...'#12'ClientHeight'#2'p'#11'ClientWidth'#3#212#0#8'TabOrder'#2#1#0#7'TB'
+  +'utton'#16'btnEllenorzes_OK'#4'Left'#2'.'#6'Height'#2#29#3'Top'#2'*'#5'Width'
+  +#3#134#0#7'Caption'#6#26'Ellen'#195#182'rz'#195#169's megt'#195#182'rt'#195
+  +#169'nt!'#7'OnClick'#7#21'btnEllenorzes_OKClick'#8'TabOrder'#2#0#0#0#0#0#9'T'
+  +'TabSheet'#9'TabSheet4'#7'Caption'#6#19'Riportok excelbe...'#12'ClientHeight'
+  +#3#7#2#11'ClientWidth'#3#200#2#10'TabVisible'#8#0#9'TGroupBox'#10'GroupBox15'
+  +#4'Left'#2#28#6'Height'#2'1'#3'Top'#2'"'#5'Width'#3'a'#1#7'Caption'#6#11'Id'
+  +#197#145'szak...'#12'ClientHeight'#2#24#11'ClientWidth'#3']'#1#8'TabOrder'#2
+  +#0#0#6'TLabel'#7'Label29'#4'Left'#2'+'#6'Height'#2#20#3'Top'#2#7#5'Width'#2
+  +#27#7'Caption'#6#7't'#195#179'l...'#11'ParentColor'#8#0#0#5'TEdit'#11'edtCha'
+  +'rtTol'#4'Left'#2'O'#6'Height'#2#21#3'Top'#2#0#5'Width'#2'F'#8'AutoSize'#8#8
+  +'TabOrder'#2#0#0#0#6'TLabel'#7'Label30'#4'Left'#3#194#0#6'Height'#2#20#3'Top'
+  +#2#7#5'Width'#2#22#7'Caption'#6#5'ig...'#11'ParentColor'#8#0#0#5'TEdit'#10'e'
+  +'dtChartIg'#4'Left'#3#230#0#6'Height'#2#21#3'Top'#2#0#5'Width'#2'F'#8'AutoSi'
+  +'ze'#8#8'TabOrder'#2#1#0#0#0#7'TButton'#24'btnFeedercserekSoronkent'#4'Left'
+  +#2#28#6'Height'#2'('#3'Top'#2'r'#5'Width'#3#224#0#7'Caption'#6'.Feedercser'
+  +#195#169'k soronk'#195#169'nt grafikon k'#195#169'sz'#195#173't'#195#169'se'
+  +#7'OnClick'#7#29'btnFeedercserekSoronkentClick'#8'TabOrder'#2#1#0#0#0#9'TTab'
+  +'Sheet'#16'tshTroliRiportok'#7'Caption'#6#23'Feederkocsi jav'#195#173't'#195
+  +#161'sok'#12'ClientHeight'#3#7#2#11'ClientWidth'#3#200#2#6'OnShow'#7#20'tshT'
+  +'roliRiportokShow'#0#9'TGroupBox'#10'GroupBox16'#4'Left'#2#12#6'Height'#2'~'
+  +#3'Top'#2#26#5'Width'#3#177#0#7'Caption'#6#31'Troli jav'#195#173't'#195#161
+  +'sok - full riport'#12'ClientHeight'#2'e'#11'ClientWidth'#3#173#0#8'TabOrder'
+  +#2#0#0#6'TLabel'#7'Label21'#4'Left'#2#26#6'Height'#2#20#3'Top'#2#14#5'Width'
+  +#2#27#7'Caption'#6#7't'#195#179'l...'#11'ParentColor'#8#0#0#6'TLabel'#7'Labe'
+  +'l22'#4'Left'#2#26#6'Height'#2#20#3'Top'#2'+'#5'Width'#2#22#7'Caption'#6#5'i'
+  +'g...'#11'ParentColor'#8#0#0#5'TEdit'#11'edtTroliTol'#4'Left'#2'>'#6'Height'
+  +#2#21#3'Top'#2#7#5'Width'#2'F'#8'AutoSize'#8#10'OnKeyPress'#7#19'edtTroliTol'
+  +'KeyPress'#8'TabOrder'#2#0#0#0#5'TEdit'#10'edtTroliIg'#4'Left'#2'>'#6'Height'
+  +#2#21#3'Top'#2'$'#5'Width'#2'F'#8'AutoSize'#8#10'OnKeyPress'#7#18'edtTroliIg'
+  +'KeyPress'#8'TabOrder'#2#1#0#0#7'TButton'#18'btnTroliFullRiport'#4'Left'#2'('
+  +#6'Height'#2#21#3'Top'#2'H'#5'Width'#2'W'#7'Caption'#6#9'Eredm'#195#169'ny'#7
+  +'OnClick'#7#23'btnTroliFullRiportClick'#8'TabOrder'#2#2#0#0#0#0#9'TTabSheet'
+  +#14'tshEgyebMunkak'#7'Caption'#6#14'Egy'#195#169'b munk'#195#161'k'#12'Clien'
+  ,'tHeight'#3#7#2#11'ClientWidth'#3#200#2#0#9'TGroupBox'#10'GroupBox17'#4'Left'
+  +#2#12#6'Height'#2'~'#3'Top'#2#26#5'Width'#3#177#0#7'Caption'#6#17'Egy'#195
+  +#169'b munk'#195#161'k...'#12'ClientHeight'#2'e'#11'ClientWidth'#3#173#0#8'T'
+  +'abOrder'#2#0#0#6'TLabel'#7'Label23'#4'Left'#2#26#6'Height'#2#20#3'Top'#2#14
+  +#5'Width'#2#27#7'Caption'#6#7't'#195#179'l...'#11'ParentColor'#8#0#0#6'TLabe'
+  +'l'#7'Label24'#4'Left'#2#26#6'Height'#2#20#3'Top'#2'+'#5'Width'#2#22#7'Capti'
+  +'on'#6#5'ig...'#11'ParentColor'#8#0#0#5'TEdit'#17'edtEgyebMunkakTol'#4'Left'
+  +#2'>'#6'Height'#2#21#3'Top'#2#7#5'Width'#2'F'#8'AutoSize'#8#10'OnKeyPress'#7
+  +#25'edtEgyebMunkakTolKeyPress'#8'TabOrder'#2#0#0#0#5'TEdit'#16'edtEgyebMunka'
+  +'kIg'#4'Left'#2'>'#6'Height'#2#21#3'Top'#2'$'#5'Width'#2'F'#8'AutoSize'#8#10
+  +'OnKeyPress'#7#24'edtEgyebMunkakIgKeyPress'#8'TabOrder'#2#1#0#0#7'TButton'#20
+  +'btnEgyebMunkakRiport'#4'Left'#2''''#6'Height'#2#21#3'Top'#2'J'#5'Width'#2'W'
+  +#7'Caption'#6#9'Eredm'#195#169'ny'#7'OnClick'#7#25'btnEgyebMunkakRiportClick'
+  +#8'TabOrder'#2#2#0#0#0#0#9'TTabSheet'#9'TabSheet1'#7'Caption'#6#17'Magazin j'
+  +'av'#195#173't'#195#161's'#12'ClientHeight'#3#7#2#11'ClientWidth'#3#200#2#0#9
+  +'TGroupBox'#10'GroupBox18'#4'Left'#2'<'#6'Height'#2'~'#3'Top'#2' '#5'Width'#3
+  +#177#0#7'Caption'#6'!Magazin jav'#195#173't'#195#161'sok - full riport'#12'C'
+  +'lientHeight'#2'e'#11'ClientWidth'#3#173#0#8'TabOrder'#2#0#0#6'TLabel'#7'Lab'
+  +'el31'#4'Left'#2#26#6'Height'#2#20#3'Top'#2#14#5'Width'#2#27#7'Caption'#6#7
+  +'t'#195#179'l...'#11'ParentColor'#8#0#0#6'TLabel'#7'Label32'#4'Left'#2#26#6
+  +'Height'#2#20#3'Top'#2'+'#5'Width'#2#22#7'Caption'#6#5'ig...'#11'ParentColor'
+  +#8#0#0#5'TEdit'#13'edtMagazinTol'#4'Left'#2'>'#6'Height'#2#21#3'Top'#2#7#5'W'
+  +'idth'#2'F'#8'AutoSize'#8#10'OnKeyPress'#7#21'edtMagazinTolKeyPress'#8'TabOr'
+  +'der'#2#0#0#0#5'TEdit'#12'edtMagazinIg'#4'Left'#2'>'#6'Height'#2#21#3'Top'#2
+  +'$'#5'Width'#2'F'#8'AutoSize'#8#10'OnKeyPress'#7#20'edtMagazinIgKeyPress'#8
+  +'TabOrder'#2#1#0#0#7'TButton'#20'btnMagazinFullRiport'#4'Left'#2''''#6'Heigh'
+  +'t'#2#21#3'Top'#2'J'#5'Width'#2'W'#7'Caption'#6#9'Eredm'#195#169'ny'#7'OnCli'
+  +'ck'#7#25'btnMagazinFullRiportClick'#8'TabOrder'#2#2#0#0#0#0#9'TTabSheet'#9
+  +'tpmFeeder'#7'Caption'#6#10'TPM Feeder'#12'ClientHeight'#3#7#2#11'ClientWidt'
+  +'h'#3#200#2#0#9'TGroupBox'#9'GroupBox4'#4'Left'#2#30#6'Height'#3#155#0#3'Top'
+  +#2'*'#5'Width'#3#154#0#7'Caption'#6#23'TPM Oper'#195#161'torok munk'#195#161
+  +'i'#12'ClientHeight'#3#130#0#11'ClientWidth'#3#150#0#8'TabOrder'#2#0#0#6'TLa'
+  +'bel'#7'Label33'#4'Left'#2#24#6'Height'#2#20#3'Top'#2#31#5'Width'#2#27#7'Cap'
+  +'tion'#6#7't'#195#179'l...'#11'ParentColor'#8#0#0#6'TLabel'#7'Label34'#4'Lef'
+  +'t'#2#24#6'Height'#2#20#3'Top'#2'<'#5'Width'#2#22#7'Caption'#6#5'ig...'#11'P'
+  +'arentColor'#8#0#0#5'TEdit'#19'edtTPMOperatorokTol'#4'Left'#2'<'#6'Height'#2
+  +#21#3'Top'#2#24#5'Width'#2'F'#8'AutoSize'#8#10'OnKeyPress'#7#27'edtTPMOperat'
+  +'orokTolKeyPress'#8'TabOrder'#2#0#0#0#5'TEdit'#18'edtTPMOperatorokIg'#4'Left'
+  +#2'<'#6'Height'#2#21#3'Top'#2'5'#5'Width'#2'F'#8'AutoSize'#8#10'OnKeyPress'#7
+  +#26'edtTPMOperatorokIgKeyPress'#8'TabOrder'#2#1#0#0#7'TButton'#25'btnOperato'
+  +'rokMunkaiRiport'#4'Left'#2'%'#6'Height'#2#21#3'Top'#2'['#5'Width'#2'W'#7'Ca'
+  +'ption'#6#9'Eredm'#195#169'ny'#7'OnClick'#7#30'btnOperatorokMunkaiRiportClic'
+  +'k'#8'TabOrder'#2#2#0#0#0#9'TGroupBox'#10'GroupBox19'#4'Left'#3#224#0#6'Heig'
+  +'ht'#3#155#0#3'Top'#2'*'#5'Width'#3#154#0#7'Caption'#6#22'Prevent'#195#173'v'
+  +'esek munk'#195#161'i'#12'ClientHeight'#3#130#0#11'ClientWidth'#3#150#0#8'Ta'
+  +'bOrder'#2#1#0#6'TLabel'#7'Label35'#4'Left'#2#24#6'Height'#2#20#3'Top'#2#31#5
+  +'Width'#2#27#7'Caption'#6#7't'#195#179'l...'#11'ParentColor'#8#0#0#6'TLabel'
+  +#7'Label36'#4'Left'#2#24#6'Height'#2#20#3'Top'#2'<'#5'Width'#2#22#7'Caption'
+  +#6#5'ig...'#11'ParentColor'#8#0#0#5'TEdit'#19'edtPreventivesekTol'#4'Left'#2
+  +'<'#6'Height'#2#21#3'Top'#2#24#5'Width'#2'F'#8'AutoSize'#8#10'OnKeyPress'#7
+  +#27'edtPreventivesekTolKeyPress'#8'TabOrder'#2#0#0#0#5'TEdit'#18'edtPreventi'
+  +'vesekIg'#4'Left'#2'<'#6'Height'#2#21#3'Top'#2'5'#5'Width'#2'F'#8'AutoSize'#8
+  +#10'OnKeyPress'#7#26'edtPreventivesekIgKeyPress'#8'TabOrder'#2#1#0#0#7'TButt'
+  +'on'#28'btnPreventivesekMunkaiRiport'#4'Left'#2'%'#6'Height'#2#21#3'Top'#2'['
+  +#5'Width'#2'W'#7'Caption'#6#9'Eredm'#195#169'ny'#7'OnClick'#7'!btnPreventive'
+  +'sekMunkaiRiportClick'#8'TabOrder'#2#2#0#0#0#0#0#15'TSqlite3Dataset'#15'Sqli'
+  +'te3Dataset1'#16'AutoIncrementKey'#9#4'left'#2'B'#3'top'#3'q'#2#0#0#11'TData'
+  +'Source'#11'Datasource1'#7'DataSet'#7#15'Sqlite3Dataset1'#4'left'#2'!'#3'top'
+  +#3'q'#2#0#0#0
 ]);

@@ -276,6 +276,7 @@ begin
             FieldByName('lepesszam1').AsInteger := iLepes1;
             FieldByName('lepesszam2').AsInteger := iLepes2;
             FieldByName('lepesszam3').AsInteger := iLepes3;
+            FieldByName('sorozatszam').AsString := gsSorozatszam;
             Post;
             ApplyUpdates;
             dbClose(myDataset);
@@ -679,7 +680,7 @@ begin
       sSQL := sSQL + 'repair.lepesszam2,repair.lepesszam3,users.id,users.u_name ';
       sSQL := sSQL + 'from repair,users ';
       sSQL := sSQL + 'where ds7i="' + DS7i + '" and r_end = 1 and r_type = ' + IntToStr(iFeederType);
-      sSQL := sSQL + ' and users.id = repair.u_id order by repair.id;';
+      sSQL := sSQL + ' and users.id = repair.u_id order by repair.id desc;';
 
       dbUpdate(myDataset,	sSQL);
       iRows := myDataset.RecordCount;

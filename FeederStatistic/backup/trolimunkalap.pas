@@ -330,12 +330,11 @@ begin
 
   //Ha preventiv volt a trolin akkor frissiteni kell a trolley_preventive -tablat is az aktualis heten!!
      try
-        writeLogMessage('Troli preventív bejegyzése...');
+        //writeLogMessage('Troli preventív bejegyzése...');
         if (chkTroliPreventiv.Checked) then
           begin
             myDataset := dbConnect('trolley_preventive','update trolley_preventive set tr_p_ok = 1 ' +
               'where tr_p_ds7i = "' + IntToStr(iTroliNumber) + '" and tr_p_week = ' + IntToStr(wWeekNum) + ';','id');
-            //if (myDataset.RecordCount < 1) then ShowMessage('BUMM:::');
             dbClose(myDataset);
           end;
     except
@@ -349,7 +348,7 @@ begin
                sInfo:=sInfo+'true'
              else
                 sInfo:=sInfo+'false';
-             writeLogMessage(sInfo);
+             //writeLogMessage(sInfo);
          end;
     end;
 
@@ -411,7 +410,7 @@ begin
     worksDataset := dbConnect('trolley_works','select * from trolley_works','id');
     partsDataset := dbConnect('used_trolley_parts','select * from used_trolley_parts','id');
 
-    //Ha van az adott hetre preventive ehez a trolihoz akkor mehet a pipa...
+    //Ha van az adott hétre preventive ehez a trolihoz akkor mehet a pipa...
     bTroliPreventive := false;
     preventiveDataset := dbConnect('trolley_preventive','select * from trolley_preventive where tr_p_week = ' +
       IntToStr(wWeekNum) + ' and tr_p_ds7i = "' + IntToStr(iTroliNumber) + '" and tr_p_ok = 0;','id');
@@ -451,7 +450,7 @@ begin
     		//DS7i-hez tartozó lezárt munkalapok :
         dbUpdate(myDataset,'select trolley_repair.id as rep_id,trolley_repair.tr_ds7i,trolley_repair.tr_date,' +
         	'trolley_repair.tr_comment,trolley_repair.tr_preventiv,users.id,users.u_name from trolley_repair,users where tr_ds7i="' +
-        		DS7i + '" and tr_end = 1 and users.id = trolley_repair.u_id order by trolley_repair.id;');
+        		DS7i + '" and tr_end = 1 and users.id = trolley_repair.u_id order by trolley_repair.id desc;');
         myDataset.First;
         iRows := myDataset.RecordCount;
 

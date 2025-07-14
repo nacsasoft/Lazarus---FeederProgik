@@ -1,7 +1,7 @@
 object frmLogin: TfrmLogin
-  Left = 465
+  Left = 726
   Height = 193
-  Top = 335
+  Top = 363
   Width = 400
   ActiveControl = cmbUsers
   BorderIcons = [biSystemMenu, biMinimize]
@@ -9,15 +9,16 @@ object frmLogin: TfrmLogin
   Caption = 'FeederStatistic - Bejelentkezés'
   ClientHeight = 193
   ClientWidth = 400
+  DesignTimePPI = 120
   OnClose = FormClose
   OnShow = FormCreate
   Position = poScreenCenter
-  LCLVersion = '0.9.31'
+  LCLVersion = '1.8.4.0'
   object Label1: TLabel
     Left = 30
-    Height = 20
+    Height = 21
     Top = 39
-    Width = 113
+    Width = 102
     Caption = 'Felhasználó : '
     Font.Height = -16
     Font.Style = [fsBold]
@@ -26,9 +27,9 @@ object frmLogin: TfrmLogin
   end
   object Label2: TLabel
     Left = 30
-    Height = 20
+    Height = 21
     Top = 80
-    Width = 67
+    Width = 58
     Caption = 'Jelszó : '
     Font.Height = -16
     Font.Style = [fsBold]
@@ -37,14 +38,14 @@ object frmLogin: TfrmLogin
   end
   object cmbUsers: TComboBox
     Left = 160
-    Height = 27
+    Height = 29
     Top = 39
     Width = 202
     AutoComplete = True
     AutoCompleteText = [cbactEnabled, cbactEndOfLineComplete, cbactSearchAscending]
     Font.Height = -16
     Font.Style = [fsBold]
-    ItemHeight = 19
+    ItemHeight = 21
     ParentFont = False
     TabOrder = 0
   end
@@ -72,7 +73,7 @@ object frmLogin: TfrmLogin
   end
   object edtJelszo: TEdit
     Left = 160
-    Height = 27
+    Height = 29
     Top = 79
     Width = 198
     EchoMode = emPassword

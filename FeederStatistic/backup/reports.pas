@@ -1350,7 +1350,7 @@ begin
 				    Memo1.Clear;
 	          //Copy Fieldnames First
             Memo1.Lines.Add(cmbFeederJavitok.Text + ' feederjavító munkái');
-	          S := 'Dátum' + Delim + 'DS7i' + Delim + 'Megjegyzés';
+	          S := 'Dátum' + Delim + 'DS7i' + Delim + 'Megjegyzés' + Delim + 'Típus';
             Memo1.Lines.Add(S);
 	          repeat
 		          with Sqlite3Dataset1 do

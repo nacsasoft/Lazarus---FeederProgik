@@ -26,6 +26,7 @@ var
    	userName:         	string;  	//Felhasználó teljes neve
    	userDB_ID:        	integer; 	//Felhasználó adatbázis id-je
    	DS7i:             	string;  	//Adagoló,troli DS7i azonosítója
+    gsSorozatszam       string;   //Feeder sorozatszáma....
     iTroliTipus:				integer;	//Troli típusa (0=S,F ; 1=HS ; 2=X)
     sTroliTipus:				string;		//Troli típusa...
    	iFeederType:				integer;	//Feeder típusa :
@@ -69,7 +70,8 @@ var
     sOperatorWDNum:   string;   //Operátor azonosító (Csak szám!!)
     sOperatorName:		string;		//Operátor neve...(vagy ahonnét ki lett rakva a feeder)
     iTroliPosition:		Integer;	//A erről az oldaláról vették le a trolit.
-    iTroliNumber:     Integer;  //A troli sorszáma!! (a preventív miatt szükséges!)
+    iTroliNumber:     Integer;  //Troli ID !! (a preventív miatt szükséges!)
+    sTroliNumber:     string;   //Troli sorszáma (nem ds7i!)
 
     iChartType:				integer;	//Grafikon típusa a riportkészítésnél :
     	{
@@ -289,7 +291,7 @@ begin
   FormWidth := 400;
   FormHeight := 164;
   result := CreateWindow('STATIC',
-                         PChar(Text),
+                         PChar(AnsiToUtf8(Text)),
                          WS_OVERLAPPED or WS_POPUPWINDOW or WS_THICKFRAME or SS_CENTER or SS_CENTERIMAGE or DS_MODALFRAME,
                          (Screen.Width - FormWidth) div 2,
                          (Screen.Height - FormHeight) div 2,

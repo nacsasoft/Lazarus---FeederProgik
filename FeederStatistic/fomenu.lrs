@@ -7,74 +7,74 @@ LazarusResources.Add('TfrmMainMenu','FORMDATA',[
   +'tScrollBar.Range'#3'H'#1#21'VertScrollBar.Visible'#8#11'BorderIcons'#11#12
   +'biSystemMenu'#0#11'BorderStyle'#7#8'bsDialog'#7'Caption'#6'1FeederStatistic'
   +' - F'#197#145'men'#195#188' (feladat v'#195#161'laszt'#195#161'sa)'#12'Clie'
-  +'ntHeight'#3':'#2#11'ClientWidth'#3'e'#2#9'Font.Name'#6#26'times new roman ['
-  +'monotype]'#7'OnClose'#7#9'FormClose'#6'OnShow'#7#8'FormShow'#8'Position'#7
-  +#14'poScreenCenter'#13'ShowInTaskBar'#7#8'stAlways'#10'LCLVersion'#6#7'1.6.0'
-  +'.4'#0#6'TShape'#6'Shape2'#4'Left'#2#16#6'Height'#2'G'#3'Top'#2#8#5'Width'#3
-  +#13#1#11'Brush.Color'#7#12'clMoneyGreen'#0#0#6'TLabel'#6'Label2'#4'Left'#2'k'
-  +#6'Height'#2#18#3'Top'#2#16#5'Width'#2'Z'#7'Caption'#6#14'Karbantart'#195#179
-  +' :'#11'ParentColor'#8#0#0#9'TGroupBox'#9'GroupBox1'#4'Left'#2#16#6'Height'#3
-  +#160#0#3'Top'#2'X'#5'Width'#3#13#1#7'Caption'#6'#Munkalapokkal kapcsolatos f'
-  +'eladatok'#12'ClientHeight'#3#139#0#11'ClientWidth'#3#9#1#11'Font.Height'#2
-  +#243#9'Font.Name'#6#26'times new roman [monotype]'#10'Font.Style'#11#6'fsBol'
-  +'d'#0#10'ParentFont'#8#8'TabOrder'#2#0#0#7'TButton'#13'btnUjMunkalap'#4'Left'
-  +#2#6#6'Height'#2#28#3'Top'#2#16#5'Width'#2'h'#7'Caption'#6#16'Feeder jav'#195
-  +#173't'#195#161's'#7'Enabled'#8#11'Font.Height'#2#243#10'Font.Style'#11#6'fs'
-  +'Bold'#0#7'OnClick'#7#18'btnUjMunkalapClick'#10'ParentFont'#8#8'TabOrder'#2#0
-  +#0#0#7'TButton'#14'btnUjMunkalap1'#4'Left'#3#150#0#6'Height'#2#28#4'Hint'#6
-  +':Nem adagol'#195#179'jav'#195#173't'#195#161'ssal kapcsolatos munk'#195#161
-  +'k feljegyz'#195#169'se.'#3'Top'#2'p'#5'Width'#2'h'#7'Caption'#6#10'Egy'#195
-  +#169'b....'#7'Enabled'#8#11'Font.Height'#2#243#10'Font.Style'#11#6'fsBold'#0
-  +#7'OnClick'#7#19'btnUjMunkalap1Click'#10'ParentFont'#8#14'ParentShowHint'#8#8
-  +'ShowHint'#9#8'TabOrder'#2#1#0#0#7'TButton'#15'btnTroliJavitas'#4'Left'#3#150
-  +#0#6'Height'#2#28#3'Top'#2#16#5'Width'#2'h'#7'Caption'#6#15'Troli jav'#195
-  +#173't'#195#161's'#7'Enabled'#8#11'Font.Height'#2#243#10'Font.Style'#11#6'fs'
-  +'Bold'#0#7'OnClick'#7#20'btnTroliJavitasClick'#10'ParentFont'#8#8'TabOrder'#2
-  +#2#0#0#7'TButton'#17'btnMagazinJavitas'#4'Left'#3#150#0#6'Height'#2#28#3'Top'
-  +#2'@'#5'Width'#2'h'#7'Caption'#6#12'Magazin jav.'#7'Enabled'#8#11'Font.Heigh'
-  +'t'#2#243#10'Font.Style'#11#6'fsBold'#0#7'OnClick'#7#22'btnMagazinJavitasCli'
-  +'ck'#10'ParentFont'#8#8'TabOrder'#2#3#0#0#7'TButton'#12'btnPreventiv'#4'Left'
-  +#2#6#6'Height'#2#28#4'Hint'#6'#Adagol'#195#179' prevent'#195#173'v karbantar'
-  +'t'#195#161'sa.'#3'Top'#2'@'#5'Width'#2'h'#7'Caption'#6#9'Preventiv'#7'Enabl'
-  +'ed'#8#11'Font.Height'#2#243#10'Font.Style'#11#6'fsBold'#0#7'OnClick'#7#17'b'
-  +'tnPreventivClick'#10'ParentFont'#8#14'ParentShowHint'#8#8'ShowHint'#9#8'Tab'
-  +'Order'#2#4#0#0#0#9'TGroupBox'#9'GroupBox2'#4'Left'#2#16#6'Height'#2'`'#3'To'
-  +'p'#3#16#1#5'Width'#3#13#1#7'Caption'#6#20'Riportk'#195#169'sz'#195#173't'
-  +#195#169's...'#12'ClientHeight'#2'J'#11'ClientWidth'#3#9#1#11'Font.Height'#2
-  +#243#10'Font.Style'#11#6'fsBold'#0#10'ParentFont'#8#8'TabOrder'#2#1#0#7'TBut'
-  +'ton'#18'btnRiportokNoAdmin'#4'Left'#2'&'#6'Height'#2'$'#3'Top'#2#16#5'Width'
-  +#3#182#0#7'Caption'#6#22'Riportok - jelent'#195#169'sek'#7'Enabled'#8#11'Fon'
-  +'t.Height'#2#243#10'Font.Style'#11#6'fsBold'#0#7'OnClick'#7#23'btnRiportokNo'
-  +'AdminClick'#10'ParentFont'#8#8'TabOrder'#2#0#0#0#0#9'TGroupBox'#16'grpAdmin'
-  +'Funkciok'#4'Left'#2#16#6'Height'#3#131#0#3'Top'#3#144#1#5'Width'#3'+'#2#7'C'
-  +'aption'#6#17'ADMIN FUNKCI'#195#147'K !'#12'ClientHeight'#2'l'#11'ClientWidt'
-  +'h'#3''''#2#8'TabOrder'#2#2#0#7'TButton!btnADMIN_FelhasznalokSzerkesztese'#4
-  +'Left'#2#6#6'Height'#2'$'#3'Top'#2#16#5'Width'#3#0#1#7'Caption'#6#28'Felhasz'
-  +'n'#195#161'l'#195#179'k szerkeszt'#195#169'se'#7'Enabled'#8#10'Font.Color'#7
-  +#5'clRed'#11'Font.Height'#2#243#10'Font.Style'#11#6'fsBold'#0#7'OnClick'#7'&'
-  +'btnADMIN_FelhasznalokSzerkeszteseClick'#10'ParentFont'#8#8'TabOrder'#2#0#0#0
-  +#7'TButton'#26'btnADMIN_FeederAlkatreszek'#4'Left'#2#6#6'Height'#2'$'#3'Top'
-  +#2'@'#5'Width'#3#0#1#7'Caption'#6'!Feeder alkatr'#195#169'szek szerkeszt'#195
-  +#169'se'#7'Enabled'#8#10'Font.Color'#7#5'clRed'#11'Font.Height'#2#243#10'Fon'
-  +'t.Style'#11#6'fsBold'#0#7'OnClick'#7#31'btnADMIN_FeederAlkatreszekClick'#10
-  +'ParentFont'#8#8'TabOrder'#2#1#0#0#7'TButton'#16'btnErrorLogClear'#4'Left'#3
-  +#30#1#6'Height'#2'$'#3'Top'#2'@'#5'Width'#3#0#1#7'Caption'#6#22'Error log ti'
-  +'szt'#195#173't'#195#161'sa'#7'Enabled'#8#11'Font.Height'#2#243#10'Font.Styl'
-  +'e'#11#6'fsBold'#0#14'ParentBidiMode'#8#7'OnClick'#7#21'btnErrorLogClearClic'
-  +'k'#10'ParentFont'#8#8'TabOrder'#2#2#0#0#7'TButton'#11'btnRiportok'#4'Left'#3
-  +#30#1#6'Height'#2'$'#3'Top'#2#16#5'Width'#3#0#1#7'Caption'#6#22'Riportok - j'
-  +'elent'#195#169'sek'#7'Enabled'#8#11'Font.Height'#2#243#10'Font.Style'#11#6
-  +'fsBold'#0#7'OnClick'#7#16'btnRiportokClick'#10'ParentFont'#8#8'TabOrder'#2#3
-  ,#0#0#0#5'TEdit'#18'edtKarbantartoName'#4'Left'#2'&'#6'Height'#2#29#3'Top'#2
-  +'+'#5'Width'#3#226#0#9'Alignment'#7#8'taCenter'#7'Enabled'#8#11'Font.Height'
-  +#2#240#10'Font.Style'#11#6'fsBold'#0#10'ParentFont'#8#8'ReadOnly'#9#8'TabOrd'
-  +'er'#2#3#0#0#9'TGroupBox'#9'GroupBox3'#4'Left'#3'H'#1#6'Height'#3#200#0#3'To'
-  +'p'#2#8#5'Width'#3#248#0#7'Caption'#6#29'Prevent'#195#173'vre v'#195#161'r'
-  +#195#179' trolik...'#12'ClientHeight'#3#179#0#11'ClientWidth'#3#244#0#11'Fon'
-  +'t.Height'#2#243#9'Font.Name'#6#26'times new roman [monotype]'#10'Font.Style'
-  +#11#6'fsBold'#0#10'ParentFont'#8#8'TabOrder'#2#4#0#8'TListBox'#17'lstPrevent'
-  +'ivreVar'#4'Left'#2#8#6'Height'#3#157#0#3'Top'#2#15#5'Width'#3#231#0#10'Font'
-  +'.Color'#7#5'clRed'#11'Font.Height'#2#239#9'Font.Name'#6#26'times new roman '
-  +'[monotype]'#10'Font.Style'#11#6'fsBold'#0#10'ItemHeight'#2#0#10'ParentFont'
-  +#8#8'TabOrder'#2#0#0#0#0#0
+  +'ntHeight'#3':'#2#11'ClientWidth'#3'e'#2#13'DesignTimePPI'#3#144#0#9'Font.Na'
+  +'me'#6#26'times new roman [monotype]'#7'OnClose'#7#9'FormClose'#6'OnShow'#7#8
+  +'FormShow'#8'Position'#7#14'poScreenCenter'#13'ShowInTaskBar'#7#8'stAlways'
+  +#10'LCLVersion'#6#7'1.8.4.0'#0#6'TShape'#6'Shape2'#4'Left'#2#16#6'Height'#2
+  +'G'#3'Top'#2#8#5'Width'#3#13#1#11'Brush.Color'#7#12'clMoneyGreen'#0#0#6'TLab'
+  +'el'#6'Label2'#4'Left'#2'k'#6'Height'#2#23#3'Top'#2#16#5'Width'#2't'#7'Capti'
+  +'on'#6#14'Karbantart'#195#179' :'#11'ParentColor'#8#0#0#9'TGroupBox'#9'Group'
+  +'Box1'#4'Left'#2#16#6'Height'#3#160#0#3'Top'#2'X'#5'Width'#3#13#1#7'Caption'
+  +#6'#Munkalapokkal kapcsolatos feladatok'#12'ClientHeight'#3#139#0#11'ClientW'
+  +'idth'#3#9#1#11'Font.Height'#2#243#9'Font.Name'#6#26'times new roman [monoty'
+  +'pe]'#10'Font.Style'#11#6'fsBold'#0#10'ParentFont'#8#8'TabOrder'#2#0#0#7'TBu'
+  +'tton'#13'btnUjMunkalap'#4'Left'#2#6#6'Height'#2#28#3'Top'#2#16#5'Width'#2'h'
+  +#7'Caption'#6#16'Feeder jav'#195#173't'#195#161's'#7'Enabled'#8#11'Font.Heig'
+  +'ht'#2#243#10'Font.Style'#11#6'fsBold'#0#7'OnClick'#7#18'btnUjMunkalapClick'
+  +#10'ParentFont'#8#8'TabOrder'#2#0#0#0#7'TButton'#14'btnUjMunkalap1'#4'Left'#3
+  +#150#0#6'Height'#2#28#4'Hint'#6':Nem adagol'#195#179'jav'#195#173't'#195#161
+  +'ssal kapcsolatos munk'#195#161'k feljegyz'#195#169'se.'#3'Top'#2'p'#5'Width'
+  +#2'h'#7'Caption'#6#10'Egy'#195#169'b....'#7'Enabled'#8#11'Font.Height'#2#243
+  +#10'Font.Style'#11#6'fsBold'#0#7'OnClick'#7#19'btnUjMunkalap1Click'#10'Paren'
+  +'tFont'#8#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#1#0#0#7'TButton'
+  +#15'btnTroliJavitas'#4'Left'#3#150#0#6'Height'#2#28#3'Top'#2#16#5'Width'#2'h'
+  +#7'Caption'#6#15'Troli jav'#195#173't'#195#161's'#7'Enabled'#8#11'Font.Heigh'
+  +'t'#2#243#10'Font.Style'#11#6'fsBold'#0#7'OnClick'#7#20'btnTroliJavitasClick'
+  +#10'ParentFont'#8#8'TabOrder'#2#2#0#0#7'TButton'#17'btnMagazinJavitas'#4'Lef'
+  +'t'#3#150#0#6'Height'#2#28#3'Top'#2'@'#5'Width'#2'h'#7'Caption'#6#12'Magazin'
+  +' jav.'#7'Enabled'#8#11'Font.Height'#2#243#10'Font.Style'#11#6'fsBold'#0#7'O'
+  +'nClick'#7#22'btnMagazinJavitasClick'#10'ParentFont'#8#8'TabOrder'#2#3#0#0#7
+  +'TButton'#12'btnPreventiv'#4'Left'#2#6#6'Height'#2#28#4'Hint'#6'#Adagol'#195
+  +#179' prevent'#195#173'v karbantart'#195#161'sa.'#3'Top'#2'@'#5'Width'#2'h'#7
+  +'Caption'#6#9'Preventiv'#7'Enabled'#8#11'Font.Height'#2#243#10'Font.Style'#11
+  +#6'fsBold'#0#7'OnClick'#7#17'btnPreventivClick'#10'ParentFont'#8#14'ParentSh'
+  +'owHint'#8#8'ShowHint'#9#8'TabOrder'#2#4#0#0#0#9'TGroupBox'#9'GroupBox2'#4'L'
+  +'eft'#2#16#6'Height'#2'`'#3'Top'#3#16#1#5'Width'#3#13#1#7'Caption'#6#20'Ripo'
+  +'rtk'#195#169'sz'#195#173't'#195#169's...'#12'ClientHeight'#2'J'#11'ClientWi'
+  +'dth'#3#9#1#11'Font.Height'#2#243#10'Font.Style'#11#6'fsBold'#0#10'ParentFon'
+  +'t'#8#8'TabOrder'#2#1#0#7'TButton'#18'btnRiportokNoAdmin'#4'Left'#2'&'#6'Hei'
+  +'ght'#2'$'#3'Top'#2#16#5'Width'#3#182#0#7'Caption'#6#22'Riportok - jelent'
+  +#195#169'sek'#7'Enabled'#8#11'Font.Height'#2#243#10'Font.Style'#11#6'fsBold'
+  +#0#7'OnClick'#7#23'btnRiportokNoAdminClick'#10'ParentFont'#8#8'TabOrder'#2#0
+  +#0#0#0#9'TGroupBox'#16'grpAdminFunkciok'#4'Left'#2#16#6'Height'#3#131#0#3'To'
+  +'p'#3#144#1#5'Width'#3'+'#2#7'Caption'#6#17'ADMIN FUNKCI'#195#147'K !'#12'Cl'
+  +'ientHeight'#2'g'#11'ClientWidth'#3''''#2#8'TabOrder'#2#2#0#7'TButton!btnADM'
+  +'IN_FelhasznalokSzerkesztese'#4'Left'#2#6#6'Height'#2'$'#3'Top'#2#16#5'Width'
+  +#3#0#1#7'Caption'#6#28'Felhaszn'#195#161'l'#195#179'k szerkeszt'#195#169'se'
+  +#7'Enabled'#8#10'Font.Color'#7#5'clRed'#11'Font.Height'#2#243#10'Font.Style'
+  +#11#6'fsBold'#0#7'OnClick'#7'&btnADMIN_FelhasznalokSzerkeszteseClick'#10'Par'
+  +'entFont'#8#8'TabOrder'#2#0#0#0#7'TButton'#26'btnADMIN_FeederAlkatreszek'#4
+  +'Left'#2#6#6'Height'#2'$'#3'Top'#2'@'#5'Width'#3#0#1#7'Caption'#6'!Feeder al'
+  +'katr'#195#169'szek szerkeszt'#195#169'se'#7'Enabled'#8#10'Font.Color'#7#5'c'
+  +'lRed'#11'Font.Height'#2#243#10'Font.Style'#11#6'fsBold'#0#7'OnClick'#7#31'b'
+  +'tnADMIN_FeederAlkatreszekClick'#10'ParentFont'#8#8'TabOrder'#2#1#0#0#7'TBut'
+  +'ton'#16'btnErrorLogClear'#4'Left'#3#30#1#6'Height'#2'$'#3'Top'#2'@'#5'Width'
+  +#3#0#1#7'Caption'#6#22'Error log tiszt'#195#173't'#195#161'sa'#7'Enabled'#8
+  +#11'Font.Height'#2#243#10'Font.Style'#11#6'fsBold'#0#14'ParentBidiMode'#8#7
+  +'OnClick'#7#21'btnErrorLogClearClick'#10'ParentFont'#8#8'TabOrder'#2#2#0#0#7
+  +'TButton'#11'btnRiportok'#4'Left'#3#30#1#6'Height'#2'$'#3'Top'#2#16#5'Width'
+  +#3#0#1#7'Caption'#6#22'Riportok - jelent'#195#169'sek'#7'Enabled'#8#11'Font.'
+  +'Height'#2#243#10'Font.Style'#11#6'fsBold'#0#7'OnClick'#7#16'btnRiportokClic'
+  ,'k'#10'ParentFont'#8#8'TabOrder'#2#3#0#0#0#5'TEdit'#18'edtKarbantartoName'#4
+  +'Left'#2'&'#6'Height'#2#29#3'Top'#2'+'#5'Width'#3#226#0#9'Alignment'#7#8'taC'
+  +'enter'#7'Enabled'#8#11'Font.Height'#2#240#10'Font.Style'#11#6'fsBold'#0#10
+  +'ParentFont'#8#8'ReadOnly'#9#8'TabOrder'#2#3#0#0#9'TGroupBox'#9'GroupBox3'#4
+  +'Left'#3'H'#1#6'Height'#3#200#0#3'Top'#2#8#5'Width'#3#248#0#7'Caption'#6#29
+  +'Prevent'#195#173'vre v'#195#161'r'#195#179' trolik...'#12'ClientHeight'#3
+  +#179#0#11'ClientWidth'#3#244#0#11'Font.Height'#2#243#9'Font.Name'#6#26'times'
+  +' new roman [monotype]'#10'Font.Style'#11#6'fsBold'#0#10'ParentFont'#8#8'Tab'
+  +'Order'#2#4#0#8'TListBox'#17'lstPreventivreVar'#4'Left'#2#8#6'Height'#3#157#0
+  +#3'Top'#2#15#5'Width'#3#231#0#10'Font.Color'#7#5'clRed'#11'Font.Height'#2#239
+  +#9'Font.Name'#6#26'times new roman [monotype]'#10'Font.Style'#11#6'fsBold'#0
+  +#10'ItemHeight'#2#0#10'ParentFont'#8#8'TabOrder'#2#0#0#0#0#0
 ]);

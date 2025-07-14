@@ -389,7 +389,7 @@ begin
 
   	//Mezők beállítása:
     edtKarbantarto.Text := userName;
-    edtDS7i.Text := IntToStr(iTroliNumber); //DS7i;
+    edtDS7i.Text := sTroliNumber; //DS7i;
     edtTroliTipus.Text := sTroliTipus;
 		cmbWorks.Clear;
     lstWorks.Clear;
@@ -410,7 +410,7 @@ begin
     worksDataset := dbConnect('trolley_works','select * from trolley_works','id');
     partsDataset := dbConnect('used_trolley_parts','select * from used_trolley_parts','id');
 
-    //Ha van az adott hetre preventive ehez a trolihoz akkor mehet a pipa...
+    //Ha van az adott hétre preventive ehez a trolihoz akkor mehet a pipa...
     bTroliPreventive := false;
     preventiveDataset := dbConnect('trolley_preventive','select * from trolley_preventive where tr_p_week = ' +
       IntToStr(wWeekNum) + ' and tr_p_ds7i = "' + IntToStr(iTroliNumber) + '" and tr_p_ok = 0;','id');
@@ -450,7 +450,7 @@ begin
     		//DS7i-hez tartozó lezárt munkalapok :
         dbUpdate(myDataset,'select trolley_repair.id as rep_id,trolley_repair.tr_ds7i,trolley_repair.tr_date,' +
         	'trolley_repair.tr_comment,trolley_repair.tr_preventiv,users.id,users.u_name from trolley_repair,users where tr_ds7i="' +
-        		DS7i + '" and tr_end = 1 and users.id = trolley_repair.u_id order by trolley_repair.id;');
+        		DS7i + '" and tr_end = 1 and users.id = trolley_repair.u_id order by trolley_repair.id desc;');
         myDataset.First;
         iRows := myDataset.RecordCount;
 

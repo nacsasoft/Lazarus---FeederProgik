@@ -200,9 +200,13 @@ end;
 
 procedure TfrmMainMenu.btnUjMunkalapClick(Sender: TObject) ;
 var
-		ifType,iJavitasokSzama:																			integer;
+		ifType,iJavitasokSzama, iMID:																			integer;
     bRet:																												boolean;
     sLine,sSQL,sTol,sIg,sInfo,sFeederType:											string;
+
+    dbSorozatszam : TSqlite3Dataset;
+    bRosszSorozatszam : boolean;
+    sSorozatszam : string;
 
 begin
      //Új munkalap indítása,ha a DS7i-t megadta.
@@ -328,13 +332,52 @@ begin
          end;
      if (myDataset.RecordCount > 0) then
          begin
+          //ha nincs a feederhez beállítva még sorozatszám akkor be kell kérni:
+          myDataset.Last;
+          if (Length(Trim(myDataset.FieldByName('sorozatszam').AsString)) < 5) then
+            begin
+              bRosszSorozatszam := false;
+              iMID := myDataset.FieldByName('id').AsInteger;
+              repeat
+                sSorozatszam := '';
+                if Not InputQuery('Feeder sorozatszám beállítása...','Kérem a feeder sorozatszámát (pl.: KL-C8-0580) : ',sSorozatszam) then
+                  begin
+                    bRosszSorozatszam := false;
+                  end
+                else
+                  begin
+                     if (Length(Trim(sSorozatszam)) < 5) then
+                       begin
+                          //túl rövid a megadott sorozatszám!
+                          showmessage('Túl rövid a sorozatszám (min.: 5 karakter)!');
+                          bRosszSorozatszam := false;
+                       end
+                     else
+                        begin
+                            //sorozatszám oké, le kell frissíteni a feederhez:
+                            bRosszSorozatszam := true;
+                            sSQL := 'SELECT * FROM repair WHERE id=' + inttostr(iMID) + ';';
+                            dbSorozatszam := dbConnect('repair',sSQL,'id');
+                            dbSorozatszam.Edit;
+                            dbSorozatszam.FieldByName('sorozatszam').AsString := UpperCase(trim(sSorozatszam));
+                            dbSorozatszam.Post;
+                            dbSorozatszam.ApplyUpdates;
+                            dbUpdate(dbSorozatszam,sSQL);
+                            dbClose(dbSorozatszam);
+                            gsSorozatszam := UpperCase(trim(sSorozatszam));
+                        end;
+                  end;
+              //addíg kell bekérni a sorozatszámot amíg meg nem adja rendesen!!
+              until bRosszSorozatszam;
+            end;
+
      	    myDataset.First;
           //Van sor azonosítás ?
           iLineID := 1; //myDataset.FieldByName('line').AsInteger;
           iErrorCode := 1;
           iFeederType := myDataset.FieldByName('r_type').AsInteger;
           iFeederSize := myDataset.FieldByName('size').AsInteger;
-          ShowMessage(IntToStr(iFeederSize));
+          //ShowMessage(IntToStr(iFeederSize));
           dbUpdate(myDataset,'select * from feeder_size where id = ' + IntToStr(iFeederSize));
           sFeederSize := myDataset.FieldByName('size').AsString;
           //ShowMessage(sFeederSize);
@@ -439,6 +482,7 @@ begin
 
 
      //Preventivre varo trolik feltoltese:
+     // 2025.07.14.: Csak az X-es trolik kellenek!!!
      wWeekNum:=WeekOfTheYear(Now);
      sSQL := 'select * from trolley_preventive where tr_p_week = ' + IntToStr(wWeekNum) +
               ' and tr_p_ok = 0;';

@@ -276,6 +276,7 @@ begin
             FieldByName('lepesszam1').AsInteger := iLepes1;
             FieldByName('lepesszam2').AsInteger := iLepes2;
             FieldByName('lepesszam3').AsInteger := iLepes3;
+            FieldByName('sorozatszam').AsString := gsSorozatszam;
             Post;
             ApplyUpdates;
             dbClose(myDataset);

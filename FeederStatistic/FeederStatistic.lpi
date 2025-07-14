@@ -13,9 +13,6 @@
     </BuildModes>
     <PublishOptions>
       <Version Value="2"/>
-      <IgnoreBinaries Value="False"/>
-      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
-      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
     </PublishOptions>
     <RunParams>
       <local>
@@ -72,7 +69,7 @@
         <PackageName Value="LCL"/>
       </Item13>
     </RequiredPackages>
-    <Units Count="23">
+    <Units Count="24">
       <Unit0>
         <Filename Value="FeederStatistic.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -85,8 +82,9 @@
         <ComponentName Value="frmMainMenu"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <TopLine Value="307"/>
-        <CursorPos X="11" Y="337"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="477"/>
+        <CursorPos X="32" Y="486"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -98,8 +96,8 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="13"/>
-        <TopLine Value="119"/>
-        <CursorPos Y="119"/>
+        <TopLine Value="107"/>
+        <CursorPos X="35" Y="135"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -108,7 +106,7 @@
         <Filename Value="database.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="19"/>
-        <TopLine Value="16"/>
+        <TopLine Value="19"/>
         <CursorPos Y="35"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
@@ -117,8 +115,8 @@
         <Filename Value="global.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="12"/>
-        <TopLine Value="34"/>
-        <CursorPos Y="42"/>
+        <TopLine Value="15"/>
+        <CursorPos X="19" Y="29"/>
         <UsageCount Value="201"/>
         <Loaded Value="True"/>
       </Unit4>
@@ -154,8 +152,8 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="17"/>
-        <TopLine Value="66"/>
-        <CursorPos X="58" Y="74"/>
+        <TopLine Value="10"/>
+        <CursorPos X="26" Y="23"/>
         <UsageCount Value="203"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -167,8 +165,8 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="11"/>
-        <TopLine Value="541"/>
-        <CursorPos X="29" Y="572"/>
+        <TopLine Value="259"/>
+        <CursorPos X="65" Y="279"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -179,10 +177,9 @@
         <ComponentName Value="frmReports"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="14"/>
         <TopLine Value="1343"/>
-        <CursorPos X="88" Y="1360"/>
+        <CursorPos X="18" Y="1357"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -206,8 +203,8 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="20"/>
-        <TopLine Value="56"/>
-        <CursorPos Y="87"/>
+        <TopLine Value="80"/>
+        <CursorPos X="5" Y="69"/>
         <UsageCount Value="201"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -219,8 +216,8 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="6"/>
-        <TopLine Value="121"/>
-        <CursorPos X="20" Y="141"/>
+        <TopLine Value="87"/>
+        <CursorPos X="59" Y="98"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -269,8 +266,8 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="3"/>
-        <TopLine Value="94"/>
-        <CursorPos X="85" Y="100"/>
+        <TopLine Value="77"/>
+        <CursorPos X="15" Y="101"/>
         <UsageCount Value="213"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -282,8 +279,8 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="4"/>
-        <TopLine Value="390"/>
-        <CursorPos X="48" Y="417"/>
+        <TopLine Value="169"/>
+        <CursorPos X="23" Y="192"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -308,7 +305,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="7"/>
-        <TopLine Value="43"/>
+        <TopLine Value="40"/>
         <CursorPos X="5" Y="46"/>
         <UsageCount Value="201"/>
         <Loaded Value="True"/>
@@ -321,8 +318,8 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="10"/>
-        <TopLine Value="212"/>
-        <CursorPos Y="212"/>
+        <TopLine Value="206"/>
+        <CursorPos X="71" Y="223"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -334,8 +331,8 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="8"/>
-        <TopLine Value="252"/>
-        <CursorPos X="13" Y="282"/>
+        <TopLine Value="11"/>
+        <CursorPos X="19" Y="25"/>
         <UsageCount Value="203"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -347,133 +344,140 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="9"/>
-        <TopLine Value="72"/>
-        <CursorPos X="20" Y="112"/>
+        <TopLine Value="3"/>
+        <CursorPos Y="12"/>
         <UsageCount Value="225"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit22>
+      <Unit23>
+        <Filename Value="../../../../../../../../../lazarus_2_2_6/components/lazreport/source/fr3tolrf.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="89"/>
+        <CursorPos X="41" Y="96"/>
+        <UsageCount Value="10"/>
+      </Unit23>
     </Units>
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
-        <Filename Value="ujmunkalap.pas"/>
-        <Caret Line="563" Column="30" TopLine="541"/>
+        <Filename Value="fomenu.pas"/>
+        <Caret Line="260" Column="23" TopLine="238"/>
       </Position1>
       <Position2>
-        <Filename Value="ujmunkalap.pas"/>
-        <Caret Line="565" Column="24" TopLine="541"/>
+        <Filename Value="fomenu.pas"/>
+        <Caret Line="263" Column="23" TopLine="241"/>
       </Position2>
       <Position3>
-        <Filename Value="ujmunkalap.pas"/>
-        <Caret Line="567" Column="25" TopLine="541"/>
+        <Filename Value="fomenu.pas"/>
+        <Caret Line="275" Column="23" TopLine="253"/>
       </Position3>
       <Position4>
-        <Filename Value="reports.pas"/>
-        <Caret Line="772" Column="89" TopLine="753"/>
+        <Filename Value="fomenu.pas"/>
+        <Caret Line="276" Column="25" TopLine="254"/>
       </Position4>
       <Position5>
-        <Filename Value="reports.pas"/>
-        <Caret Line="2018" Column="64" TopLine="1994"/>
+        <Filename Value="fomenu.pas"/>
+        <Caret Line="285" Column="32" TopLine="263"/>
       </Position5>
       <Position6>
         <Filename Value="fomenu.pas"/>
-        <Caret Line="417" TopLine="377"/>
+        <Caret Line="314" Column="23" TopLine="292"/>
       </Position6>
       <Position7>
-        <Filename Value="trolijavitas.pas"/>
-        <Caret Line="289" TopLine="277"/>
+        <Filename Value="fomenu.pas"/>
+        <Caret Line="325" Column="14" TopLine="303"/>
       </Position7>
       <Position8>
-        <Filename Value="trolijavitas.pas"/>
-        <Caret Line="82" Column="16" TopLine="67"/>
+        <Filename Value="fomenu.pas"/>
+        <Caret Line="361" Column="30" TopLine="339"/>
       </Position8>
       <Position9>
-        <Filename Value="trolijavitas.pas"/>
-        <Caret Line="81" Column="16" TopLine="66"/>
+        <Filename Value="fomenu.pas"/>
+        <Caret Line="27" Column="30" TopLine="13"/>
       </Position9>
       <Position10>
-        <Filename Value="trolijavitas.pas"/>
-        <Caret Line="309" Column="33" TopLine="294"/>
+        <Filename Value="fomenu.pas"/>
+        <Caret Line="63" Column="39" TopLine="40"/>
       </Position10>
       <Position11>
-        <Filename Value="trolijavitas.pas"/>
-        <Caret Line="308" Column="33" TopLine="293"/>
+        <Filename Value="fomenu.pas"/>
+        <Caret Line="361" Column="34" TopLine="339"/>
       </Position11>
       <Position12>
-        <Filename Value="trolijavitas.pas"/>
-        <Caret Line="316" Column="43" TopLine="306"/>
+        <Filename Value="fomenu.pas"/>
+        <Caret Line="392" Column="24" TopLine="369"/>
       </Position12>
       <Position13>
-        <Filename Value="trolijavitas.pas"/>
-        <Caret Line="189" Column="10" TopLine="168"/>
+        <Filename Value="fomenu.pas"/>
+        <Caret Line="27" Column="30" TopLine="13"/>
       </Position13>
       <Position14>
-        <Filename Value="trolijavitas.pas"/>
-        <Caret Line="103" Column="5" TopLine="84"/>
+        <Filename Value="fomenu.pas"/>
+        <Caret Line="63" Column="39" TopLine="40"/>
       </Position14>
       <Position15>
-        <Filename Value="trolijavitas.pas"/>
-        <Caret Line="207" TopLine="166"/>
+        <Filename Value="tpmsetupmain.pas"/>
+        <Caret Line="261" TopLine="252"/>
       </Position15>
       <Position16>
-        <Filename Value="trolijavitas.pas"/>
-        <Caret Line="259" Column="2" TopLine="238"/>
+        <Filename Value="tpmds7iazonositas.pas"/>
+        <Caret Line="112" Column="20" TopLine="72"/>
       </Position16>
       <Position17>
-        <Filename Value="trolijavitas.pas"/>
-        <Caret Line="281" Column="4" TopLine="258"/>
+        <Filename Value="feederpreventiv.pas"/>
+        <Caret Line="212" TopLine="212"/>
       </Position17>
       <Position18>
-        <Filename Value="trolijavitas.pas"/>
-        <Caret Line="317" Column="71" TopLine="296"/>
+        <Filename Value="feederazonositas.pas"/>
+        <Caret Line="141" Column="20" TopLine="45"/>
       </Position18>
       <Position19>
-        <Filename Value="trolijavitas.pas"/>
-        <Caret Line="332" Column="64" TopLine="305"/>
+        <Filename Value="feederazonositas.pas"/>
+        <Caret Line="143" Column="20" TopLine="116"/>
       </Position19>
       <Position20>
-        <Filename Value="trolimunkalap.pas"/>
-        <Caret Line="102" Column="6" TopLine="96"/>
+        <Filename Value="feederazonositas.pas"/>
+        <Caret Line="295" Column="30" TopLine="177"/>
       </Position20>
       <Position21>
-        <Filename Value="trolimunkalap.pas"/>
-        <Caret Line="416" Column="42" TopLine="396"/>
+        <Filename Value="tabsetup.pas"/>
+        <Caret Line="87" TopLine="56"/>
       </Position21>
       <Position22>
-        <Filename Value="feederazonositas.pas"/>
-        <Caret Line="100" TopLine="100"/>
+        <Filename Value="prevfeederazon.pas"/>
+        <Caret Line="47" Column="42" TopLine="43"/>
       </Position22>
       <Position23>
-        <Filename Value="feederazonositas.pas"/>
-        <Caret Line="195" Column="3" TopLine="167"/>
+        <Filename Value="fomenu.pas"/>
+        <Caret Line="330" Column="30" TopLine="321"/>
       </Position23>
       <Position24>
-        <Filename Value="sorbeallitasa.pas"/>
-        <Caret Line="275" Column="33" TopLine="255"/>
+        <Filename Value="ujmunkalap.pas"/>
+        <Caret Line="572" Column="29" TopLine="535"/>
       </Position24>
       <Position25>
-        <Filename Value="feederazonositas.pas"/>
-        <Caret Line="160" Column="10" TopLine="133"/>
+        <Filename Value="fomenu.pas"/>
+        <Caret Line="367" Column="65" TopLine="346"/>
       </Position25>
       <Position26>
-        <Filename Value="fomenu.pas"/>
-        <Caret Line="189" Column="6" TopLine="187"/>
+        <Filename Value="ujmunkalap.pas"/>
+        <Caret Line="265" Column="60" TopLine="250"/>
       </Position26>
       <Position27>
-        <Filename Value="sorbeallitasa.pas"/>
-        <Caret Line="208" Column="38" TopLine="171"/>
+        <Filename Value="login.pas"/>
+        <Caret Line="119" TopLine="119"/>
       </Position27>
       <Position28>
-        <Filename Value="feederazonositas.pas"/>
-        <Caret Line="195" Column="65" TopLine="189"/>
+        <Filename Value="fomenu.pas"/>
+        <Caret Line="298" Column="13" TopLine="295"/>
       </Position28>
       <Position29>
         <Filename Value="fomenu.pas"/>
-        <Caret Line="239" TopLine="198"/>
+        <Caret Line="68" Column="6" TopLine="24"/>
       </Position29>
       <Position30>
-        <Filename Value="reports.pas"/>
-        <Caret Line="2137" TopLine="2136"/>
+        <Filename Value="fomenu.pas"/>
+        <Caret Line="80" TopLine="71"/>
       </Position30>
     </JumpHistory>
   </ProjectOptions>
@@ -494,6 +498,7 @@
     <Linking>
       <Debugging>
         <GenerateDebugInfo Value="False"/>
+        <DebugInfoType Value="dsDwarf2Set"/>
         <UseLineInfoUnit Value="False"/>
         <StripSymbols Value="True"/>
         <UseExternalDbgSyms Value="True"/>
@@ -510,7 +515,6 @@
         <ShowWarn Value="False"/>
         <ShowNotes Value="False"/>
         <ShowHints Value="False"/>
-        <ShowGenInfo Value="False"/>
       </Verbosity>
     </Other>
   </CompilerOptions>

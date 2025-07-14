@@ -15,7 +15,7 @@ object frmReports: TfrmReports
   OnShow = FormShow
   Position = poScreenCenter
   ShowInTaskBar = stAlways
-  LCLVersion = '1.8.4.0'
+  LCLVersion = '2.2.6.0'
   object Memo1: TMemo
     Left = 224
     Height = 24
@@ -664,7 +664,7 @@ object frmReports: TfrmReports
     end
     object tshDS7iSzerint: TTabSheet
       Caption = 'DS7i szerint'
-      ClientHeight = 524
+      ClientHeight = 519
       ClientWidth = 712
       OnShow = tshDS7iSzerintShow
       object GroupBox10: TGroupBox
@@ -696,9 +696,9 @@ object frmReports: TfrmReports
           TabOrder = 1
           object Label25: TLabel
             Left = 43
-            Height = 15
+            Height = 20
             Top = 7
-            Width = 23
+            Width = 27
             Caption = 'tól...'
             ParentColor = False
           end
@@ -712,9 +712,9 @@ object frmReports: TfrmReports
           end
           object Label26: TLabel
             Left = 194
-            Height = 15
+            Height = 20
             Top = 7
-            Width = 19
+            Width = 22
             Caption = 'ig...'
             ParentColor = False
           end
@@ -738,9 +738,9 @@ object frmReports: TfrmReports
           TabOrder = 2
           object Label27: TLabel
             Left = 31
-            Height = 15
+            Height = 20
             Top = 15
-            Width = 29
+            Width = 38
             Caption = 'DS7i :'
             ParentColor = False
           end
@@ -755,9 +755,9 @@ object frmReports: TfrmReports
           end
           object Label28: TLabel
             Left = 200
-            Height = 15
+            Height = 20
             Top = 8
-            Width = 181
+            Width = 232
             Caption = 'Lekérdezésben szereplő adagolók :'
             ParentColor = False
           end
@@ -806,7 +806,7 @@ object frmReports: TfrmReports
     object tshFeederEllenorzes: TTabSheet
       Hint = 'A riportban szereplő feedereket alaposan át kell vizsgálni, ugyanis egy héten belül már 3x javítva lettek!'
       Caption = 'Feeder ellenörzés!'
-      ClientHeight = 524
+      ClientHeight = 519
       ClientWidth = 712
       OnShow = tshFeederEllenorzesShow
       ParentShowHint = False
@@ -852,7 +852,7 @@ object frmReports: TfrmReports
     end
     object TabSheet4: TTabSheet
       Caption = 'Riportok excelbe...'
-      ClientHeight = 524
+      ClientHeight = 519
       ClientWidth = 712
       TabVisible = False
       object GroupBox15: TGroupBox
@@ -866,9 +866,9 @@ object frmReports: TfrmReports
         TabOrder = 0
         object Label29: TLabel
           Left = 43
-          Height = 15
+          Height = 20
           Top = 7
-          Width = 23
+          Width = 27
           Caption = 'tól...'
           ParentColor = False
         end
@@ -882,9 +882,9 @@ object frmReports: TfrmReports
         end
         object Label30: TLabel
           Left = 194
-          Height = 15
+          Height = 20
           Top = 7
-          Width = 19
+          Width = 22
           Caption = 'ig...'
           ParentColor = False
         end
@@ -909,7 +909,7 @@ object frmReports: TfrmReports
     end
     object tshTroliRiportok: TTabSheet
       Caption = 'Feederkocsi javítások'
-      ClientHeight = 524
+      ClientHeight = 519
       ClientWidth = 712
       OnShow = tshTroliRiportokShow
       object GroupBox16: TGroupBox
@@ -923,17 +923,17 @@ object frmReports: TfrmReports
         TabOrder = 0
         object Label21: TLabel
           Left = 26
-          Height = 15
+          Height = 20
           Top = 14
-          Width = 23
+          Width = 27
           Caption = 'tól...'
           ParentColor = False
         end
         object Label22: TLabel
           Left = 26
-          Height = 15
+          Height = 20
           Top = 43
-          Width = 19
+          Width = 22
           Caption = 'ig...'
           ParentColor = False
         end
@@ -968,7 +968,7 @@ object frmReports: TfrmReports
     end
     object tshEgyebMunkak: TTabSheet
       Caption = 'Egyéb munkák'
-      ClientHeight = 524
+      ClientHeight = 519
       ClientWidth = 712
       object GroupBox17: TGroupBox
         Left = 12
@@ -981,17 +981,17 @@ object frmReports: TfrmReports
         TabOrder = 0
         object Label23: TLabel
           Left = 26
-          Height = 15
+          Height = 20
           Top = 14
-          Width = 23
+          Width = 27
           Caption = 'tól...'
           ParentColor = False
         end
         object Label24: TLabel
           Left = 26
-          Height = 15
+          Height = 20
           Top = 43
-          Width = 19
+          Width = 22
           Caption = 'ig...'
           ParentColor = False
         end
@@ -1026,7 +1026,7 @@ object frmReports: TfrmReports
     end
     object TabSheet1: TTabSheet
       Caption = 'Magazin javítás'
-      ClientHeight = 524
+      ClientHeight = 519
       ClientWidth = 712
       object GroupBox18: TGroupBox
         Left = 60
@@ -1039,17 +1039,17 @@ object frmReports: TfrmReports
         TabOrder = 0
         object Label31: TLabel
           Left = 26
-          Height = 15
+          Height = 20
           Top = 14
-          Width = 23
+          Width = 27
           Caption = 'tól...'
           ParentColor = False
         end
         object Label32: TLabel
           Left = 26
-          Height = 15
+          Height = 20
           Top = 43
-          Width = 19
+          Width = 22
           Caption = 'ig...'
           ParentColor = False
         end
@@ -1084,7 +1084,7 @@ object frmReports: TfrmReports
     end
     object tpmFeeder: TTabSheet
       Caption = 'TPM Feeder'
-      ClientHeight = 524
+      ClientHeight = 519
       ClientWidth = 712
       object GroupBox4: TGroupBox
         Left = 30
@@ -1097,17 +1097,17 @@ object frmReports: TfrmReports
         TabOrder = 0
         object Label33: TLabel
           Left = 24
-          Height = 15
+          Height = 20
           Top = 31
-          Width = 23
+          Width = 27
           Caption = 'tól...'
           ParentColor = False
         end
         object Label34: TLabel
           Left = 24
-          Height = 15
+          Height = 20
           Top = 60
-          Width = 19
+          Width = 22
           Caption = 'ig...'
           ParentColor = False
         end
@@ -1150,17 +1150,17 @@ object frmReports: TfrmReports
         TabOrder = 1
         object Label35: TLabel
           Left = 24
-          Height = 15
+          Height = 20
           Top = 31
-          Width = 23
+          Width = 27
           Caption = 'tól...'
           ParentColor = False
         end
         object Label36: TLabel
           Left = 24
-          Height = 15
+          Height = 20
           Top = 60
-          Width = 19
+          Width = 22
           Caption = 'ig...'
           ParentColor = False
         end
@@ -1196,11 +1196,12 @@ object frmReports: TfrmReports
   end
   object Sqlite3Dataset1: TSqlite3Dataset
     AutoIncrementKey = True
-    left = 66
-    top = 625
+    Left = 66
+    Top = 625
   end
   object Datasource1: TDataSource
-    left = 33
-    top = 625
+    DataSet = Sqlite3Dataset1
+    Left = 33
+    Top = 625
   end
 end

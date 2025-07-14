@@ -8,11 +8,12 @@ object frmTroliMunkalap: TfrmTroliMunkalap
   Caption = 'FeederStatistic - Troli javítás munkalap...'
   ClientHeight = 762
   ClientWidth = 935
+  DesignTimePPI = 120
   OnCloseQuery = FormCloseQuery
   OnShow = FormShow
   Position = poScreenCenter
   ShowInTaskBar = stAlways
-  LCLVersion = '1.6.0.4'
+  LCLVersion = '1.8.4.0'
   object Shape2: TShape
     Left = 128
     Height = 32
@@ -22,31 +23,31 @@ object frmTroliMunkalap: TfrmTroliMunkalap
   end
   object Label1: TLabel
     Left = 408
-    Height = 15
+    Height = 20
     Top = 16
-    Width = 82
+    Width = 102
     Caption = 'Troli sorszáma :'
     ParentColor = False
   end
   object Label2: TLabel
     Left = 143
-    Height = 15
+    Height = 20
     Top = 16
-    Width = 68
+    Width = 86
     Caption = 'Karbantartó :'
     ParentColor = False
   end
   object Label3: TLabel
     Left = 616
-    Height = 15
+    Height = 20
     Top = 16
-    Width = 35
+    Width = 42
     Caption = 'Típus :'
     ParentColor = False
   end
   object edtDS7i: TEdit
     Left = 496
-    Height = 23
+    Height = 28
     Top = 13
     Width = 94
     Alignment = taCenter
@@ -58,7 +59,7 @@ object frmTroliMunkalap: TfrmTroliMunkalap
   end
   object edtKarbantarto: TEdit
     Left = 213
-    Height = 23
+    Height = 28
     Top = 13
     Width = 172
     Alignment = taCenter
@@ -70,7 +71,7 @@ object frmTroliMunkalap: TfrmTroliMunkalap
   end
   object edtTroliTipus: TEdit
     Left = 656
-    Height = 23
+    Height = 28
     Top = 13
     Width = 122
     Alignment = taCenter
@@ -92,7 +93,7 @@ object frmTroliMunkalap: TfrmTroliMunkalap
     TabOrder = 3
     object tabWorks: TTabSheet
       Caption = 'Elvégzett munkák'
-      ClientHeight = 216
+      ClientHeight = 211
       ClientWidth = 605
       object btnWorksFelvetel: TButton
         Left = 28
@@ -124,21 +125,21 @@ object frmTroliMunkalap: TfrmTroliMunkalap
       end
       object cmbWorks: TComboBox
         Left = 7
-        Height = 23
+        Height = 28
         Top = 106
         Width = 232
         AutoComplete = True
         AutoCompleteText = [cbactEnabled, cbactEndOfLineComplete, cbactSearchAscending]
-        ItemHeight = 15
+        ItemHeight = 20
         TabOrder = 2
         Text = 'cmbWorks'
       end
       object chkTroliPreventiv: TCheckBox
         Left = 7
-        Height = 19
+        Height = 23
         Hint = 'Ha az adott trolin preventív karbantartást kellett elvégezni, '#13#10'akkor be kell jelölni. '
         Top = 24
-        Width = 200
+        Width = 204
         Caption = 'Preventív karbantartás volt a trolin'
         Font.Color = clRed
         Font.Height = 14
@@ -183,12 +184,12 @@ object frmTroliMunkalap: TfrmTroliMunkalap
       end
       object cmbAlkatreszek: TComboBox
         Left = 7
-        Height = 23
+        Height = 28
         Top = 64
         Width = 232
         AutoComplete = True
         AutoCompleteText = [cbactEnabled, cbactEndOfLineComplete, cbactSearchAscending]
-        ItemHeight = 15
+        ItemHeight = 20
         TabOrder = 3
         Text = 'cmbAlkatreszek'
       end
@@ -267,7 +268,7 @@ object frmTroliMunkalap: TfrmTroliMunkalap
     Top = 456
     Width = 920
     Caption = 'Troli történet...'
-    ClientHeight = 276
+    ClientHeight = 271
     ClientWidth = 916
     TabOrder = 6
     object IpHtmlPanel1: TIpHtmlPanel
@@ -284,6 +285,10 @@ object frmTroliMunkalap: TfrmTroliMunkalap
       PrintSettings.MarginTop = 0.5
       PrintSettings.MarginRight = 0.5
       PrintSettings.MarginBottom = 0.5
+      PrintSettings.Preview.Left = 480
+      PrintSettings.Preview.Top = 270
+      PrintSettings.Preview.Width = 1440
+      PrintSettings.Preview.Height = 810
       ShowHints = False
       TabOrder = 0
     end

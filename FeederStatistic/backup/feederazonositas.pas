@@ -23,6 +23,7 @@ type
       edtAdagolo : TEdit;
       edtAdagoloOldal : TEdit;
       edtDS7i: TEdit ;
+      edtSorozatszam: TEdit;
       edtKirakas_EV : TEdit;
       edtKirakas_HO : TEdit;
       edtKirakas_NAP : TEdit;
@@ -35,6 +36,7 @@ type
       Label12 : TLabel;
       Label13 : TLabel;
       Label14 : TLabel;
+      Label15: TLabel;
       Label2: TLabel ;
       Label3: TLabel ;
       Label4: TLabel ;
@@ -75,14 +77,25 @@ end;
 procedure TfrmFeederAzonositas.btnOKClick(Sender: TObject) ;
 var
   	iE_code:	integer;
+    sSorozatszam : string;
 
 begin
     //Minden mező kitöltése kötelező :
     if (Trim(edtDS7i.Text) = '') then
     begin
         ShowMessage('A DS7i mező kitöltése kötelező !');
+        edtDS7i.SetFocus;
         exit;
     end;
+    if (Trim(edtSorozatszam.Text) = '') then
+    begin
+        ShowMessage('A sorozatszám mező kitöltése kötelező !');
+        edtSorozatszam.SetFocus;
+        exit;
+    end;
+
+    //sorozatszám az új munkalap felvitelkor rögzül!
+    gsSorozatszam := Trim(edtSorozatszam.Text);
 
     iFeederType := cmbTipus.ItemIndex;
     iLineID := integer(cmbLines.Items.Objects[cmbLines.ItemIndex]);
@@ -138,7 +151,7 @@ begin
       end
     else
       begin
-        if (iSorId = 14) then
+        if (iLineID = 14) then
             begin
               //setup-ból jött....
 				      sFeederSize := cmbMeret.Text;
@@ -160,6 +173,7 @@ begin
               iLineID := -1;
               iMachineID := -1;
               sFeederPosition := '';
+              sSorozatszam := '';
               sKirakasDatuma := edtKirakas_EV.Text + '-' + edtKirakas_HO.Text + '-' + edtKirakas_NAP.Text;
         			iErrorCode := integer(cmbErrorCodes.Items.Objects[cmbErrorCodes.ItemIndex]);
               //ShowMessage('OK');
@@ -281,6 +295,7 @@ begin
 
 		myDataset.Close;
     edtDS7i.Text := DS7i;
+    edtSorozatszam.Text := '';
     edtOperatorName.Text:='';
     edtOperatorWD.Text:='';
     edtOldal.Text := '';

@@ -15,7 +15,7 @@ type
   TfrmFeederPartsEdit = class(TForm)
     btnAddPart: TButton;
     cmbFeederType: TComboBox;
-    Datasource1: TDatasource;
+    Datasource1: TDataSource;
     DBGrid1: TDBGrid;
     edtP_name: TEdit;
     edtP_ordernum: TEdit;

@@ -1,18 +1,19 @@
 object frmFeederAzonositas: TfrmFeederAzonositas
   Left = 571
-  Height = 509
+  Height = 568
   Top = 167
   Width = 414
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsDialog
   Caption = 'FeederStatistic - Feeder azonosítása...'
-  ClientHeight = 509
+  ClientHeight = 568
   ClientWidth = 414
+  DesignTimePPI = 120
   OnCloseQuery = FormCloseQuery
   OnShow = FormShow
   Position = poScreenCenter
   ShowInTaskBar = stAlways
-  LCLVersion = '1.6.0.4'
+  LCLVersion = '1.8.4.0'
   object Label1: TLabel
     Left = 27
     Height = 16
@@ -32,7 +33,7 @@ object frmFeederAzonositas: TfrmFeederAzonositas
   object Label2: TLabel
     Left = 83
     Height = 16
-    Top = 151
+    Top = 211
     Width = 46
     Caption = 'Típus : '
     Font.CharSet = EASTEUROPE_CHARSET
@@ -56,14 +57,14 @@ object frmFeederAzonositas: TfrmFeederAzonositas
     Font.Style = [fsBold]
     ParentFont = False
     ReadOnly = True
-    TabOrder = 12
+    TabOrder = 13
   end
   object cmbTipus: TComboBox
     Left = 154
-    Height = 23
-    Top = 144
+    Height = 28
+    Top = 204
     Width = 131
-    ItemHeight = 15
+    ItemHeight = 20
     ItemIndex = 0
     Items.Strings = (
       'Siemens S,HS,F'
@@ -76,13 +77,13 @@ object frmFeederAzonositas: TfrmFeederAzonositas
     OnChange = cmbTipusChange
     ParentFont = False
     Style = csDropDownList
-    TabOrder = 2
+    TabOrder = 3
     Text = 'Siemens S,HS,F'
   end
   object Label3: TLabel
     Left = 85
     Height = 16
-    Top = 194
+    Top = 254
     Width = 44
     Caption = 'Méret :'
     Font.CharSet = EASTEUROPE_CHARSET
@@ -97,40 +98,40 @@ object frmFeederAzonositas: TfrmFeederAzonositas
   end
   object cmbMeret: TComboBox
     Left = 154
-    Height = 23
-    Top = 187
+    Height = 28
+    Top = 247
     Width = 131
-    ItemHeight = 15
+    ItemHeight = 20
     ParentFont = False
     Style = csDropDownList
-    TabOrder = 3
+    TabOrder = 4
   end
   object btnMegsem: TButton
     Left = 83
     Height = 37
-    Top = 456
+    Top = 516
     Width = 100
     Caption = 'Mégsem'
     Font.Style = [fsBold]
     OnClick = btnMegsemClick
     ParentFont = False
-    TabOrder = 10
+    TabOrder = 11
   end
   object btnOK: TButton
     Left = 231
     Height = 37
-    Top = 456
+    Top = 516
     Width = 100
     Caption = 'OK'
     Font.Style = [fsBold]
     OnClick = btnOKClick
     ParentFont = False
-    TabOrder = 11
+    TabOrder = 12
   end
   object Label4: TLabel
     Left = 99
     Height = 16
-    Top = 236
+    Top = 296
     Width = 30
     Caption = 'Sor :'
     Font.CharSet = EASTEUROPE_CHARSET
@@ -145,18 +146,18 @@ object frmFeederAzonositas: TfrmFeederAzonositas
   end
   object cmbLines: TComboBox
     Left = 154
-    Height = 23
-    Top = 232
+    Height = 28
+    Top = 292
     Width = 73
-    ItemHeight = 15
+    ItemHeight = 20
     OnChange = cmbLinesChange
     Style = csDropDownList
-    TabOrder = 4
+    TabOrder = 5
   end
   object Label5: TLabel
     Left = 60
     Height = 32
-    Top = 52
+    Top = 112
     Width = 69
     Caption = 'WorkDay '#13#10'azonosító :'
     Font.CharSet = EASTEUROPE_CHARSET
@@ -171,15 +172,15 @@ object frmFeederAzonositas: TfrmFeederAzonositas
   end
   object edtOperatorWD: TEdit
     Left = 154
-    Height = 23
-    Top = 64
+    Height = 28
+    Top = 124
     Width = 101
-    TabOrder = 0
+    TabOrder = 1
   end
   object Label6: TLabel
     Left = 69
     Height = 32
-    Top = 92
+    Top = 152
     Width = 60
     Caption = 'Operátor '#13#10'neve :'
     Font.CharSet = EASTEUROPE_CHARSET
@@ -194,15 +195,15 @@ object frmFeederAzonositas: TfrmFeederAzonositas
   end
   object edtOperatorName: TEdit
     Left = 154
-    Height = 23
-    Top = 104
+    Height = 28
+    Top = 164
     Width = 131
-    TabOrder = 1
+    TabOrder = 2
   end
   object Label7: TLabel
     Left = 72
     Height = 16
-    Top = 396
+    Top = 456
     Width = 60
     Caption = 'Hibakód :'
     Font.CharSet = EASTEUROPE_CHARSET
@@ -217,17 +218,17 @@ object frmFeederAzonositas: TfrmFeederAzonositas
   end
   object cmbErrorCodes: TComboBox
     Left = 154
-    Height = 23
-    Top = 392
+    Height = 28
+    Top = 452
     Width = 233
-    ItemHeight = 15
+    ItemHeight = 20
     Style = csDropDownList
-    TabOrder = 9
+    TabOrder = 10
   end
   object Label8: TLabel
     Left = 95
     Height = 16
-    Top = 276
+    Top = 336
     Width = 34
     Caption = 'Gép :'
     Font.CharSet = EASTEUROPE_CHARSET
@@ -242,17 +243,17 @@ object frmFeederAzonositas: TfrmFeederAzonositas
   end
   object cmbMachines: TComboBox
     Left = 154
-    Height = 23
-    Top = 272
+    Height = 28
+    Top = 332
     Width = 73
-    ItemHeight = 15
+    ItemHeight = 20
     Style = csDropDownList
-    TabOrder = 5
+    TabOrder = 6
   end
   object Label9: TLabel
     Left = 49
     Height = 16
-    Top = 316
+    Top = 376
     Width = 80
     Caption = 'Sáv (3/25/1) :'
     Font.CharSet = EASTEUROPE_CHARSET
@@ -267,29 +268,29 @@ object frmFeederAzonositas: TfrmFeederAzonositas
   end
   object edtOldal: TEdit
     Left = 154
-    Height = 23
-    Top = 312
-    Width = 30
-    TabOrder = 6
-  end
-  object edtAdagolo: TEdit
-    Left = 200
-    Height = 23
-    Top = 312
+    Height = 28
+    Top = 372
     Width = 30
     TabOrder = 7
   end
-  object edtAdagoloOldal: TEdit
-    Left = 247
-    Height = 23
-    Top = 312
+  object edtAdagolo: TEdit
+    Left = 200
+    Height = 28
+    Top = 372
     Width = 30
     TabOrder = 8
+  end
+  object edtAdagoloOldal: TEdit
+    Left = 247
+    Height = 28
+    Top = 372
+    Width = 30
+    TabOrder = 9
   end
   object Label10: TLabel
     Left = 184
     Height = 20
-    Top = 312
+    Top = 372
     Width = 16
     Alignment = taCenter
     AutoSize = False
@@ -307,7 +308,7 @@ object frmFeederAzonositas: TfrmFeederAzonositas
   object Label11: TLabel
     Left = 232
     Height = 20
-    Top = 313
+    Top = 373
     Width = 16
     Alignment = taCenter
     AutoSize = False
@@ -325,7 +326,7 @@ object frmFeederAzonositas: TfrmFeederAzonositas
   object Label12: TLabel
     Left = 21
     Height = 40
-    Top = 344
+    Top = 404
     Width = 112
     AutoSize = False
     Caption = 'Kirakás dátuma :'#13#10'(pl.: 2013-02-09)'
@@ -341,32 +342,32 @@ object frmFeederAzonositas: TfrmFeederAzonositas
   end
   object edtKirakas_EV: TEdit
     Left = 154
-    Height = 23
-    Top = 352
+    Height = 28
+    Top = 412
     Width = 46
     MaxLength = 4
-    TabOrder = 13
+    TabOrder = 14
   end
   object edtKirakas_HO: TEdit
     Left = 216
-    Height = 23
-    Top = 352
-    Width = 30
-    MaxLength = 2
-    TabOrder = 14
-  end
-  object edtKirakas_NAP: TEdit
-    Left = 263
-    Height = 23
-    Top = 352
+    Height = 28
+    Top = 412
     Width = 30
     MaxLength = 2
     TabOrder = 15
   end
+  object edtKirakas_NAP: TEdit
+    Left = 263
+    Height = 28
+    Top = 412
+    Width = 30
+    MaxLength = 2
+    TabOrder = 16
+  end
   object Label13: TLabel
     Left = 200
     Height = 20
-    Top = 352
+    Top = 412
     Width = 16
     Alignment = taCenter
     AutoSize = False
@@ -384,7 +385,7 @@ object frmFeederAzonositas: TfrmFeederAzonositas
   object Label14: TLabel
     Left = 248
     Height = 20
-    Top = 353
+    Top = 413
     Width = 16
     Alignment = taCenter
     AutoSize = False
@@ -398,5 +399,35 @@ object frmFeederAzonositas: TfrmFeederAzonositas
     Font.Style = [fsBold]
     ParentColor = False
     ParentFont = False
+  end
+  object Label15: TLabel
+    Left = 24
+    Height = 35
+    Top = 50
+    Width = 119
+    AutoSize = False
+    Caption = 'Sorozatszám (pl.:KL-C8-0023) :'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    WordWrap = True
+  end
+  object edtSorozatszam: TEdit
+    Left = 154
+    Height = 29
+    Top = 56
+    Width = 131
+    Alignment = taCenter
+    Font.Color = clRed
+    Font.Height = -16
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
   end
 end

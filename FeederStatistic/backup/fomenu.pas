@@ -484,8 +484,12 @@ begin
      //Preventivre varo trolik feltoltese:
      // 2025.07.14.: Csak az X-es trolik kellenek!!!
      wWeekNum:=WeekOfTheYear(Now);
-     sSQL := 'select * from trolley_preventive where tr_p_week = ' + IntToStr(wWeekNum) +
-              ' and tr_p_ok = 0;';
+     { sSQL := 'select * from trolley_preventive where tr_p_week = ' + IntToStr(wWeekNum) +
+              ' and tr_p_ok = 0;'; }
+     sSQL := 'SELECT * FROM trolley_preventive, trolley_list ' +
+            'WHERE tr_p_week = ' + IntToStr(wWeekNum) +
+            ' AND tr_tipus = "X" AND tr_p_ds7i = tr_sorszam AND tr_p_ok = 0;';
+
      myDataset := dbConnect('trolley_preventive',sSQL,'id');
      lstPreventivreVar.Clear;
      GroupBox3.Caption:='Preventívre váró trolik a(z) ' + IntToStr(wWeekNum) + '. héten:';

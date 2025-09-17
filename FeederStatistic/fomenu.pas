@@ -410,7 +410,7 @@ begin
      btnMagazinJavitas.Enabled := false;
      btnUjMunkalap1.Enabled := false;
      btnRiportokNoAdmin.Enabled := false;
-     btnPreventiv.Enabled := false;
+     // btnPreventiv.Enabled := false;
      btnADMIN_FeederAlkatreszek.Enabled := false;
      btnADMIN_FelhasznalokSzerkesztese.Enabled := False;
      btnRiportok.Enabled := false;

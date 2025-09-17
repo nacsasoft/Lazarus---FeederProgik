@@ -36,45 +36,45 @@ LazarusResources.Add('TfrmMainMenu','FORMDATA',[
   +'nClick'#7#22'btnMagazinJavitasClick'#10'ParentFont'#8#8'TabOrder'#2#3#0#0#7
   +'TButton'#12'btnPreventiv'#4'Left'#2#6#6'Height'#2#28#4'Hint'#6'#Adagol'#195
   +#179' prevent'#195#173'v karbantart'#195#161'sa.'#3'Top'#2'@'#5'Width'#2'h'#7
-  +'Caption'#6#9'Preventiv'#7'Enabled'#8#11'Font.Height'#2#243#10'Font.Style'#11
-  +#6'fsBold'#0#7'OnClick'#7#17'btnPreventivClick'#10'ParentFont'#8#14'ParentSh'
-  +'owHint'#8#8'ShowHint'#9#8'TabOrder'#2#4#0#0#0#9'TGroupBox'#9'GroupBox2'#4'L'
-  +'eft'#2#16#6'Height'#2'`'#3'Top'#3#16#1#5'Width'#3#13#1#7'Caption'#6#20'Ripo'
-  +'rtk'#195#169'sz'#195#173't'#195#169's...'#12'ClientHeight'#2'J'#11'ClientWi'
-  +'dth'#3#9#1#11'Font.Height'#2#243#10'Font.Style'#11#6'fsBold'#0#10'ParentFon'
-  +'t'#8#8'TabOrder'#2#1#0#7'TButton'#18'btnRiportokNoAdmin'#4'Left'#2'&'#6'Hei'
-  +'ght'#2'$'#3'Top'#2#16#5'Width'#3#182#0#7'Caption'#6#22'Riportok - jelent'
-  +#195#169'sek'#7'Enabled'#8#11'Font.Height'#2#243#10'Font.Style'#11#6'fsBold'
-  +#0#7'OnClick'#7#23'btnRiportokNoAdminClick'#10'ParentFont'#8#8'TabOrder'#2#0
-  +#0#0#0#9'TGroupBox'#16'grpAdminFunkciok'#4'Left'#2#16#6'Height'#3#131#0#3'To'
-  +'p'#3#144#1#5'Width'#3'+'#2#7'Caption'#6#17'ADMIN FUNKCI'#195#147'K !'#12'Cl'
-  +'ientHeight'#2'g'#11'ClientWidth'#3''''#2#8'TabOrder'#2#2#0#7'TButton!btnADM'
-  +'IN_FelhasznalokSzerkesztese'#4'Left'#2#6#6'Height'#2'$'#3'Top'#2#16#5'Width'
-  +#3#0#1#7'Caption'#6#28'Felhaszn'#195#161'l'#195#179'k szerkeszt'#195#169'se'
-  +#7'Enabled'#8#10'Font.Color'#7#5'clRed'#11'Font.Height'#2#243#10'Font.Style'
-  +#11#6'fsBold'#0#7'OnClick'#7'&btnADMIN_FelhasznalokSzerkeszteseClick'#10'Par'
-  +'entFont'#8#8'TabOrder'#2#0#0#0#7'TButton'#26'btnADMIN_FeederAlkatreszek'#4
-  +'Left'#2#6#6'Height'#2'$'#3'Top'#2'@'#5'Width'#3#0#1#7'Caption'#6'!Feeder al'
-  +'katr'#195#169'szek szerkeszt'#195#169'se'#7'Enabled'#8#10'Font.Color'#7#5'c'
-  +'lRed'#11'Font.Height'#2#243#10'Font.Style'#11#6'fsBold'#0#7'OnClick'#7#31'b'
-  +'tnADMIN_FeederAlkatreszekClick'#10'ParentFont'#8#8'TabOrder'#2#1#0#0#7'TBut'
-  +'ton'#16'btnErrorLogClear'#4'Left'#3#30#1#6'Height'#2'$'#3'Top'#2'@'#5'Width'
-  +#3#0#1#7'Caption'#6#22'Error log tiszt'#195#173't'#195#161'sa'#7'Enabled'#8
-  +#11'Font.Height'#2#243#10'Font.Style'#11#6'fsBold'#0#14'ParentBidiMode'#8#7
-  +'OnClick'#7#21'btnErrorLogClearClick'#10'ParentFont'#8#8'TabOrder'#2#2#0#0#7
-  +'TButton'#11'btnRiportok'#4'Left'#3#30#1#6'Height'#2'$'#3'Top'#2#16#5'Width'
-  +#3#0#1#7'Caption'#6#22'Riportok - jelent'#195#169'sek'#7'Enabled'#8#11'Font.'
-  +'Height'#2#243#10'Font.Style'#11#6'fsBold'#0#7'OnClick'#7#16'btnRiportokClic'
-  ,'k'#10'ParentFont'#8#8'TabOrder'#2#3#0#0#0#5'TEdit'#18'edtKarbantartoName'#4
-  +'Left'#2'&'#6'Height'#2#29#3'Top'#2'+'#5'Width'#3#226#0#9'Alignment'#7#8'taC'
-  +'enter'#7'Enabled'#8#11'Font.Height'#2#240#10'Font.Style'#11#6'fsBold'#0#10
-  +'ParentFont'#8#8'ReadOnly'#9#8'TabOrder'#2#3#0#0#9'TGroupBox'#9'GroupBox3'#4
-  +'Left'#3'H'#1#6'Height'#3#200#0#3'Top'#2#8#5'Width'#3#248#0#7'Caption'#6#29
-  +'Prevent'#195#173'vre v'#195#161'r'#195#179' trolik...'#12'ClientHeight'#3
-  +#179#0#11'ClientWidth'#3#244#0#11'Font.Height'#2#243#9'Font.Name'#6#26'times'
-  +' new roman [monotype]'#10'Font.Style'#11#6'fsBold'#0#10'ParentFont'#8#8'Tab'
-  +'Order'#2#4#0#8'TListBox'#17'lstPreventivreVar'#4'Left'#2#8#6'Height'#3#157#0
-  +#3'Top'#2#15#5'Width'#3#231#0#10'Font.Color'#7#5'clRed'#11'Font.Height'#2#239
-  +#9'Font.Name'#6#26'times new roman [monotype]'#10'Font.Style'#11#6'fsBold'#0
-  +#10'ItemHeight'#2#0#10'ParentFont'#8#8'TabOrder'#2#0#0#0#0#0
+  +'Caption'#6#9'Preventiv'#11'Font.Height'#2#243#10'Font.Style'#11#6'fsBold'#0
+  +#7'OnClick'#7#17'btnPreventivClick'#10'ParentFont'#8#14'ParentShowHint'#8#8
+  +'ShowHint'#9#8'TabOrder'#2#4#0#0#0#9'TGroupBox'#9'GroupBox2'#4'Left'#2#16#6
+  +'Height'#2'`'#3'Top'#3#16#1#5'Width'#3#13#1#7'Caption'#6#20'Riportk'#195#169
+  +'sz'#195#173't'#195#169's...'#12'ClientHeight'#2'J'#11'ClientWidth'#3#9#1#11
+  +'Font.Height'#2#243#10'Font.Style'#11#6'fsBold'#0#10'ParentFont'#8#8'TabOrde'
+  +'r'#2#1#0#7'TButton'#18'btnRiportokNoAdmin'#4'Left'#2'&'#6'Height'#2'$'#3'To'
+  +'p'#2#16#5'Width'#3#182#0#7'Caption'#6#22'Riportok - jelent'#195#169'sek'#7
+  +'Enabled'#8#11'Font.Height'#2#243#10'Font.Style'#11#6'fsBold'#0#7'OnClick'#7
+  +#23'btnRiportokNoAdminClick'#10'ParentFont'#8#8'TabOrder'#2#0#0#0#0#9'TGroup'
+  +'Box'#16'grpAdminFunkciok'#4'Left'#2#16#6'Height'#3#131#0#3'Top'#3#144#1#5'W'
+  +'idth'#3'+'#2#7'Caption'#6#17'ADMIN FUNKCI'#195#147'K !'#12'ClientHeight'#2
+  +'g'#11'ClientWidth'#3''''#2#8'TabOrder'#2#2#0#7'TButton!btnADMIN_Felhasznalo'
+  +'kSzerkesztese'#4'Left'#2#6#6'Height'#2'$'#3'Top'#2#16#5'Width'#3#0#1#7'Capt'
+  +'ion'#6#28'Felhaszn'#195#161'l'#195#179'k szerkeszt'#195#169'se'#7'Enabled'#8
+  +#10'Font.Color'#7#5'clRed'#11'Font.Height'#2#243#10'Font.Style'#11#6'fsBold'
+  +#0#7'OnClick'#7'&btnADMIN_FelhasznalokSzerkeszteseClick'#10'ParentFont'#8#8
+  +'TabOrder'#2#0#0#0#7'TButton'#26'btnADMIN_FeederAlkatreszek'#4'Left'#2#6#6'H'
+  +'eight'#2'$'#3'Top'#2'@'#5'Width'#3#0#1#7'Caption'#6'!Feeder alkatr'#195#169
+  +'szek szerkeszt'#195#169'se'#7'Enabled'#8#10'Font.Color'#7#5'clRed'#11'Font.'
+  +'Height'#2#243#10'Font.Style'#11#6'fsBold'#0#7'OnClick'#7#31'btnADMIN_Feeder'
+  +'AlkatreszekClick'#10'ParentFont'#8#8'TabOrder'#2#1#0#0#7'TButton'#16'btnErr'
+  +'orLogClear'#4'Left'#3#30#1#6'Height'#2'$'#3'Top'#2'@'#5'Width'#3#0#1#7'Capt'
+  +'ion'#6#22'Error log tiszt'#195#173't'#195#161'sa'#7'Enabled'#8#11'Font.Heig'
+  +'ht'#2#243#10'Font.Style'#11#6'fsBold'#0#14'ParentBidiMode'#8#7'OnClick'#7#21
+  +'btnErrorLogClearClick'#10'ParentFont'#8#8'TabOrder'#2#2#0#0#7'TButton'#11'b'
+  +'tnRiportok'#4'Left'#3#30#1#6'Height'#2'$'#3'Top'#2#16#5'Width'#3#0#1#7'Capt'
+  +'ion'#6#22'Riportok - jelent'#195#169'sek'#7'Enabled'#8#11'Font.Height'#2#243
+  +#10'Font.Style'#11#6'fsBold'#0#7'OnClick'#7#16'btnRiportokClick'#10'ParentFo'
+  ,'nt'#8#8'TabOrder'#2#3#0#0#0#5'TEdit'#18'edtKarbantartoName'#4'Left'#2'&'#6
+  +'Height'#2#29#3'Top'#2'+'#5'Width'#3#226#0#9'Alignment'#7#8'taCenter'#7'Enab'
+  +'led'#8#11'Font.Height'#2#240#10'Font.Style'#11#6'fsBold'#0#10'ParentFont'#8
+  +#8'ReadOnly'#9#8'TabOrder'#2#3#0#0#9'TGroupBox'#9'GroupBox3'#4'Left'#3'H'#1#6
+  +'Height'#3#200#0#3'Top'#2#8#5'Width'#3#248#0#7'Caption'#6#29'Prevent'#195#173
+  +'vre v'#195#161'r'#195#179' trolik...'#12'ClientHeight'#3#179#0#11'ClientWid'
+  +'th'#3#244#0#11'Font.Height'#2#243#9'Font.Name'#6#26'times new roman [monoty'
+  +'pe]'#10'Font.Style'#11#6'fsBold'#0#10'ParentFont'#8#8'TabOrder'#2#4#0#8'TLi'
+  +'stBox'#17'lstPreventivreVar'#4'Left'#2#8#6'Height'#3#157#0#3'Top'#2#15#5'Wi'
+  +'dth'#3#231#0#10'Font.Color'#7#5'clRed'#11'Font.Height'#2#239#9'Font.Name'#6
+  +#26'times new roman [monotype]'#10'Font.Style'#11#6'fsBold'#0#10'ItemHeight'
+  +#2#0#10'ParentFont'#8#8'TabOrder'#2#0#0#0#0#0
 ]);

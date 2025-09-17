@@ -107,7 +107,7 @@ procedure TfrmMainMenu.btnPreventivClick(Sender: TObject);
 //TPM feeder preventíve indítása....
 var
 		ifType,iRecCount:											integer;
-    bRet:																				boolean;
+    bRet, bDs7iOK:																	boolean;
 
 begin
     //DS7i azonosító bekérése :
@@ -132,8 +132,9 @@ begin
             exit;
        end;
 
-    //Van ehez a feederhez nyitott munkalap javításra??:
-    myDataset := dbConnect('feeder_tpm','SELECT * FROM feeder_tpm WHERE tpm_ds7i="' + DS7i + '" and tpm_lezarva = 0 and tpm_javitasra = 1;','id');
+    // Van ehez a feederhez nyitott munkalap javításra??:
+    // Javításra megjelölést nem nézünk mert a setupcenterben nem használják (2025.09.17.)
+    { myDataset := dbConnect('feeder_tpm','SELECT * FROM feeder_tpm WHERE tpm_ds7i="' + DS7i + '" and tpm_lezarva = 0 and tpm_javitasra = 1;','id');
     iRecCount := myDataset.RecordCount;
     if (iRecCount > 0) then
         begin
@@ -142,15 +143,40 @@ begin
           ShowMessage('Figyelem!' + #10 + #10 + 'A feeder már meg lett jelölve javításra,' + #10 + 'Kérem helyezze a megfelelő polcra!' );
           exit;
         end;
+        }
     //Ha nincs nyitott munkalap akkor meg kell nézni hogy szerepel-e az adatbázisban:
-    dbUpdate(myDataset,'SELECT * FROM feeder_tpm WHERE tpm_ds7i="' + DS7i + '";');
+    bDs7iOK := false;
+    myDataset := dbConnect('feeder_tpm', 'SELECT * FROM feeder_tpm WHERE tpm_ds7i="' + DS7i + '" LIMIT 1;');
+    // dbUpdate(myDataset,'SELECT * FROM feeder_tpm WHERE tpm_ds7i="' + DS7i + '" LIMIT 1;');
     iRecCount := myDataset.RecordCount;
-    if (iRecCount > 0) then
-        begin
+    if (iRecCount = 0) then
+       begin
+          // TPM táblában még nincs, megnézzük a javítás (repair) táblában is.
+          // Rákeresünk a javítási táblában is (repair) mert ott már van egy rakat adagoló...
+          dbUpdate(myDataset,'SELECT * FROM repair WHERE ds7i="' + DS7i + '" LIMIT 1;');
+          iRecCount := myDataset.RecordCount;
+          if (iRecCount > 0) then
+             begin
+                bDs7iOK := true;
+                //Igen szerepel!!
+                //globális változók beállítása:
+                iFeederType := myDataset.FieldByName('r_type').AsInteger;
+                iFeederSize := myDataset.FieldByName('size').AsInteger;
+             end;
+       end
+    else
+      begin
+          bDs7iOK := true;
           //Igen szerepel!!
           //globális változók beállítása:
           iFeederType := myDataset.FieldByName('tpm_type').AsInteger;
           iFeederSize := myDataset.FieldByName('tpm_size').AsInteger;
+      end;
+
+    if (bDs7iOK = true) then
+        begin
+          //Megvan az adagoló vmelyik táblában, lekérjük a méretet is!!
+          //globális változók beállítása:
           dbUpdate(myDataset,'SELECT * FROM feeder_size WHERE id = ' + IntToStr(iFeederSize));
           sFeederSize := myDataset.FieldByName('size').AsString;
         end;
@@ -158,9 +184,10 @@ begin
     dbClose(myDataset);
     frmMainMenu.Hide;
 
-    if (iRecCount = 0) then
+    // Ha nincs sehol még a feeder akkor be kell azonosítani
+    if (bDs7iOK = false) then
         begin
-          //Még nincs bennt a rendszerben:
+          //Még nincs bennt a rendszerben (sem a repair sem a feeder_tpm táblában):
           ShowMessage('Az adagoló még nem szerepel az adatbázisban!' + #10 + 'A megjelenő ablakban tudja rögzíteni!');
           frmPreventiveFeederazonositas.Show;
           exit;
@@ -410,7 +437,7 @@ begin
      btnMagazinJavitas.Enabled := false;
      btnUjMunkalap1.Enabled := false;
      btnRiportokNoAdmin.Enabled := false;
-     btnPreventiv.Enabled := false;
+     // btnPreventiv.Enabled := false;
      btnADMIN_FeederAlkatreszek.Enabled := false;
      btnADMIN_FelhasznalokSzerkesztese.Enabled := False;
      btnRiportok.Enabled := false;

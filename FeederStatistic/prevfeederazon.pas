@@ -44,8 +44,8 @@ procedure TfrmPreventiveFeederazonositas.btnFelvitelClick(Sender: TObject);
 //Feeder rögzítése a rendszerbe(csak a globális változókat kell beállítani)...
 begin
     iFeederType := cmbTipus.ItemIndex;
-    //ShowMessage(IntToStr(iFeederType));
-    //Itt most nincs fuji,seq,vcd....ezért kell átállítani a helyes értékre:
+    // ShowMessage(IntToStr(iFeederType));
+    // Itt most nincs fuji,seq,vcd....ezért kell átállítani a helyes értékre:
     if (iFeederType = 2) then iFeederType := 5;
 
     iFeederSize := integer(cmbMeret.Items.Objects[cmbMeret.ItemIndex]);
@@ -53,9 +53,11 @@ begin
 
     frmPreventiveFeederazonositas.Hide;
 
-    //Ha a TPM Setup azonosította akkor az ő ell. listáját kell megj.:
-    if (iAdmin = 4) then frmTPMSetupMain.Show;
-    if (iAdmin = 5) then frmFeederPreventiv.Show;
+    // Ha a TPM Setup azonosította akkor az ő ell. listáját kell megj.:
+    // if (iAdmin = 4) then frmTPMSetupMain.Show;
+    // if (iAdmin = 5) then frmFeederPreventiv.Show;
+    // Jelölőpöttyös preventív újra aktív 2025.09.17.
+    frmFeederPreventiv.Show;
 end;
 
 procedure TfrmPreventiveFeederazonositas.cmbTipusChange(Sender: TObject);
